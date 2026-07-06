@@ -1,0 +1,126 @@
+{
+  "kubus": {
+    "quiz": {
+      "id": 1,
+      "pertanyaan": "Apa yang dimaksud dengan kubus?",
+      "kata_kunci": ["bangun ruang", "6 sisi", "persegi", "sama besar"],
+      "feedback": {
+        "benar": "Hebat! Jawabanmu sudah tepat. Kubus merupakan bangun ruang yang memiliki 6 sisi berbentuk persegi dengan ukuran yang sama.",
+        "sebagian": "Jawabanmu sudah mengarah benar. Kamu sudah mengetahui bahwa kubus memiliki 6 sisi. Coba ingat kembali, bentuk dari setiap sisi kubus seperti apa?",
+        "salah": "Coba perhatikan kembali materi tentang kubus. Apakah kubus termasuk bangun datar atau bangun ruang?"
+      },
+      "jawaban_benar": "Kubus merupakan bangun ruang yang memiliki 6 sisi berbentuk persegi dengan ukuran yang sama."
+    },
+    "pertanyaan_anak": [
+      {
+        "id": 1,
+        "pertanyaan": "Coba sebutkan benda di sekitarmu yang berbentuk kubus!",
+        "kata_kunci": ["dadu", "kotak", "rubik", "kardus"],
+        "feedback": {
+          "benar": "Bagus sekali! Kamu bisa mengenali benda-benda berbentuk kubus di sekitarmu. Dadu, rubik, dan kotak berbentuk kubus karena semua sisinya persegi yang sama besar.",
+          "sebagian": "Jawabanmu sudah mengarah benar. Coba pikirkan lagi, benda apa lagi yang semua sisinya berbentuk persegi sama besar?",
+          "salah": "Coba perhatikan benda-benda di sekitarmu. Apakah ada benda yang semua sisinya berbentuk persegi dan sama besar? Contohnya seperti dadu."
+        },
+        "jawaban_benar": "Benda-benda berbentuk kubus di sekitar kita antara lain dadu, rubik, dan kotak yang semua sisinya persegi sama besar."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Apa perbedaan kubus dengan balok?",
+        "kata_kunci": ["persegi", "persegi panjang", "sama", "berbeda", "sisi"],
+        "feedback": {
+          "benar": "Tepat sekali! Kubus memiliki semua sisi berbentuk persegi yang sama besar, sedangkan balok memiliki sisi berbentuk persegi panjang yang tidak semuanya sama besar.",
+          "sebagian": "Jawabanmu sudah mengarah benar. Coba ingat kembali, apa perbedaan bentuk sisi pada kubus dan balok?",
+          "salah": "Coba perhatikan kembali bentuk sisi kubus dan balok. Apakah bentuk sisinya sama?"
+        },
+        "jawaban_benar": "Kubus memiliki semua sisi berbentuk persegi yang sama besar, sedangkan balok memiliki sisi berbentuk persegi panjang yang tidak semuanya sama besar."
+      }
+    ],
+    "evaluasi": [
+      {
+        "id": 1,
+        "pertanyaan": "Apa yang dimaksud dengan kubus?",
+        "kata_kunci": ["bangun ruang", "6 sisi", "persegi", "sama besar"],
+        "feedback": {
+          "benar": "Hebat! Jawabanmu sudah tepat. Kubus merupakan bangun ruang yang memiliki 6 sisi berbentuk persegi dengan ukuran yang sama.",
+          "sebagian": "Jawabanmu sudah mengarah benar. Kamu sudah mengetahui bahwa kubus memiliki 6 sisi. Coba ingat kembali, bentuk dari setiap sisi kubus seperti apa?",
+          "salah": "Coba perhatikan kembali materi tentang kubus. Apakah kubus termasuk bangun datar atau bangun ruang?"
+        },
+        "jawaban_benar": "Kubus merupakan bangun ruang yang memiliki 6 sisi berbentuk persegi dengan ukuran yang sama."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Berapa jumlah sisi, rusuk, dan titik sudut yang dimiliki kubus?",
+        "kata_kunci": ["6 sisi", "12 rusuk", "8 titik sudut"],
+        "feedback": {
+          "benar": "Bagus sekali! Kubus memiliki 6 sisi, 12 rusuk, and 8 titik sudut.",
+          "sebagian": "Sebagian jawabanmu sudah benar. Kamu sudah menyebut sebagian ciri kubus. Coba ingat kembali jumlah yang belum disebutkan.",
+          "salah": "Coba amati kembali gambar kubus pada materi. Hitung kembali jumlah sisi, rusuk, dan titik sudutnya."
+        },
+        "jawaban_benar": "Kubus memiliki 6 sisi, 12 rusuk, dan 8 titik sudut."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Mengapa jaring-jaring kubus dapat membantu kita mengetahui luas permukaan kubus?",
+        "kata_kunci": ["semua sisi kubus terlihat", "luas seluruh permukaan dapat dihitung"],
+        "feedback": {
+          "benar": "Bagus! Karena semua sisi kubus terlihat pada jaring-jaring, kita dapat menghitung luas seluruh permukaannya.",
+          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui salah satu manfaat jaring-jaring kubus. Sekarang coba pikirkan lagi, apa yang terjadi pada semua sisi kubus ketika dibentuk menjadi jaring-jaring?",
+          "salah": "Jawabanmu masih belum tepat. Coba amati apa yang terjadi ketika kubus dibuka menjadi jaring-jaring, lalu pikirkan bagaimana hal itu membantu menghitung luas permukaannya."
+        },
+        "jawaban_benar": "Karena semua sisi kubus terlihat pada jaring-jaring, kita dapat menghitung luas seluruh permukaannya."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Bagaimana cara menghitung luas permukaan kubus?",
+        "kata_kunci": ["s x s", "6 sisi", "6 x s x s"],
+        "feedback": {
+          "benar": "Hebat! Luas permukaan kubus diperoleh dengan menghitung luas satu sisi (s × s), kemudian dikalikan 6 karena kubus memiliki enam sisi yang sama besar.",
+          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian cara menghitung luas permukaan kubus. Sekarang coba ingat kembali, mengapa hasil luas satu sisi perlu dikalikan 6?",
+          "salah": "Jawabanmu masih belum tepat. Ingat kembali bagaimana cara menghitung luas satu sisi kubus, kemudian pikirkan mengapa hasilnya perlu dikalikan dengan jumlah seluruh sisi kubus."
+        },
+        "jawaban_benar": "Luas permukaan kubus diperoleh dengan menghitung luas satu sisi (s × s), kemudian dikalikan 6 karena kubus memiliki enam sisi yang sama besar. Rumusnya: L = 6 × s × s."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Mengapa volume kubus dihitung dengan rumus s x s x s?",
+        "kata_kunci": ["panjang x lebar x tinggi", "sisi sama panjang", "s x s x s"],
+        "feedback": {
+          "benar": "Hebat! Volume kubus dihitung dari panjang × lebar × tinggi. Karena pada kubus ketiga ukurannya sama panjang, rumusnya menjadi s × s × s.",
+          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah memahami sebagian alasan rumus volume kubus. Coba pikirkan lagi, mengapa panjang, lebar, dan tinggi pada kubus dapat ditulis dengan huruf s?",
+          "salah": "Jawabanmu masih belum tepat. Ingat kembali bagaimana cara menghitung volume suatu bangun ruang, lalu pikirkan apa yang membuat rumus tersebut menjadi s × s × s pada kubus."
+        },
+        "jawaban_benar": "Volume kubus dihitung dari panjang × lebar × tinggi. Karena pada kubus ketiga ukurannya sama panjang, rumusnya menjadi s × s × s."
+      }
+    ]
+  },
+  "balok": {
+    "quiz": {
+      "id": 1,
+      "pertanyaan": "Apa perbedaan utama antara kubus dan balok?",
+      "kata_kunci": ["sisi", "persegi panjang", "tidak semua sama"],
+      "feedback": {
+        "benar": "Tepat sekali! Perbedaan utamanya terletak pada bentuk sisinya; balok memiliki sisi berbentuk persegi panjang dan tidak semua sisinya sama besar seperti kubus.",
+        "sebagian": "Benar, sisi balok berbeda dengan kubus. Coba jelaskan lebih detail, bentuk apa yang dimiliki sisi-sisi balok?",
+        "salah": "Coba perhatikan kembali gambar balok. Apakah semua sisinya memiliki ukuran yang sama persis seperti kubus?"
+      },
+      "jawaban_benar": "Perbedaan utama antara kubus dan balok adalah kubus memiliki semua sisi berbentuk persegi yang sama besar, sedangkan balok memiliki sisi berbentuk persegi panjang yang ukurannya tidak semuanya sama."
+    },
+    "pertanyaan_anak": [],
+    "evaluasi": []
+  },
+  "prisma": {
+    "quiz": {
+      "id": 1,
+      "pertanyaan": "Apa ciri khas utama dari bangun ruang prisma segitiga?",
+      "kata_kunci": ["alas", "atap", "segitiga", "sejajar"],
+      "feedback": {
+        "benar": "Hebat! Ciri khas prisma segitiga adalah memiliki alas dan atap berbentuk segitiga yang sejajar dan kongruen.",
+        "sebagian": "Jawabanmu sudah benar mengenai bentuk segitiganya. Dimana letak kedua segitiga tersebut pada prisma?",
+        "salah": "Coba amati kembali model prisma. Bentuk apa yang ada di bagian bawah (alas) dan bagian atasnya?"
+      },
+      "jawaban_benar": "Ciri khas utama prisma segitiga adalah memiliki dua sisi (alas dan atap) yang berbentuk segitiga identik dan sejajar satu sama lain."
+    },
+    "pertanyaan_anak": [],
+    "evaluasi": []
+  }
+}

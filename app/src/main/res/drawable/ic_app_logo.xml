@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App logo icon: 3D cube with AR eye -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+
+    <!-- 3D Cube outline -->
+    <!-- Front face -->
+    <path
+        android:strokeColor="#00BFA5"
+        android:strokeWidth="1.8"
+        android:fillColor="#00000000"
+        android:pathData="M8,12 L16,8 L24,12 L24,22 L16,26 L8,22 Z" />
+
+    <!-- Top ridge -->
+    <path
+        android:strokeColor="#64FFDA"
+        android:strokeWidth="1.2"
+        android:pathData="M16,8 L16,18" />
+
+    <!-- Side ridges -->
+    <path
+        android:strokeColor="#00BFA5"
+        android:strokeWidth="1"
+        android:pathData="M8,12 L16,18 L24,12" />
+
+    <!-- Bottom -->
+    <path
+        android:strokeColor="#00BFA5"
+        android:strokeWidth="1"
+        android:pathData="M16,18 L16,26" />
+
+    <!-- AR dot (center eye) -->
+    <path
+        android:fillColor="#64FFDA"
+        android:pathData="M14.5,15 A2,2 0 1,1 17.5,15 A2,2 0 1,1 14.5,15 Z" />
+</vector>

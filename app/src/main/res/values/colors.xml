@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+
+    <!-- Splash Screen Color Palette -->
+    <color name="splash_bg_dark">#0D1117</color>
+    <color name="splash_bg_card">#161B22</color>
+    <color name="splash_accent">#00BFA5</color>
+    <color name="splash_accent_light">#64FFDA</color>
+    <color name="splash_accent_dim">#004D40</color>
+    <color name="splash_text_primary">#E6EDF3</color>
+    <color name="splash_text_secondary">#7D8590</color>
+    <color name="splash_text_mono">#3FB950</color>
+    <color name="splash_grid_line">#1A2332</color>
+    <color name="splash_border_glow">#1A00BFA5</color>
+    <!-- New Splash Screen Colors (Based on MathScholAR) -->
+    <color name="math_bg_light">#F0F8FF</color>
+    <color name="math_blue_main">#008080</color>
+    <color name="math_blue_light">#E0F7FA</color>
+    <color name="math_blue_dark">#004D40</color>
+    <color name="math_cube_blue">#40E0D0</color>
+    <color name="math_cube_glow">#2040E0D0</color>
+    <color name="math_triangle_yellow">#FFD700</color>
+    <color name="math_circle_pink">#FFB6C1</color>
+    <color name="math_text_primary">#000000</color>
+    <color name="math_text_secondary">#555555</color>
+    <color name="math_progress_bar">#008080</color>
+    <color name="math_button_text">#FFFFFF</color>
+    <color name="math_dot_grid">#D1E8F7</color>
+</resources>

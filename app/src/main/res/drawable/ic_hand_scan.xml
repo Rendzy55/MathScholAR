@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Drawable: ic_hand_scan.xml — Ikon tangan memegang ponsel untuk animasi coaching -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Phone body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,20 L75,20 Q80,20 80,25 L80,95 Q80,100 75,100 L45,100 Q40,100 40,95 L40,25 Q40,20 45,20 Z"
+        android:strokeColor="#CCCCCC"
+        android:strokeWidth="1.5" />
+
+    <!-- Screen -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M44,28 L76,28 L76,88 L44,88 Z" />
+
+    <!-- AR grid lines on screen -->
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="0.8"
+        android:pathData="M44,48 L76,48 M44,68 L76,68 M54,28 L54,88 M66,28 L66,88" />
+
+    <!-- AR crosshair on screen -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:pathData="M56,58 L64,58 M60,54 L60,62" />
+
+    <!-- Corner indicators on screen -->
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M48,34 L48,32 L50,32 M72,32 L74,32 L74,34 M48,84 L48,86 L50,86 M72,86 L74,86 L74,84" />
+
+    <!-- Camera dot -->
+    <path
+        android:fillColor="#666666"
+        android:pathData="M58,24 A2,2 0 1,1 62,24 A2,2 0 1,1 58,24 Z" />
+
+    <!-- Home button -->
+    <path
+        android:fillColor="#CCCCCC"
+        android:pathData="M56,93 A4,4 0 1,1 64,93 A4,4 0 1,1 56,93 Z" />
+
+    <!-- Motion arrows (scanning motion indicator) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M28,60 L20,60 M20,55 L20,65" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M92,60 L100,60 M100,55 L100,65" />
+</vector>

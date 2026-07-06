@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Drawable: ic_marker_scan.xml — Ikon kamera scan marker -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Marker card -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,30 L95,30 Q98,30 98,33 L98,87 Q98,90 95,90 L25,90 Q22,90 22,87 L22,33 Q22,30 25,30 Z"
+        android:strokeColor="#CCCCCC"
+        android:strokeWidth="1" />
+
+    <!-- Inner marker pattern (simplified QR-like) -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M32,40 L48,40 L48,56 L32,56 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M72,40 L88,40 L88,56 L72,56 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M32,64 L48,64 L48,80 L32,80 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M56,48 L64,48 L64,56 L56,56 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M56,64 L64,64 L64,72 L56,72 Z" />
+
+    <!-- Corner scan indicators (green) -->
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M18,26 L18,18 L26,18" />
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M94,18 L102,18 L102,26" />
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M18,94 L18,102 L26,102" />
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M94,102 L102,102 L102,94" />
+
+    <!-- Scan line (animated externally) -->
+    <path
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M22,60 L98,60"
+        android:strokeLineCap="round" />
+</vector>
