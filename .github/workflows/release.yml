@@ -27,7 +27,7 @@ jobs:
           ENCODED_STRING: ${{ secrets.KEYSTORE_BASE64 }}
         run: |
           # Mengubah Base64 kembali menjadi file keystore.jks dan menyimpannya di folder app/
-          echo $ENCODED_STRING | base64 -d > app/keystore.jks
+          echo "$ENCODED_STRING" | tr -d '\n\r ' | base64 -d > app/keystore.jks
 
       - name: Buat file local.properties (Untuk API Key AI)
         env:
