@@ -106,7 +106,63 @@
       "jawaban_benar": "Perbedaan utama antara kubus dan balok adalah kubus memiliki semua sisi berbentuk persegi yang sama besar, sedangkan balok memiliki sisi berbentuk persegi panjang yang ukurannya tidak semuanya sama."
     },
     "pertanyaan_anak": [],
-    "evaluasi": []
+    "evaluasi": [
+      {
+        "id": 1,
+        "pertanyaan": "Apa yang dimaksud dengan balok?",
+        "kata_kunci": ["bangun ruang", "6 sisi", "persegi panjang", "pasangan berhadapan sama besar"],
+        "feedback": {
+          "benar": "Hebat! Jawabanmu sudah tepat. Balok merupakan bangun ruang yang memiliki 6 sisi, di mana ukuran yang sama besar hanya berlaku pada pasangan sisi yang saling berhadapan.",
+          "sebagian": "Jawabanmu sudah mengarah benar. Kamu sudah mengetahui bahwa balok memiliki 6 sisi persegi panjang. Coba ingat kembali, bagaimana hubungan ukuran antara setiap sisi yang saling berhadapan pada balok?",
+          "salah": "Jawabanmu masih belum tepat. Yuk, ingat kembali materi tentang balok pada cerita Geo dan Gea saat membandingkan kotak mainan baru di rak lemari. Apakah balok termasuk bangun datar atau bangun ruang? Setelah itu, coba pikirkan berapa jumlah sisi dan bagaimana ukuran sisi-sisi yang saling berhadapan. Kamu masih punya satu kesempatan lagi."
+        },
+        "jawaban_benar": "Balok merupakan bangun ruang yang mempunyai enam sisi berbentuk persegi panjang dan pasangan sisi yang saling berhadapan sama besar."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Berapa jumlah sisi, rusuk, dan titik sudut yang dimiliki balok?",
+        "kata_kunci": ["6 sisi", "12 rusuk", "8 titik sudut"],
+        "feedback": {
+          "benar": "Bagus sekali! Balok memiliki 6 sisi, 12 rusuk, dan 8 titik sudut.",
+          "sebagian": "Bagus! Sebagian jawabanmu sudah benar. Kamu sudah menyebutkan beberapa bagian balok dengan tepat. Sekarang coba ingat kembali, masih ada satu bagian lagi yang belum kamu sebutkan. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Coba amati kembali gambar balok atau kotak penyimpanan pada materi. Hitung kembali jumlah sisi datar, rusuk penegak/mendatar, dan titik sudut di setiap pojoknya. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Balok memiliki 6 sisi, 12 rusuk, dan 8 titik sudut."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Mengapa jaring-jaring balok dapat membantu kita mengetahui luas permukaan balok?",
+        "kata_kunci": ["semua sisi balok terlihat", "luas seluruh permukaan dapat dihitung"],
+        "feedback": {
+          "benar": "Bagus! Karena semua sisi balok terlihat pada jaring-jaring, kita dapat menghitung luas seluruh permukaannya dengan menjumlahkan setiap bagiannya.",
+          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui salah satu manfaat jaring-jaring balok. Sekarang coba pikirkan lagi, apa yang terjadi pada semua sisi balok ketika dibentuk atau dibongkar menjadi jaring-jaring sehingga luas permukaannya dapat dihitung?",
+          "salah": "Jawabanmu masih belum tepat. Yuk, perhatikan kembali penjelasan Kakak Penjaga Playground tentang \"membongkar kardus kotak mainan\" menjadi jaring-jaring balok. Coba amati apa yang terjadi ketika kotak balok dibuka, lalu pikirkan bagaimana hal itu membantu kita menghitung luas permukaannya. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Karena semua sisi balok terlihat saat dibuka menjadi jaring-jaring sehingga luas seluruh permukaannya dapat dihitung."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Bagaimana cara menghitung luas permukaan balok?",
+        "kata_kunci": ["p, l, t", "3 pasang sisi", "2 x ((p x l) + (l x t) + (p x t))"],
+        "feedback": {
+          "benar": "Hebat! Jawabanmu sudah tepat. Luas permukaan balok diperoleh dengan menjumlahkan seluruh luas dari 6 persegi panjang penyusunnya. Karena ada 3 pasang sisi yang sama besar, maka rumus lengkapnya adalah 2 x ((p x l) + (l x t) + (p x t))",
+          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian cara menghitung luas permukaan balok. Sekarang coba ingat kembali, mengapa hasil penjumlahan dari luas setiap pasangannya (pl + lt + pt) perlu dikalikan dengan angka 2? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Yuk, ingat kembali susunan jaring-jaring balok yang terdiri atas 3 pasang persegi panjang dengan ukuran panjang (p), lebar (l), dan tinggi (t). Pikirkan bagaimana cara menggabungkan luas ketiga pasang sisi tersebut. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Luas permukaan balok dihitung dengan mencari luas tiga pasang sisinya, kemudian dijumlahkan dan dikalikan 2 karena memiliki pasangan sisi yang sama besar. Rumusnya adalah 2 x ((p x l) + (l x t) + (p x t))."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Mengapa volume balok dihitung dengan rumus p × l × t?",
+        "kata_kunci": ["panjang x lebar x tinggi", "berjejer ke samping, belakang, dan atas", "kapasitas muatan"],
+        "feedback": {
+          "benar": "Hebat! Jawabanmu sudah tepat. Volume balok dihitung dari perkalian tiga dimensi ukurannya, yaitu panjang x lebar x tinggi (p × l × t), yang menggambarkan susunan kapasitas ruang dari arah samping, belakang, hingga ke atas.",
+          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah memahami sebagian alasan rumus volume balok. Sekarang coba pikirkan lagi, apa arti dari ukuran panjang, lebar, dan tinggi itu kalau kita mau mengisi penuh sebuah kotak penyimpanan? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Yuk, ingat kembali eksperimen Geo dan Gea saat memasukkan susunan kubus satuan ke dalam kotak transparan. Pikirkan bagaimana arah tumpukan kubus itu ke samping, ke belakang, dan ke atas membentuk rumus volume balok. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Volume balok dihitung dengan rumus p × l × t karena volume berasal dari perkalian panjang x lebar x tinggi, yang menunjukkan isi seluruh ruang balok berdasarkan tumpukan ke samping, ke belakang, dan ke atas."
+      }
+    ]
   },
   "prisma": {
     "quiz": {

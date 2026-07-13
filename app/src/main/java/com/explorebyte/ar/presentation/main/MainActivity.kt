@@ -102,16 +102,32 @@ class MainActivity : AppCompatActivity() {
             e.printStackTrace()
         }
 
-        // Set Click Listeners for Cards
-        findViewById<CardView>(R.id.cardKubus).setOnClickListener {
-            openFlipbook("Flipbook_kubus.pdf", "Mainan Kubus di Playground")
+        val overlayKubus = findViewById<android.view.View>(R.id.overlayKubus)
+        val overlayBalok = findViewById<android.view.View>(R.id.overlayBalok)
+        val overlayPrisma = findViewById<android.view.View>(R.id.overlayPrisma)
+
+        val handleImageClick: (android.view.View, String, String) -> Unit = { overlay, pdfFile, title ->
+            overlay.visibility = android.view.View.VISIBLE
+            overlay.postDelayed({
+                openFlipbook(pdfFile, title)
+                overlay.visibility = android.view.View.GONE
+            }, 500)
         }
-        findViewById<CardView>(R.id.cardBalok).setOnClickListener {
-            openFlipbook("Flipbook_balok.pdf", "Misteri kotak Penyimpanan")
-        }
-        findViewById<CardView>(R.id.cardPrisma).setOnClickListener {
-            openFlipbook("Flipbook_prisma.pdf", "Atap Unik di Taman Bermain")
-        }
+
+        // Image Click Listeners (Show Overlay)
+        findViewById<ImageView>(R.id.ivKubusIls).setOnClickListener { handleImageClick(overlayKubus, "Flipbook_kubus.pdf", "Mainan Kubus di Playground") }
+        findViewById<ImageView>(R.id.ivBalokIls).setOnClickListener { handleImageClick(overlayBalok, "Flipbook_balok.pdf", "Misteri kotak Penyimpanan") }
+        findViewById<ImageView>(R.id.ivPrismaIls).setOnClickListener { handleImageClick(overlayPrisma, "Flipbook_prisma.pdf", "Atap Unik di Taman Bermain") }
+
+        // Button Click Listeners
+        findViewById<Button>(R.id.btnLihatKubus).setOnClickListener { ArCoreCheckHelper.openARFeature(this, "KUBUS") }
+        findViewById<Button>(R.id.btnLihatBalok).setOnClickListener { ArCoreCheckHelper.openARFeature(this, "BALOK") }
+        findViewById<Button>(R.id.btnLihatPrisma).setOnClickListener { ArCoreCheckHelper.openARFeature(this, "PRISMA") }
+
+        // Set Click Listeners for Cards (Fallback for entire card area)
+        findViewById<CardView>(R.id.cardKubus).setOnClickListener { openFlipbook("Flipbook_kubus.pdf", "Mainan Kubus di Playground") }
+        findViewById<CardView>(R.id.cardBalok).setOnClickListener { openFlipbook("Flipbook_balok.pdf", "Misteri kotak Penyimpanan") }
+        findViewById<CardView>(R.id.cardPrisma).setOnClickListener { openFlipbook("Flipbook_prisma.pdf", "Atap Unik di Taman Bermain") }
     }
 
     private fun openFlipbook(fileName: String, title: String) {

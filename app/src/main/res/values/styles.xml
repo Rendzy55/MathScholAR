@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.ARApplication" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.ARApplication" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/splash_accent</item>
         <item name="colorPrimaryDark">@color/splash_accent_dim</item>
         <item name="colorAccent">@color/splash_accent_light</item>
     </style>
 
     <!-- Splash Screen theme -->
-    <style name="Theme.Splash" parent="Theme.AppCompat.NoActionBar">
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.NoActionBar">
         <item name="android:windowBackground">@color/splash_bg_dark</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@color/splash_bg_dark</item>
         <item name="android:navigationBarColor">@color/splash_bg_dark</item>
         <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
     </style>
 </resources>

@@ -1,0 +1,67 @@
+name: Build & Send Release APK
+
+on:
+  push:
+    branches:
+      - main
+      - master # Sesuaikan jika branch utama Anda bernama master
+  workflow_dispatch: # Memungkinkan Anda memicu build secara manual dari tab Actions
+
+jobs:
+  build:
+    name: Build Signed APK & Send to Telegram
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17' # Gunakan Java 17 untuk Android modern
+
+      - name: Decode Keystore
+        env:
+          ENCODED_STRING: ${{ secrets.KEYSTORE_BASE64 }}
+        run: |
+          # Mengubah Base64 kembali menjadi file keystore.jks dan menyimpannya di folder app/
+          echo $ENCODED_STRING | base64 -d > app/keystore.jks
+
+      - name: Buat file local.properties (Untuk API Key AI)
+        env:
+          DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GROQ_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          echo "DEEPSEEK_API_KEY=$DEEPSEEK_KEY" >> local.properties
+          echo "GROQ_API_KEY=$GROQ_KEY" >> local.properties
+
+      - name: Berikan akses eksekusi untuk gradlew
+        run: chmod +x gradlew
+
+      - name: Build Release APK
+        env:
+          # Variabel-variabel ini akan dibaca oleh app/build.gradle.kts
+          KEYSTORE_PATH: keystore.jks
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: ./gradlew assembleRelease
+
+      - name: Kirim APK ke Telegram
+        env:
+          TELE_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELE_TO: ${{ secrets.TELEGRAM_TO }}
+        run: |
+          # Mengirim file APK menggunakan Telegram Bot API
+          curl -F document=@"app/build/outputs/apk/release/app-release.apk" \
+               -F chat_id="$TELE_TO" \
+               -F caption="🎉 *Build Release Sukses!* %0A%0AIni adalah file APK terbaru dari repositori GitHub Actions." \
+               "https://api.telegram.org/bot$TELE_TOKEN/sendDocument"
+
+      - name: Upload APK ke GitHub Artifacts (Sebagai Cadangan)
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release
+          path: app/build/outputs/apk/release/app-release.apk

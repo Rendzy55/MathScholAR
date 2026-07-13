@@ -111,7 +111,15 @@ object KeywordMatcher {
             "panjang x lebar x tinggi" to listOf("p x l x t", "panjang kali lebar kali tinggi"),
             "sisi sama panjang" to listOf("semua sisi sama", "ukuran sisi sama", "rusuk sama panjang"),
             "semua sisi kubus terlihat" to listOf("sisi terlihat semua", "seluruh sisi terlihat", "semua sisi terlihat", "semua sisi terbuka"),
-            "luas seluruh permukaan dapat dihitung" to listOf("bisa dihitung luas", "menghitung luas semua sisi", "luas semua sisi dihitung", "menghitung seluruh luas permukaan")
+            "luas seluruh permukaan dapat dihitung" to listOf("bisa dihitung luas", "menghitung luas semua sisi", "luas semua sisi dihitung", "menghitung seluruh luas permukaan"),
+            "persegi panjang" to listOf("kotak panjang", "segi empat"),
+            "pasangan berhadapan sama besar" to listOf("sisi yang berhadapan sama", "berhadapan ukurannya sama", "pasangan sisi sama besar", "ukuran berhadapannya sama"),
+            "semua sisi balok terlihat" to listOf("semua sisi terlihat", "sisi terlihat semua", "seluruh sisi terbuka", "dibuka semua sisinya"),
+            "p, l, t" to listOf("panjang, lebar, dan tinggi", "panjang, lebar, tinggi", "p, l, dan t"),
+            "3 pasang sisi" to listOf("tiga pasang sisi", "tiga sisi berpasangan"),
+            "2 x ((p x l) + (l x t) + (p x t))" to listOf("2 x (pl + lt + pt)", "2x(p x l + l x t + p x t)", "2*(p*l + l*t + p*t)", "2 x (p x l + l x t + p x t)"),
+            "berjejer ke samping, belakang, dan atas" to listOf("berjejer ke samping, ke belakang, dan ke atas", "tumpukan ke samping, ke belakang, dan ke atas", "menyamping, ke belakang, dan ke atas"),
+            "kapasitas muatan" to listOf("isi kotak", "isi ruang", "muatan di dalam kotak", "isi dalamnya")
         )
 
         return synonymMap[keyword] ?: emptyList()

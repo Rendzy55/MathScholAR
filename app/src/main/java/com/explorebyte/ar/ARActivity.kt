@@ -89,10 +89,20 @@ class ARActivity : AppCompatActivity() {
                     Log.e("ARActivity", "Failed to load marker database: ${markerResult.message}")
                 }
 
-                session.configure(config)
+                try {
+                    session.configure(config)
+                } catch (e: Exception) {
+                    Log.w("ARActivity", "Session config failed, falling back to AMBIENT_INTENSITY", e)
+                    config.lightEstimationMode = Config.LightEstimationMode.AMBIENT_INTENSITY
+                    session.configure(config)
+                }
                 
                 runOnUiThread {
-                    arSceneView.lightEstimationMode = Config.LightEstimationMode.ENVIRONMENTAL_HDR
+                    try {
+                        arSceneView.lightEstimationMode = config.lightEstimationMode
+                    } catch (e: Exception) {
+                        Log.e("ARActivity", "Error setting arSceneView lightEstimationMode", e)
+                    }
                     coachingOverlay.setMode(ArCoachingOverlay.CoachingMode.PLANE_DETECTION)
                     coachingOverlay.updateTrackingStatus(ArCoachingOverlay.TrackingStatus.SEARCHING)
                 }

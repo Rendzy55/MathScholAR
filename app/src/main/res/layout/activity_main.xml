@@ -128,13 +128,6 @@
                     android:textColor="@color/math_text_primary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Lihat Semua →"
-                    android:textColor="@color/math_blue_main"
-                    android:textSize="12sp" />
             </LinearLayout>
 
             <!-- Card Kubus -->
@@ -156,14 +149,32 @@
 
                     <FrameLayout
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="wrap_content"
                         android:background="#F5F5F5">
 
                         <ImageView
                             android:id="@+id/ivKubusIls"
                             android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter" />
+
+                        <FrameLayout
+                            android:id="@+id/overlayKubus"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:scaleType="centerCrop" />
+                            android:background="#B3000000"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="Ayo lihat flipbook"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </FrameLayout>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -181,24 +192,44 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
                         android:padding="16dp">
 
-                        <TextView
-                            android:layout_width="wrap_content"
+                        <LinearLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Mainan Kubus di Playground"
-                            android:textColor="@color/math_text_primary"
-                            android:textSize="16sp"
-                            android:textStyle="bold" />
+                            android:layout_marginEnd="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:text="Eksplorasi sisi-sisi kubus yang simetris"
-                            android:textColor="@color/math_text_secondary"
-                            android:textSize="12sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mainan Kubus di Playground"
+                                android:textColor="@color/math_text_primary"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="Eksplorasi sisi-sisi kubus yang simetris"
+                                android:textColor="@color/math_text_secondary"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnLihatKubus"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/bg_math_button"
+                            android:text="Lihat AR"
+                            android:textAllCaps="false"
+                            android:textColor="@color/math_button_text"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -222,14 +253,32 @@
 
                     <FrameLayout
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="wrap_content"
                         android:background="#F5F5F5">
 
                         <ImageView
                             android:id="@+id/ivBalokIls"
                             android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter" />
+
+                        <FrameLayout
+                            android:id="@+id/overlayBalok"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:scaleType="centerCrop" />
+                            android:background="#B3000000"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="Ayo lihat flipbook"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </FrameLayout>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -247,24 +296,44 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
                         android:padding="16dp">
 
-                        <TextView
-                            android:layout_width="wrap_content"
+                        <LinearLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Misteri kotak Penyimpanan"
-                            android:textColor="@color/math_text_primary"
-                            android:textSize="16sp"
-                            android:textStyle="bold" />
+                            android:layout_marginEnd="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:text="Temukan rahasia di dalam balok panjang ini"
-                            android:textColor="@color/math_text_secondary"
-                            android:textSize="12sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Misteri kotak Penyimpanan"
+                                android:textColor="@color/math_text_primary"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="Temukan rahasia di dalam balok panjang ini"
+                                android:textColor="@color/math_text_secondary"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnLihatBalok"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/bg_math_button"
+                            android:text="Lihat AR"
+                            android:textAllCaps="false"
+                            android:textColor="@color/math_button_text"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -289,14 +358,32 @@
 
                     <FrameLayout
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
+                        android:layout_height="wrap_content"
                         android:background="#F5F5F5">
 
                         <ImageView
                             android:id="@+id/ivPrismaIls"
                             android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter" />
+
+                        <FrameLayout
+                            android:id="@+id/overlayPrisma"
+                            android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:scaleType="centerCrop" />
+                            android:background="#B3000000"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="Ayo lihat flipbook"
+                                android:textColor="@color/white"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </FrameLayout>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -314,24 +401,44 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
                         android:padding="16dp">
 
-                        <TextView
-                            android:layout_width="wrap_content"
+                        <LinearLayout
+                            android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:text="Atap Unik di Taman Bermain"
-                            android:textColor="@color/math_text_primary"
-                            android:textSize="16sp"
-                            android:textStyle="bold" />
+                            android:layout_marginEnd="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:text="Bentuk prisma segitiga yang kokoh dan artistik"
-                            android:textColor="@color/math_text_secondary"
-                            android:textSize="12sp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Atap Unik di Taman Bermain"
+                                android:textColor="@color/math_text_primary"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="Bentuk prisma segitiga yang kokoh dan artistik"
+                                android:textColor="@color/math_text_secondary"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnLihatPrisma"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/bg_math_button"
+                            android:text="Lihat AR"
+                            android:textAllCaps="false"
+                            android:textColor="@color/math_button_text"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

@@ -130,7 +130,15 @@ class PdfViewerActivity : AppCompatActivity() {
                 btnAction.text = "Tanya AI Asisten"
                 btnAction.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_chatbot, 0, 0, 0)
                 btnAction.setOnClickListener {
-                    startActivity(Intent(this, ChatbotActivity::class.java))
+                    val intent = Intent(this, ChatbotActivity::class.java)
+                    val shapeType = when {
+                        pdfFileName.contains("kubus", ignoreCase = true) -> "KUBUS"
+                        pdfFileName.contains("balok", ignoreCase = true) -> "BALOK"
+                        pdfFileName.contains("prisma", ignoreCase = true) -> "PRISMA"
+                        else -> "KUBUS"
+                    }
+                    intent.putExtra("SHAPE_TYPE", shapeType)
+                    startActivity(intent)
                 }
             }
             ActionType.AR -> {

@@ -62,3 +62,6 @@
 -keep class androidx.camera.camera2.** { *; }
 -keep class androidx.camera.lifecycle.** { *; }
 -keep class androidx.camera.view.** { *; }
+
+# Fix for Missing classes detected while running R8 (API 35 references)
+-dontwarn android.app.ApplicationStartInfo
