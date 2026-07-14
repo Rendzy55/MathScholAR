@@ -14,30 +14,6 @@
     "pertanyaan_anak": [
       {
         "id": 1,
-        "pertanyaan": "Coba sebutkan benda di sekitarmu yang berbentuk kubus!",
-        "kata_kunci": ["dadu", "kotak", "rubik", "kardus"],
-        "feedback": {
-          "benar": "Bagus sekali! Kamu bisa mengenali benda-benda berbentuk kubus di sekitarmu. Dadu, rubik, dan kotak berbentuk kubus karena semua sisinya persegi yang sama besar.",
-          "sebagian": "Jawabanmu sudah mengarah benar. Coba pikirkan lagi, benda apa lagi yang semua sisinya berbentuk persegi sama besar?",
-          "salah": "Coba perhatikan benda-benda di sekitarmu. Apakah ada benda yang semua sisinya berbentuk persegi dan sama besar? Contohnya seperti dadu."
-        },
-        "jawaban_benar": "Benda-benda berbentuk kubus di sekitar kita antara lain dadu, rubik, dan kotak yang semua sisinya persegi sama besar."
-      },
-      {
-        "id": 2,
-        "pertanyaan": "Apa perbedaan kubus dengan balok?",
-        "kata_kunci": ["persegi", "persegi panjang", "sama", "berbeda", "sisi"],
-        "feedback": {
-          "benar": "Tepat sekali! Kubus memiliki semua sisi berbentuk persegi yang sama besar, sedangkan balok memiliki sisi berbentuk persegi panjang yang tidak semuanya sama besar.",
-          "sebagian": "Jawabanmu sudah mengarah benar. Coba ingat kembali, apa perbedaan bentuk sisi pada kubus dan balok?",
-          "salah": "Coba perhatikan kembali bentuk sisi kubus dan balok. Apakah bentuk sisinya sama?"
-        },
-        "jawaban_benar": "Kubus memiliki semua sisi berbentuk persegi yang sama besar, sedangkan balok memiliki sisi berbentuk persegi panjang yang tidak semuanya sama besar."
-      }
-    ],
-    "evaluasi": [
-      {
-        "id": 1,
         "pertanyaan": "Apa yang dimaksud dengan kubus?",
         "kata_kunci": ["bangun ruang", "6 sisi", "persegi", "sama besar"],
         "feedback": {
@@ -45,51 +21,75 @@
           "sebagian": "Jawabanmu sudah mengarah benar. Kamu sudah mengetahui bahwa kubus memiliki 6 sisi. Coba ingat kembali, bentuk dari setiap sisi kubus seperti apa?",
           "salah": "Coba perhatikan kembali materi tentang kubus. Apakah kubus termasuk bangun datar atau bangun ruang?"
         },
-        "jawaban_benar": "Kubus merupakan bangun ruang yang memiliki 6 sisi berbentuk persegi dengan ukuran yang sama."
+        "jawaban_benar": "Kubus adalah bangun ruang yang memiliki 6 sisi berbentuk persegi dan ukurannya sama."
       },
       {
         "id": 2,
         "pertanyaan": "Berapa jumlah sisi, rusuk, dan titik sudut yang dimiliki kubus?",
         "kata_kunci": ["6 sisi", "12 rusuk", "8 titik sudut"],
         "feedback": {
-          "benar": "Bagus sekali! Kubus memiliki 6 sisi, 12 rusuk, and 8 titik sudut.",
+          "benar": "Bagus sekali! Kubus memiliki 6 sisi, 12 rusuk, dan 8 titik sudut.",
           "sebagian": "Sebagian jawabanmu sudah benar. Kamu sudah menyebut sebagian ciri kubus. Coba ingat kembali jumlah yang belum disebutkan.",
           "salah": "Coba amati kembali gambar kubus pada materi. Hitung kembali jumlah sisi, rusuk, dan titik sudutnya."
         },
         "jawaban_benar": "Kubus memiliki 6 sisi, 12 rusuk, dan 8 titik sudut."
+      }
+    ],
+    "evaluasi": [
+      {
+        "id": 1,
+        "pertanyaan": "Menurutmu, informasi apa saja yang diketahui dari cerita pada soal? Tuliskan semua informasi penting yang kamu temukan.",
+        "kata_kunci": ["kotak", "kubus", "rusuk", "20", "volume", "6.000"],
+        "feedback": {
+          "benar": "Hebat! Kamu berhasil menemukan informasi penting pada soal. Sekarang kita cari tahu apa yang harus diselesaikan.",
+          "sebagian": "Bagus! Kamu sudah menemukan sebagian informasi penting pada soal. Coba baca kembali cerita dengan teliti. Masih ada satu informasi penting yang belum kamu tuliskan. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Yuk, baca kembali cerita pada soal. Perhatikan bentuk kotaknya, panjang rusuknya, dan perkiraan volume yang disebutkan oleh kakak penjaga. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Terima kasih sudah mencoba! Informasi yang diketahui pada soal adalah:\n• Kotak berbentuk kubus.\n• Panjang rusuk kotak 20 cm.\n• Kakak penjaga memperkirakan volume kotak sebesar 6.000 cm³.\nYuk, kita lanjut ke pertanyaan berikutnya!"
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Menurutmu, apa masalah yang harus diselesaikan pada soal tersebut?",
+        "kata_kunci": ["menentukan", "menghitung", "volume", "memeriksa", "perkiraan", "6.000", "benar"],
+        "feedback": {
+          "benar": "Hebat! Kamu sudah memahami dengan tepat masalah yang harus diselesaikan. Sekarang kita tentukan langkah atau rumus yang akan digunakan untuk menyelesaikan masalah tersebut.",
+          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian masalah yang harus diselesaikan. Coba pikirkan lagi, setelah menghitung volume kubus, apa yang perlu dilakukan terhadap perkiraan yang disampaikan kakak penjaga? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Yuk, baca kembali bagian akhir cerita pada soal. Perhatikan apa yang ingin dibuktikan berdasarkan hasil perhitungan volume kubus. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Terima kasih sudah mencoba! Masalah yang harus diselesaikan pada soal adalah menghitung volume kotak berbentuk kubus, kemudian memeriksa apakah perkiraan volume 6.000 cm³ yang disampaikan kakak penjaga sudah benar atau belum. Yuk, kita lanjut ke langkah berikutnya!"
       },
       {
         "id": 3,
-        "pertanyaan": "Mengapa jaring-jaring kubus dapat membantu kita mengetahui luas permukaan kubus?",
-        "kata_kunci": ["semua sisi kubus terlihat", "luas seluruh permukaan dapat dihitung"],
+        "pertanyaan": "Langkah atau rumus apa yang akan kamu gunakan untuk menyelesaikan masalah tersebut? Jelaskan alasanmu.",
+        "kata_kunci": ["volume kubus", "s x s x s", "s³"],
         "feedback": {
-          "benar": "Bagus! Karena semua sisi kubus terlihat pada jaring-jaring, kita dapat menghitung luas seluruh permukaannya.",
-          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui salah satu manfaat jaring-jaring kubus. Sekarang coba pikirkan lagi, apa yang terjadi pada semua sisi kubus ketika dibentuk menjadi jaring-jaring?",
-          "salah": "Jawabanmu masih belum tepat. Coba amati apa yang terjadi ketika kubus dibuka menjadi jaring-jaring, lalu pikirkan bagaimana hal itu membantu menghitung luas permukaannya."
+          "benar": "Hebat! Kamu sudah memilih strategi yang tepat untuk menyelesaikan masalah. Sekarang, yuk gunakan rumus tersebut untuk menghitung volume kubus pada soal.",
+          "sebagian": "Jawabanmu sudah mengarah benar. Coba ingat kembali, apa yang ingin dicari pada soal ini? Apakah luas, keliling, atau volume? Setelah itu, pilih rumus yang sesuai. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Coba ingat kembali, apa yang ingin dicari pada soal ini? Apakah luas, keliling, atau volume? Setelah itu, pilih rumus yang sesuai. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Karena semua sisi kubus terlihat pada jaring-jaring, kita dapat menghitung luas seluruh permukaannya."
+        "jawaban_benar": "Terima kasih sudah mencoba! Untuk menyelesaikan soal ini, kita menggunakan rumus volume kubus, yaitu V = s × s × s atau V = s³. Yuk, kita lanjut menghitung volumenya!"
       },
       {
         "id": 4,
-        "pertanyaan": "Bagaimana cara menghitung luas permukaan kubus?",
-        "kata_kunci": ["s x s", "6 sisi", "6 x s x s"],
+        "pertanyaan": "Sekarang, hitunglah volume kotak berbentuk kubus menggunakan panjang rusuk yang telah diketahui. Tuliskan langkah-langkah perhitunganmu hingga memperoleh hasil akhirnya!",
+        "kata_kunci": ["20 x 20 x 20", "8.000"],
         "feedback": {
-          "benar": "Hebat! Luas permukaan kubus diperoleh dengan menghitung luas satu sisi (s × s), kemudian dikalikan 6 karena kubus memiliki enam sisi yang sama besar.",
-          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian cara menghitung luas permukaan kubus. Sekarang coba ingat kembali, mengapa hasil luas satu sisi perlu dikalikan 6?",
-          "salah": "Jawabanmu masih belum tepat. Ingat kembali bagaimana cara menghitung luas satu sisi kubus, kemudian pikirkan mengapa hasilnya perlu dikalikan dengan jumlah seluruh sisi kubus."
+          "benar": "Hebat! Perhitunganmu sudah benar. Kamu berhasil menerapkan rumus volume kubus dengan tepat dan memperoleh hasil volume sebesar 8.000 cm³. Sekarang kita akan memeriksa kembali apakah hasil tersebut sesuai dengan perkiraan kakak penjaga.",
+          "sebagian": "Bagus! Cara yang kamu gunakan sudah mengarah benar. Coba periksa kembali langkah perhitunganmu. Pastikan semua proses sudah dituliskan dengan lengkap dan hasil akhirnya sesuai. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Yuk, ingat kembali rumus volume kubus yang sudah kamu pilih pada langkah sebelumnya. Setelah itu, masukkan panjang rusuk 20 cm ke dalam rumus dan hitung kembali dengan teliti. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Luas permukaan kubus diperoleh dengan menghitung luas satu sisi (s × s), kemudian dikalikan 6 karena kubus memiliki enam sisi yang sama besar. Rumusnya: L = 6 × s × s."
+        "jawaban_benar": "Terima kasih sudah mencoba! Berikut langkah perhitungan yang benar.\nV = s × s × s\nV = 20 × 20 × 20\nV = 8.000 cm³\nJadi, volume kotak berbentuk kubus tersebut adalah 8.000 cm³. Yuk, kita lanjut ke pertanyaan terakhir!"
       },
       {
         "id": 5,
-        "pertanyaan": "Mengapa volume kubus dihitung dengan rumus s x s x s?",
-        "kata_kunci": ["panjang x lebar x tinggi", "sisi sama panjang", "s x s x s"],
+        "pertanyaan": "Berdasarkan hasil perhitungan yang telah kamu peroleh, apakah kamu setuju dengan perkiraan volume kotak sebesar 6.000 cm³ yang disampaikan oleh kakak penjaga? Jelaskan alasanmu menggunakan hasil perhitunganmu.",
+        "kata_kunci": ["tidak setuju", "8.000", "berbeda", "2.000"],
         "feedback": {
-          "benar": "Hebat! Volume kubus dihitung dari panjang × lebar × tinggi. Karena pada kubus ketiga ukurannya sama panjang, rumusnya menjadi s × s × s.",
-          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah memahami sebagian alasan rumus volume kubus. Coba pikirkan lagi, mengapa panjang, lebar, dan tinggi pada kubus dapat ditulis dengan huruf s?",
-          "salah": "Jawabanmu masih belum tepat. Ingat kembali bagaimana cara menghitung volume suatu bangun ruang, lalu pikirkan apa yang membuat rumus tersebut menjadi s × s × s pada kubus."
+          "benar": "Hebat! Kamu berhasil memeriksa kembali hasil perhitunganmu dan memberikan alasan yang tepat. Kamu telah menunjukkan bahwa perkiraan kakak penjaga tidak sesuai karena volume sebenarnya adalah 8.000 cm³. Selamat, kamu sudah menyelesaikan latihan pemecahan masalah dengan sangat baik!",
+          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah menentukan apakah perkiraan kakak penjaga benar atau tidak. Sekarang coba jelaskan alasanmu menggunakan hasil perhitungan yang telah kamu peroleh. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Yuk, lihat kembali hasil perhitungan volume yang sudah kamu peroleh. Bandingkan hasil tersebut dengan perkiraan 6.000 cm³ yang disampaikan kakak penjaga. Apakah keduanya sama? Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Volume kubus dihitung dari panjang × lebar × tinggi. Karena pada kubus ketiga ukurannya sama panjang, rumusnya menjadi s × s × s."
+        "jawaban_benar": "Terima kasih sudah mencoba! Hasil perhitungan menunjukkan bahwa volume kubus adalah 8.000 cm³. Oleh karena itu, perkiraan volume sebesar 6.000 cm³ yang disampaikan oleh kakak penjaga belum tepat karena berbeda sebesar 2.000 cm³. Selamat! Kamu telah menyelesaikan seluruh tahapan pemecahan masalah. Terus semangat belajar!"
       }
     ]
   },
@@ -105,8 +105,7 @@
       },
       "jawaban_benar": "Perbedaan utama antara kubus dan balok adalah kubus memiliki semua sisi berbentuk persegi yang sama besar, sedangkan balok memiliki sisi berbentuk persegi panjang yang ukurannya tidak semuanya sama."
     },
-    "pertanyaan_anak": [],
-    "evaluasi": [
+    "pertanyaan_anak": [
       {
         "id": 1,
         "pertanyaan": "Apa yang dimaksud dengan balok?",
@@ -161,6 +160,63 @@
           "salah": "Jawabanmu masih belum tepat. Yuk, ingat kembali eksperimen Geo dan Gea saat memasukkan susunan kubus satuan ke dalam kotak transparan. Pikirkan bagaimana arah tumpukan kubus itu ke samping, ke belakang, dan ke atas membentuk rumus volume balok. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
         "jawaban_benar": "Volume balok dihitung dengan rumus p × l × t karena volume berasal dari perkalian panjang x lebar x tinggi, yang menunjukkan isi seluruh ruang balok berdasarkan tumpukan ke samping, ke belakang, dan ke atas."
+      }
+    ],
+    "evaluasi": [
+      {
+        "id": 1,
+        "pertanyaan": "Menurutmu, informasi apa saja yang diketahui dari gambar tantangan tersebut? Tuliskan informasi penting yang kamu temukan tentang kertas kado dan kedua kotaknya!",
+        "kata_kunci": ["1.200", "15", "8", "5", "12", "10", "6"],
+        "feedback": {
+          "benar": "Hebat! Kamu berhasil menemukan semua informasi penting pada soal cerita. Sekarang kita cari tahu apa yang harus kita selesaikan.",
+          "sebagian": "Bagus! Kamu sudah menemukan sebagian informasi penting. Coba amati gambar sekali lagi dengan teliti. Tuliskan ukuran lengkap dari kertas kado sekaligus kedua kotak tersebut ya. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Yuk, baca kembali teks dan angka yang ada pada gambar. Catat berapa luas total kertas kadonya, serta berapa angka panjang, lebar, dan tinggi dari Kotak Biru dan Kotak Kuning. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Terima kasih sudah mencoba! Informasi yang diketahui pada gambar tantangan adalah:\n1. Kertas kado memiliki luas total 1.200 cm2.\n2. Kotak Biru berukuran p = 15 cm, l = 8 cm, dan t = 5 cm.\n3. Kotak Kuning berukuran p = 12 cm, l = 10 cm, dan t = 6 cm. Yuk, kita lanjut ke pertanyaan berikutnya!"
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Menurutmu, apa saja masalah atau pertanyaan yang harus diselesaikan dari tantangan Kakak Penjaga tersebut?",
+        "kata_kunci": ["volume", "sisa", "kertas kado", "paling banyak"],
+        "feedback": {
+          "benar": "Hebat! Kamu sudah memahami dengan tepat masalah yang harus diselesaikan. Sekarang kita tentukan rumus apa saja yang akan digunakan untuk menjawab tantangan tersebut.",
+          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian masalahnya. Coba perhatikan lagi balon ucapan Kakak Penjaga di bagian bawah gambar, ada dua hal lho yang diminta untuk dicari. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Yuk, baca kembali balon ucapan dari tokoh anak perempuan dan Kakak Penjaga pada gambar. Perhatikan hal apa yang harus dicari nilainya dan kotak mana yang harus dipilih. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Terima kasih sudah mencoba! Masalah yang harus diselesaikan pada tantangan ini adalah menghitung volume dari kedua kotak serta mencari tahu kotak mana yang menyisakan kertas kado paling banyak setelah dibungkus. Yuk, kita lanjut ke langkah berikutnya!"
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Rumus-rumus apa saja yang akan kamu gunakan untuk menghitung volume dan mengetahui sisa kertas kado dari kotak balok tersebut? Jelaskan jawabanmu!",
+        "kata_kunci": ["p x l x t", "luas permukaan", "2 x"],
+        "feedback": {
+          "benar": "Hebat! Kamu sudah memilih strategi dan rumus yang sangat tepat. Sekarang, yuk kita mulai menghitung volume kedua kotak tersebut terlebih dahulu!",
+          "sebagian": "Bagus! Kamu sudah menyebutkan salah satu rumus dengan benar. Tapi ingat, selain menghitung volume, kita kan juga harus tahu bungkus kotak mana yang menyisakan kertas paling banyak. Berarti butuh rumus luas apa ya? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Karena kedua kotak berbentuk balok, coba ingat kembali rumus volume balok dan rumus untuk menghitung seluruh area kulit atau permukaan balok. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Terima kasih sudah mencoba! Untuk menyelesaikan tantangan ini, kita menggunakan rumus volume balok yaitu V = p x l x t, dan rumus luas permukaan balok yaitu LP = 2 x ((p x l) + (l x t) + (p x t)) untuk menghitung sisa kertas kadonya. Yuk, kita mulai menghitung!"
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Sekarang, hitunglah volume dari Kotak Biru dan Kotak Kuning. Tuliskan angka perkaliannya dan hasil akhir volumenya ya!",
+        "kata_kunci": ["600", "720", "15 x 8 x 5", "12 x 10 x 6"],
+        "feedback": {
+          "benar": "Hebat! Perhitungan volumenya sudah benar semua. Volume Kotak Biru adalah 600 cm3 dan volume Kotak Kuning adalah 720 cm3. Sekarang kita lanjut ke bagian mencari tahu sisa kertas kado.",
+          "sebagian": "Bagus! Perhitunganmu sudah mengarah benar, tapi coba cek kembali perkalian angkanya. Pastikan kamu menghitung volume untuk KEDUA kotak dengan teliti ya. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Yuk, ingat lagi rumus volume balok adalah panjang x lebar x tinggi (dikalikan, bukan ditambah). Coba hitung ulang 15 x 8 x 5 untuk Kotak Biru dan 12 x 10 x 6 untuk Kotak Kuning. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Terima kasih sudah mencoba! Berikut adalah langkah hitungan volume yang benar:\nVolume Kotak Biru: 15 x 8 x 5 = 600 cm3.\nVolume Kotak Kuning: 12 x 10 x 6 = 720 cm3. Yuk, sekarang kita ke pertanyaan terakhir untuk menentukan pemenang sisa kertas kado!"
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Berdasarkan hasil hitungan luas permukaan, kotak mana yang menyisakan kertas kado paling banyak? Tuliskan alasanmu beserta sisa angkanya setelah dikurangi luas total kertas kado (1.200 cm2)!",
+        "kata_kunci": ["Kotak Biru", "470", "730", "504", "696"],
+        "feedback": {
+          "benar": "Hebat! Jawabanmu luar biasa dan sangat teliti. Kotak yang menyisakan kertas kado paling banyak adalah Kotak Biru karena luas permukaannya paling kecil (470 cm2) sehingga kertas yang tersisa paling melimpah yaitu 730 cm2. Selamat, kamu sudah menyelesaikan seluruh latihan soal pemecahan masalah balok dengan nilai sempurna!",
+          "sebagian": "Bagus! Pilihan kotakmu sudah benar, yaitu Kotak Biru. Namun, jawabanmu belum lengkap. Coba tuliskan angka hasil hitungan luas permukaan atau sisa kertasnya setelah dikurangi dari 1.200 cm2 agar alasanmu makin kuat! Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Yuk, ingat lagi, kita mau mencari kotak yang menyisakan kertas kado paling banyak. Artinya, kita harus mencari kotak yang luas kulit luarnya (Luas Permukaan) paling kecil atau irit, bukan mencari volume yang paling besar. Coba hitung ulang luas permukaan kedua kotak lalu bandingkan kembali. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Terima kasih sudah mencoba! Kotak yang menyisakan kertas kado paling banyak adalah Kotak Biru.\nLuas Permukaan Kotak Biru = 2 x ((15 x 8) + (8 x 5) + (15 x 5)) = 470 cm2 (Sisa kertas kado: 1.200 - 470 = 730 cm2).\nLuas Permukaan Kotak Kuning = 2 x ((12 x 10) + (10 x 6) + (12 x 6)) = 504 cm2 (Sisa kertas kado: 1.200 - 504 = 696 cm2). Selamat! Kamu telah menyelesaikan seluruh tahapan latihan pemecahan masalah materi balok. Terus semangat belajar, ya!"
       }
     ]
   },

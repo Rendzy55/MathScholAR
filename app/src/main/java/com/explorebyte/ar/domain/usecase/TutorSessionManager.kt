@@ -239,13 +239,13 @@ class TutorSessionManager {
             SessionPhase.QUIZ -> "Quiz Utama"
             SessionPhase.PERTANYAAN_ANAK -> {
                 val total = data.pertanyaanAnak.size
-                "Pertanyaan Pendalaman: ${currentQuestionIndex + 1}/$total"
+                "Evaluasi: Soal ${currentQuestionIndex + 1}/$total"
             }
             SessionPhase.EVALUASI -> {
                 val total = data.evaluasi.size
-                "Evaluasi: Soal ${currentQuestionIndex + 1}/$total"
+                "Latihan Soal: Soal ${currentQuestionIndex + 1}/$total"
             }
-            SessionPhase.SELESAI -> "Sesi Selesai"
+            SessionPhase.SELESAI -> "Selesai"
         }
     }
 
@@ -256,8 +256,8 @@ class TutorSessionManager {
         return when (currentPhase) {
             SessionPhase.IDLE -> "Menunggu"
             SessionPhase.QUIZ -> "📝 Quiz"
-            SessionPhase.PERTANYAAN_ANAK -> "💡 Pendalaman"
-            SessionPhase.EVALUASI -> "📊 Evaluasi"
+            SessionPhase.PERTANYAAN_ANAK -> "📊 Evaluasi"
+            SessionPhase.EVALUASI -> "📝 Latihan Soal"
             SessionPhase.SELESAI -> "✅ Selesai"
         }
     }

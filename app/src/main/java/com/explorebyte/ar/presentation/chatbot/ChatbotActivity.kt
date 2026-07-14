@@ -113,8 +113,8 @@ class ChatbotActivity : AppCompatActivity() {
         viewModel.sessionPhase.observe(this) { phase ->
             val label = when (phase) {
                 SessionPhase.QUIZ -> "📝 Quiz"
-                SessionPhase.PERTANYAAN_ANAK -> "💡 Pendalaman"
-                SessionPhase.EVALUASI -> "📊 Evaluasi"
+                SessionPhase.PERTANYAAN_ANAK -> "📊 Evaluasi"
+                SessionPhase.EVALUASI -> "📝 Latihan Soal"
                 SessionPhase.SELESAI -> "✅ Selesai"
                 else -> ""
             }

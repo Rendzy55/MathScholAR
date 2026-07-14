@@ -375,10 +375,15 @@ class ChatbotViewModel(application: Application) : AndroidViewModel(application)
     private fun getPhaseTransitionMessage(): String? {
         return when (sessionManager.currentPhase) {
             SessionPhase.PERTANYAAN_ANAK -> {
-                "🎯 Bagus! Sekarang kita lanjut ke sesi Pertanyaan Pendalaman untuk memperkuat pemahamanmu."
+                "📊 Baik! Sekarang saatnya Evaluasi. Kamu akan menjawab beberapa soal untuk mengukur pemahamanmu. Semangat! 💪"
             }
             SessionPhase.EVALUASI -> {
-                "📊 Baik! Sekarang saatnya Evaluasi. Kamu akan menjawab 5 soal untuk mengukur pemahamanmu. Semangat! 💪"
+                if (shapeType == "balok" || shapeType == "kubus") {
+                    "Halo, teman hebat! 😊 Yuk, kita selesaikan masalah pada cerita tadi bersama-sama. Kita akan mengerjakannya langkah demi langkah. Jawablah setiap pertanyaan dengan bahasamu sendiri ya. Kamu memiliki maksimal dua kesempatan untuk menjawab setiap pertanyaan."
+                } else {
+                    "Mari kita lanjutkan ke Latihan Soal PBL."
+                }
+            }
             }
             else -> null
         }
