@@ -378,12 +378,7 @@ class ChatbotViewModel(application: Application) : AndroidViewModel(application)
                 "📊 Baik! Sekarang saatnya Evaluasi. Kamu akan menjawab beberapa soal untuk mengukur pemahamanmu. Semangat! 💪"
             }
             SessionPhase.EVALUASI -> {
-                if (shapeType == "balok" || shapeType == "kubus") {
-                    "Halo, teman hebat! 😊 Yuk, kita selesaikan masalah pada cerita tadi bersama-sama. Kita akan mengerjakannya langkah demi langkah. Jawablah setiap pertanyaan dengan bahasamu sendiri ya. Kamu memiliki maksimal dua kesempatan untuk menjawab setiap pertanyaan."
-                } else {
-                    "Mari kita lanjutkan ke Latihan Soal PBL."
-                }
-            }
+                "Halo, teman hebat! 😊 Yuk, kita selesaikan masalah pada cerita tadi bersama-sama. Kita akan mengerjakannya langkah demi langkah. Jawablah setiap pertanyaan dengan bahasamu sendiri ya. Kamu memiliki maksimal dua kesempatan untuk menjawab setiap pertanyaan."
             }
             else -> null
         }
