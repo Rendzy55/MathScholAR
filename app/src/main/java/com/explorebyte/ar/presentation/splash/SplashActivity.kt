@@ -214,7 +214,7 @@ class SplashActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW)
             val uri = androidx.core.content.FileProvider.getUriForFile(
                 this,
-                "${applicationId}.fileprovider",
+                "${packageName}.fileprovider",
                 file
             )
             intent.setDataAndType(uri, "application/vnd.android.package-archive")
