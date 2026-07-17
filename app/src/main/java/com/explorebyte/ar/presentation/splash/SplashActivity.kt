@@ -181,7 +181,7 @@ class SplashActivity : AppCompatActivity() {
                     installApk(state.file)
                 }
                 is SplashViewModel.UpdateState.Error -> {
-                    tvSystemStatus.text = "Sistem Siap (Offline)"
+                    tvSystemStatus.text = "Sistem Siap (${state.message})"
                     // Fallback to start
                     btnInitialize.animate().alpha(1f).start()
                 }

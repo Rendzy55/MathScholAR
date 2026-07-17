@@ -50,11 +50,12 @@ class SplashViewModel(application: Application) : AndroidViewModel(application) 
                         _updateState.value = UpdateState.NoUpdate
                     }
                 } else {
-                    _updateState.value = UpdateState.NoUpdate
+                    _updateState.postValue(UpdateState.Error("Database kosong atau akses RLS terblokir"))
                 }
             } catch (e: Exception) {
-                // Ignore error and just proceed if offline
-                _updateState.value = UpdateState.NoUpdate
+                e.printStackTrace()
+                android.util.Log.e("SplashViewModel", "Error checking update: ${e.message}", e)
+                _updateState.postValue(UpdateState.Error("Err: ${e.message}"))
             }
         }
     }
