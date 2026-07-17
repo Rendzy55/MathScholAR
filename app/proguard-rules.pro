@@ -54,8 +54,8 @@
 -keep class com.github.barteksc.pdfviewer.** { *; }
 -keep class com.shockwave.pdfium.** { *; }
 
-# Keep models for Gson deserialization (Replace with your actual package if you have a models package)
--keep class com.explorebyte.ar.data.model.** { *; }
+# Keep models for Gson deserialization and Retrofit services
+-keep class com.explorebyte.ar.data.** { *; }
 -keep class com.explorebyte.ar.model.** { *; }
 
 # CameraX
