@@ -1,17 +1,15 @@
 @echo off
-if "%~1"=="" (
-    echo Usage: autopush.bat "Pesan pembaruan Anda"
-    exit /b 1
+set MESSAGE=%~1
+if "%MESSAGE%"=="" (
+    set MESSAGE=Pembaruan sistem dan perbaikan rutin
 )
 
 echo Bumping version...
 python bump_version.py
 
-set MESSAGE=%~1
-
 git add .
 git commit -m "[vUpdate] %MESSAGE%"
-git push
+git push origin main
 
 echo.
 echo Selesai! Cek GitHub Actions untuk melihat progres rilis.

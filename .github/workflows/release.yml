@@ -100,7 +100,8 @@ jobs:
           TELE_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELE_TO: ${{ secrets.TELEGRAM_TO }}
         run: |
-          MESSAGE="🎉 *Rilis Baru Tersedia!*%0A%0AVersi: ${{ env.VERSION_NAME }} (${{ env.VERSION_CODE }})%0APesan: ${{ github.event.head_commit.message }}%0A%0AAPK sudah diunggah dan database Supabase telah diperbarui."
+          APK_URL="https://github.com/${{ github.repository }}/releases/download/${{ env.TAG_NAME }}/app-release.apk"
+          MESSAGE="🎉 *Rilis Baru Tersedia!*%0A%0AVersi: ${{ env.VERSION_NAME }} (${{ env.VERSION_CODE }})%0APesan: ${{ github.event.head_commit.message }}%0A%0A[📥 Download APK Terbaru]($APK_URL)%0A%0AAPK sudah diunggah dan database Supabase telah diperbarui."
           
           curl -s -X POST "https://api.telegram.org/bot$TELE_TOKEN/sendMessage" \
                -d chat_id="$TELE_TO" \

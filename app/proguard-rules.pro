@@ -69,3 +69,5 @@
 
 # Fix for Missing classes detected while running R8 (API 35 references)
 -dontwarn android.app.ApplicationStartInfo
+-dontwarn org.slf4j.**  
+ 
