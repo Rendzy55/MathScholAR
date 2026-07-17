@@ -21,6 +21,7 @@ import com.explorebyte.ar.data.model.AppVersionResponse
 import com.explorebyte.ar.data.remote.SupabaseManager
 import io.github.jan.supabase.postgrest.postgrest
 import io.github.jan.supabase.postgrest.query.Order
+import io.sentry.Sentry
 import kotlinx.coroutines.*
 import java.io.File
 
@@ -60,6 +61,7 @@ class UpdateManager(private val context: Context) {
             }
         } catch (e: Exception) {
             e.printStackTrace()
+            Sentry.captureException(e)
         }
     }
 
@@ -107,6 +109,7 @@ class UpdateManager(private val context: Context) {
             }
         } catch (e: Exception) {
             e.printStackTrace()
+            Sentry.captureException(e)
             withContext(Dispatchers.Main) {
                 onError("Gagal mengecek pembaruan: ${e.localizedMessage}")
             }
@@ -252,6 +255,7 @@ class UpdateManager(private val context: Context) {
             }
         } catch (e: Exception) {
             e.printStackTrace()
+            Sentry.captureException(e)
             android.util.Log.e("UpdateManager", "Error installing APK: ${e.message}")
             Toast.makeText(context, "Gagal membuka installer", Toast.LENGTH_LONG).show()
         }

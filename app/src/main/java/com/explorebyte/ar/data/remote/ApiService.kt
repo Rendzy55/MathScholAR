@@ -20,6 +20,7 @@ object ApiService {
             json(Json {
                 ignoreUnknownKeys = true
                 isLenient = true
+                encodeDefaults = true
             })
         }
     }
