@@ -3,119 +3,134 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="16dp"
-    app:cardBackgroundColor="@color/math_bg_light"
+    android:layout_margin="24dp"
+    app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="24dp"
-    app:cardElevation="8dp">
+    app:cardElevation="16dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="24dp">
+        android:orientation="vertical">
 
+        <!-- Header Section -->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
-            android:layout_marginBottom="32dp">
-
-            <ImageView
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:src="@mipmap/ic_launcher" />
-
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/tvLabelPerhatian"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="PERHATIAN"
-            android:textColor="@color/math_text_primary"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="16dp"/>
-
-        <TextView
-            android:id="@+id/tvUpdateTitle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Pembaruan Tersedia"
-            android:textColor="@color/math_text_primary"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="8dp"/>
-
-        <TextView
-            android:id="@+id/tvUpdateMessage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Lorem Ipsum ( isi text perbaruan App"
-            android:textColor="@color/math_text_secondary"
-            android:textSize="16sp"
-            android:layout_marginBottom="40dp"/>
-
-        <!-- Progress Layout -->
-        <LinearLayout
-            android:id="@+id/layoutProgress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:visibility="gone"
-            android:layout_marginBottom="24dp">
+            android:background="@color/math_blue_light"
+            android:padding="24dp"
+            android:gravity="center">
 
-            <ProgressBar
-                android:id="@+id/progressBar"
-                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:max="100"
-                android:progress="0" />
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginBottom="16dp"/>
 
             <TextView
-                android:id="@+id/tvProgress"
+                android:id="@+id/tvLabelPerhatian"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:layout_marginTop="8dp"
-                android:text="0%"
-                android:textColor="@color/math_text_primary"
-                android:textSize="14sp" />
+                android:text="Pembaruan Baru!"
+                android:textColor="@color/math_blue_dark"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
         </LinearLayout>
 
+        <!-- Content Section -->
         <LinearLayout
-            android:id="@+id/layoutButtons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="end">
+            android:orientation="vertical"
+            android:padding="24dp">
 
-            <Button
-                android:id="@+id/btnLater"
-                style="@style/Widget.MaterialComponents.Button.TextButton"
-                android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/tvUpdateTitle"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nanti"
-                android:textColor="@color/math_text_secondary"
-                android:textSize="18sp"
-                android:layout_marginEnd="16dp"
-                android:textAllCaps="false"/>
-
-            <Button
-                android:id="@+id/btnUpdate"
-                style="@style/Widget.MaterialComponents.Button.TextButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Perbarui"
-                android:textColor="@color/math_blue_main"
+                android:text="Versi Terbaru Tersedia"
+                android:textColor="@color/math_text_primary"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textAllCaps="false"/>
+                android:layout_marginBottom="8dp"/>
 
+            <TextView
+                android:id="@+id/tvUpdateMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menyiapkan pembaruan..."
+                android:textColor="@color/math_text_secondary"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Progress Layout -->
+            <LinearLayout
+                android:id="@+id/layoutProgress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginBottom="16dp">
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:progressTint="@color/math_blue_main"
+                    android:progressBackgroundTint="@color/math_blue_light"
+                    android:max="100"
+                    android:progress="0" />
+
+                <TextView
+                    android:id="@+id/tvProgress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:text="0%"
+                    android:textColor="@color/math_blue_main"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutButtons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+
+                <Button
+                    android:id="@+id/btnLater"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nanti"
+                    android:textColor="@color/math_text_secondary"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="8dp"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/math_blue_main"
+                    android:text="Perbarui"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:paddingHorizontal="24dp"
+                    android:paddingVertical="12dp"
+                    app:cornerRadius="12dp"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
         </LinearLayout>
-
     </LinearLayout>
 </androidx.cardview.widget.CardView>

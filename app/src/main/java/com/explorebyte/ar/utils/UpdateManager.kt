@@ -119,6 +119,8 @@ class UpdateManager(private val context: Context) {
             .setView(dialogView)
             .setCancelable(false) // Wajib update
             .create()
+            
+        dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
 
         // Shared preference to remember pending install
         val prefs = context.getSharedPreferences("app_settings", Context.MODE_PRIVATE)
