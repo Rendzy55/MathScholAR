@@ -35,10 +35,13 @@
 -dontwarn retrofit2.Platform$Java8
 -keepattributes Signature
 -keepattributes Exceptions
+-keep class kotlin.coroutines.Continuation { *; }
 
 # Gson
 -keepattributes Signature
 -keepattributes *Annotation*
+-keepattributes EnclosingMethod
+-keepattributes InnerClasses
 -keep class sun.misc.Unsafe { *; }
 -keep class com.google.gson.stream.** { *; }
 -keep class * extends com.google.gson.reflect.TypeToken { *; }
