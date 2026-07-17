@@ -55,6 +55,7 @@ class SplashViewModel(application: Application) : AndroidViewModel(application) 
             } catch (e: Exception) {
                 e.printStackTrace()
                 android.util.Log.e("SplashViewModel", "Error checking update: ${e.message}", e)
+                io.sentry.Sentry.captureException(e)
                 _updateState.postValue(UpdateState.Error("Err: ${e.message}"))
             }
         }
