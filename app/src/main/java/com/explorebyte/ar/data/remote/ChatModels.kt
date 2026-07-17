@@ -1,41 +1,47 @@
 package com.explorebyte.ar.data.remote
 
-import com.google.gson.annotations.SerializedName
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
 
 /**
  * Request body untuk Groq Chat Completions API.
  * Format kompatibel dengan OpenAI API.
  * Docs: https://console.groq.com/docs/api-reference#chat-completions
  */
+@Serializable
 data class GroqRequest(
-    @SerializedName("model") val model: String = "llama-3.3-70b-versatile",
-    @SerializedName("messages") val messages: List<ChatMessage>,
-    @SerializedName("temperature") val temperature: Double = 0.7,
-    @SerializedName("max_tokens") val maxTokens: Int = 2048,
-    @SerializedName("stream") val stream: Boolean = false
+    @SerialName("model") val model: String = "llama-3.3-70b-versatile",
+    @SerialName("messages") val messages: List<ChatMessage>,
+    @SerialName("temperature") val temperature: Double = 0.7,
+    @SerialName("max_tokens") val maxTokens: Int = 2048,
+    @SerialName("stream") val stream: Boolean = false
 )
 
+@Serializable
 data class ChatMessage(
-    @SerializedName("role") val role: String,
-    @SerializedName("content") val content: String
+    @SerialName("role") val role: String,
+    @SerialName("content") val content: String
 )
 
 /**
  * Response dari Groq Chat Completions API.
  */
+@Serializable
 data class GroqResponse(
-    @SerializedName("id") val id: String?,
-    @SerializedName("choices") val choices: List<GroqChoice>?,
-    @SerializedName("error") val error: GroqApiError?
+    @SerialName("id") val id: String? = null,
+    @SerialName("choices") val choices: List<GroqChoice>? = null,
+    @SerialName("error") val error: GroqApiError? = null
 )
 
+@Serializable
 data class GroqChoice(
-    @SerializedName("message") val message: ChatMessage,
-    @SerializedName("finish_reason") val finishReason: String?
+    @SerialName("message") val message: ChatMessage,
+    @SerialName("finish_reason") val finishReason: String? = null
 )
 
+@Serializable
 data class GroqApiError(
-    @SerializedName("message") val message: String?,
-    @SerializedName("type") val type: String?,
-    @SerializedName("code") val code: String?
+    @SerialName("message") val message: String? = null,
+    @SerialName("type") val type: String? = null,
+    @SerialName("code") val code: String? = null
 )

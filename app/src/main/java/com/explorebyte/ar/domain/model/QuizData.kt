@@ -1,32 +1,36 @@
 package com.explorebyte.ar.domain.model
 
-import com.google.gson.annotations.SerializedName
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
 
 /**
  * Representasi data soal individu (untuk Quiz, Pertanyaan Anak, dan Evaluasi).
  */
+@Serializable
 data class QuestionItem(
-    @SerializedName("id") val id: Int,
-    @SerializedName("pertanyaan") val pertanyaan: String,
-    @SerializedName("kata_kunci") val kataKunci: List<String>,
-    @SerializedName("feedback") val feedback: FeedbackSet,
-    @SerializedName("jawaban_benar") val jawabanBenar: String? = null
+    @SerialName("id") val id: Int,
+    @SerialName("pertanyaan") val pertanyaan: String,
+    @SerialName("kata_kunci") val kataKunci: List<String>,
+    @SerialName("feedback") val feedback: FeedbackSet,
+    @SerialName("jawaban_benar") val jawabanBenar: String? = null
 )
 
 /**
  * Set feedback untuk 3 kategori jawaban.
  */
+@Serializable
 data class FeedbackSet(
-    @SerializedName("benar") val benar: String,
-    @SerializedName("sebagian") val sebagian: String,
-    @SerializedName("salah") val salah: String
+    @SerialName("benar") val benar: String,
+    @SerialName("sebagian") val sebagian: String,
+    @SerialName("salah") val salah: String
 )
 
 /**
  * Data lengkap per bangun ruang, berisi 3 tipe sesi.
  */
+@Serializable
 data class ShapeData(
-    @SerializedName("quiz") val quiz: QuestionItem?,
-    @SerializedName("pertanyaan_anak") val pertanyaanAnak: List<QuestionItem>,
-    @SerializedName("evaluasi") val evaluasi: List<QuestionItem>
+    @SerialName("quiz") val quiz: QuestionItem? = null,
+    @SerialName("pertanyaan_anak") val pertanyaanAnak: List<QuestionItem> = emptyList(),
+    @SerialName("evaluasi") val evaluasi: List<QuestionItem> = emptyList()
 )

@@ -9,19 +9,19 @@ import com.explorebyte.ar.BuildConfig
 import com.explorebyte.ar.data.remote.ApiService
 import com.explorebyte.ar.data.remote.ChatMessage
 import com.explorebyte.ar.data.remote.GroqRequest
+import com.explorebyte.ar.data.remote.GroqResponse
 import com.explorebyte.ar.domain.model.KeywordMatcher
 import com.explorebyte.ar.domain.model.QuestionItem
 import com.explorebyte.ar.domain.model.ShapeData
 import com.explorebyte.ar.domain.usecase.TutorSessionManager
 import com.explorebyte.ar.domain.usecase.TutorSessionManager.SessionPhase
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
+import io.ktor.client.call.body
+import io.ktor.http.isSuccess
 import io.sentry.Sentry
 import kotlinx.coroutines.launch
-import okhttp3.OkHttpClient
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
-import java.util.concurrent.TimeUnit
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.encodeToString
 
 data class Message(val text: String, val isUser: Boolean)
 
@@ -49,22 +49,7 @@ class ChatbotViewModel(application: Application) : AndroidViewModel(application)
     // ─── Core Components ─────────────────────────────────────────────────
     private val sessionManager = TutorSessionManager()
     private val conversationHistory = mutableListOf<ChatMessage>()
-    private val gson = Gson()
-
-    private val apiService: ApiService by lazy {
-        val okHttpClient = OkHttpClient.Builder()
-            .connectTimeout(60, TimeUnit.SECONDS)
-            .readTimeout(60, TimeUnit.SECONDS)
-            .writeTimeout(60, TimeUnit.SECONDS)
-            .build()
-
-        Retrofit.Builder()
-            .baseUrl(ApiService.BASE_URL)
-            .client(okHttpClient)
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-            .create(ApiService::class.java)
-    }
+    private val json = Json { ignoreUnknownKeys = true; isLenient = true }
 
     // ─── Initialization ──────────────────────────────────────────────────
 
@@ -77,8 +62,7 @@ class ChatbotViewModel(application: Application) : AndroidViewModel(application)
                 .open("data/evaluation_data.json")
                 .bufferedReader().use { it.readText() }
 
-            val type = object : TypeToken<Map<String, ShapeData>>() {}.type
-            val allData: Map<String, ShapeData> = gson.fromJson(jsonString, type)
+            val allData: Map<String, ShapeData> = json.decodeFromString(jsonString)
             val shapeData = allData[shape.lowercase()]
 
             if (shapeData != null) {
@@ -153,13 +137,14 @@ class ChatbotViewModel(application: Application) : AndroidViewModel(application)
 
         viewModelScope.launch {
             try {
-                val response = apiService.getGroqChatCompletions(
+                val response = ApiService.getGroqChatCompletions(
                     token = "Bearer ${BuildConfig.GROQ_API_KEY}",
                     request = GroqRequest(messages = conversationHistory.toList())
                 )
 
-                if (response.isSuccessful) {
-                    val aiContent = response.body()?.choices?.firstOrNull()?.message?.content
+                if (response.status.isSuccess()) {
+                    val groqResponse = response.body<GroqResponse>()
+                    val aiContent = groqResponse.choices?.firstOrNull()?.message?.content
                     if (!aiContent.isNullOrBlank()) {
                         processAiResponse(aiContent, answerResult)
                     } else {
@@ -169,7 +154,7 @@ class ChatbotViewModel(application: Application) : AndroidViewModel(application)
                 } else {
                     // Fallback ke feedback lokal saat API error
                     handleWithLocalFeedback(answerResult)
-                    _error.value = "Gangguan layanan AI (${response.code()}). Menggunakan feedback lokal."
+                    _error.value = "Gangguan layanan AI (${response.status.value}). Menggunakan feedback lokal."
                 }
             } catch (e: Exception) {
                 // Fallback ke feedback lokal saat network error
@@ -282,7 +267,7 @@ class ChatbotViewModel(application: Application) : AndroidViewModel(application)
             return "$basePrompt\n\nSesi telah selesai. Berikan apresiasi kepada siswa."
         }
 
-        val questionJson = gson.toJson(question)
+        val questionJson = json.encodeToString(question)
         val matchResultLabel = when (answerResult.matchResult) {
             KeywordMatcher.MatchResult.BENAR -> "BENAR"
             KeywordMatcher.MatchResult.SEBAGIAN -> "SEBAGIAN"

@@ -1,23 +1,37 @@
 package com.explorebyte.ar.data.remote
 
-import retrofit2.Response
-import retrofit2.http.Body
-import retrofit2.http.Header
-import retrofit2.http.POST
+import io.ktor.client.HttpClient
+import io.ktor.client.engine.okhttp.OkHttp
+import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
+import io.ktor.client.request.header
+import io.ktor.client.request.post
+import io.ktor.client.request.setBody
+import io.ktor.client.statement.HttpResponse
+import io.ktor.http.ContentType
+import io.ktor.http.contentType
+import io.ktor.serialization.kotlinx.json.json
+import kotlinx.serialization.json.Json
 
-interface ApiService {
+object ApiService {
+    const val BASE_URL = "https://api.groq.com/"
 
-    /**
-     * Groq Chat Completions API (OpenAI-compatible).
-     * Docs: https://console.groq.com/docs/api-reference#chat-completions
-     */
-    @POST("openai/v1/chat/completions")
+    val client = HttpClient(OkHttp) {
+        install(ContentNegotiation) {
+            json(Json {
+                ignoreUnknownKeys = true
+                isLenient = true
+            })
+        }
+    }
+
     suspend fun getGroqChatCompletions(
-        @Header("Authorization") token: String,
-        @Body request: GroqRequest
-    ): Response<GroqResponse>
-
-    companion object {
-        const val BASE_URL = "https://api.groq.com/"
+        token: String,
+        request: GroqRequest
+    ): HttpResponse {
+        return client.post("${BASE_URL}openai/v1/chat/completions") {
+            header("Authorization", token)
+            contentType(ContentType.Application.Json)
+            setBody(request)
+        }
     }
 }
