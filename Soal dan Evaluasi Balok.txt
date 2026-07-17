@@ -1,0 +1,263 @@
+Script Evaluasi Chatbot AI - Flipbook Balok
+
+Logic Global Chatbot
+1.	Jawaban tidak perlu sama persis dengan jawaban yang tersedia di sini. Penilaian apakah itu benar, sebagian benar ataupun kurang tepat berdasarkan KATA KUNCI.
+2.	Kategori Benar (≥ 80% Kata kunci muncul): berikan penguatan dan lanjut ke soal berikutnya.
+3.	Kategori Sebagian Benar (50–79% Kata kunci muncul): berikan pertanyaan pemantik dan kesempatan kedua.
+4.	Kategori Kurang Tepat (< 50% Kata kunci muncul): berikan petunjuk mengarah ke materi dan kesempatan kedua.
+5.	Jika memungkinkan berikan peserta didik maksimal 2 percobaan.
+
+Soal 1 - Karakteristik Balok
+Pertanyaan: Apa yang dimaksud dengan balok?
+
+Kata Kunci: bangun ruang, 6 sisi, persegi panjang, pasangan berhadapan sama besar
+
+Jawaban Benar:
+1.	Balok merupakan bangun ruang yang mempunyai enam sisi berbentuk persegi panjang dan pasangan sisi yang saling berhadapan sama besar. ATAU 
+2.	Balok adalah bangun ruang yang terdiri atas tiga pasang sisi persegi panjang yang ukuran berhadapannya sama. ATAU 
+3.	Bangun ruang yang memiliki enam sisi di mana sisi-sisi yang berhadapan memiliki bentuk dan ukuran yang sama disebut balok. 
+Feedback Jika Benar: Hebat! Jawabanmu sudah tepat. Balok merupakan bangun ruang yang memiliki 6 sisi, di mana ukuran yang sama besar hanya berlaku pada pasangan sisi yang saling berhadapan. 
+
+Jawaban Sebagian Benar: Kategori jika 2 dari 3 konsep muncul
+1.	Balok adalah bangun ruang yang memiliki enam sisi persegi panjang. ATAU 
+2.	Balok memiliki enam sisi yang ukuran berhadapannya sama besar. ATAU 
+3.	Balok adalah bangun ruang yang sisi-sisinya tidak semuanya sama besar. 
+Feedback Jika Sebagian Benar: Jawabanmu sudah mengarah benar. Kamu sudah mengetahui bahwa balok memiliki 6 sisi persegi panjang. Coba ingat kembali, bagaimana hubungan ukuran antara setiap sisi yang saling berhadapan pada balok? 
+
+Jawaban Kurang Tepat: Kategori jika 0–1 konsep yang benar
+1.	Balok adalah bangun yang kotak panjang. ATAU
+2.	Balok adalah bangun datar. ATAU
+3.	Balok mempunyai enam sisi persegi yang sama rata.
+Feedback Jika Kurang Tepat: Jawabanmu masih belum tepat. Yuk, ingat kembali materi tentang balok pada cerita Geo dan Gea saat membandingkan kotak mainan baru di rak lemari. Apakah balok termasuk bangun datar atau bangun ruang? Setelah itu, coba pikirkan berapa jumlah sisi dan bagaimana ukuran sisi-sisi yang saling berhadapan. Kamu masih punya satu kesempatan lagi. 
+
+Jika percobaan kedua masih belum tepat: Terima kasih sudah mencoba! Jawaban yang benar adalah: balok merupakan bangun ruang yang memiliki enam sisi, di mana ukuran sisi yang sama besar hanya pada pasangan sisi yang saling berhadapan. Yuk, kita lanjut ke soal berikutnya! 
+
+Soal 2 - Karakteristik Balok (Unsur Bangun Ruang)
+Pertanyaan: Berapa jumlah sisi, rusuk, dan titik sudut yang dimiliki balok?
+
+Kata Kunci: 6 sisi, 12 rusuk, 8 titik sudut
+
+Jawaban Benar:
+1.	Balok mempunyai enam sisi, dua belas rusuk, dan delapan titik sudut. ATAU 
+2.	Jumlah sisi balok ada 6, rusuknya 12, dan titik sudutnya 8. ATAU 
+3.	Balok terdiri atas 6 sisi, 12 rusuk, serta 8 titik sudut. 
+Feedback Jika Benar: Bagus sekali! Balok memiliki 6 sisi, 12 rusuk, dan 8 titik sudut. 
+
+Jawaban Sebagian Benar: Kategori jika 2 dari 3 kata kunci muncul
+1.	Balok memiliki 6 sisi dan 12 rusuk. ATAU 
+2.	Balok memiliki 6 sisi dan 8 titik sudut. ATAU 
+3.	Balok memiliki 12 rusuk dan 8 titik sudut. 
+Feedback Jika Sebagian Benar: Bagus! Sebagian jawabanmu sudah benar. Kamu sudah menyebutkan beberapa bagian balok dengan tepat. Sekarang coba ingat kembali, masih ada satu bagian lagi yang belum kamu sebutkan. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+
+Jawaban Kurang Tepat: Kategori jika 0–1 kata kunci yang benar
+1.	Balok memiliki 4 sisi. ATAU
+2.	Balok memiliki 10 rusuk. ATAU
+3.	Balok memiliki 6 sisi dan 6 titik sudut.
+Feedback Jika Kurang Tepat: Coba amati kembali gambar balok atau kotak penyimpanan pada materi. Hitung kembali jumlah sisi datar, rusuk penegak/mendatar, dan titik sudut di setiap pojoknya. Kamu masih memiliki satu kesempatan untuk mencoba lagi. 
+
+Jika percobaan kedua masih belum tepat: Terima kasih sudah mencoba! Jawaban yang benar adalah: balok memiliki 6 sisi, 12 rusuk, dan 8 titik sudut. Yuk, kita lanjut ke soal berikutnya! 
+
+Soal 3 - Jaring-jaring Balok
+Pertanyaan: Mengapa jaring-jaring balok dapat membantu kita mengetahui luas permukaan balok?
+
+Kata Kunci: semua sisi balok terlihat/dibuka; luas seluruh permukaan dapat dihitung
+
+Jawaban Benar:
+1.	Karena semua sisi balok terlihat sehingga kita dapat menghitung luas seluruh permukaannya. ATAU 
+2.	Jaring-jaring membuka semua sisi balok sehingga seluruh permukaan bisa dihitung luasnya. ATAU 
+3.	Dengan jaring-jaring, semua sisi balok terlihat sehingga lebih mudah menghitung luas permukaan balok. ATAU 
+4.	Semua sisi balok menjadi terlihat ketika dibuka menjadi jaring-jaring sehingga luas setiap pasang sisi persegi panjang dapat dihitung lalu dijumlahkan. 
+Feedback Jika Benar: Bagus! Karena semua sisi balok terlihat pada jaring-jaring, kita dapat menghitung luas seluruh permukaannya dengan menjumlahkan setiap bagiannya. 
+
+Jawaban Sebagian Benar: Kategori jika hanya satu konsep muncul
+1.	Karena semua sisi balok terlihat. ATAU 
+2.	Agar kita bisa menghitung luas permukaannya. ATAU 
+3.	Supaya lebih mudah melihat sisi persegi panjangnya. 
+Feedback Jika Sebagian Benar: Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui salah satu manfaat jaring-jaring balok. Sekarang coba pikirkan lagi, apa yang terjadi pada semua sisi balok ketika dibentuk atau dibongkar menjadi jaring-jaring sehingga luas permukaannya dapat dihitung? 
+
+Jawaban Kurang Tepat: Kategori jika tidak ada konsep yang benar
+1.	Karena bentuknya kardus. ATAU
+2.	Agar balok bisa ditiup. ATAU
+3.	Karena jaring-jaring itu disusun dari tali penjerat. ATAU
+4.	Supaya kotak mainan muat banyak buku. 
+Feedback Jika Kurang Tepat: Jawabanmu masih belum tepat. Yuk, perhatikan kembali penjelasan Kakak Penjaga Playground tentang "membongkar kardus kotak mainan" menjadi jaring-jaring balok. Coba amati apa yang terjadi ketika kotak balok dibuka, lalu pikirkan bagaimana hal itu membantu kita menghitung luas permukaannya. Kamu masih memiliki satu kesempatan untuk mencoba lagi. 
+
+Jika percobaan kedua masih belum tepat: Terima kasih sudah mencoba! Jawaban yang benar adalah: jaring-jaring balok membantu kita mengetahui luas permukaan karena semua sisi balok terlihat saat dibuka sehingga luas seluruh permukaannya dapat dihitung. Yuk, kita lanjut ke soal berikutnya! 
+
+Soal 4 - Luas Permukaan Balok
+Pertanyaan: Bagaimana cara menghitung luas permukaan balok?
+
+Kata Kunci: p, l, t; 3 pasang sisi; 2 × ((p × l) + (l × t) + (p × t))
+
+Jawaban Benar:
+1.	Caranya dengan menghitung luas tiga pasang persegi panjangnya, terus semuanya ditambahin dan dikali 2. Rumusnya 2 x ((p x l) + (l x t) + (p x t)). ATAU 
+2.	Kita cari dulu luas setiap pasang sisi yang berhadapan (panjang x lebar, lebar x tinggi, panjang x tinggi), terus dikali dua karena sisinya punya pasangan yang sama besar. ATAU 
+3.	Rumus luasnya itu 2 x (pl + lt + pt) karena balok punya tiga pasang sisi yang bentuknya persegi panjang dan ukurannya sama besar. ATAU 
+4.	Dihitung dulu perkalian pasangannya kayak p x l, l x t, sama p x t, terus hasilnya ditambah semua baru dikali 2 karena ada sisi yang kembar. 
+Feedback Jika Benar: Hebat! Jawabanmu sudah tepat. Luas permukaan balok diperoleh dengan menjumlahkan seluruh luas dari 6 persegi panjang penyusunnya. Karena ada 3 pasang sisi yang sama besar, maka rumus lengkapnya adalah 2 x ((p x l) + (l x t) + (p x t))
+
+Jawaban Sebagian Benar: Kategori jika 2 dari 3 konsep muncul
+1.	Rumus luas permukaan balok itu 2 x (pl + lt + pt). ATAU 
+2.	Luas kotak persegi panjangnya dihitung satu-satu terus ditambahin semuanya. ATAU 
+3.	Karena balok punya tiga pasang sisi yang sama, jadinya rumusnya harus dikali dua. 
+Feedback Jika Sebagian Benar: Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian cara menghitung luas permukaan balok. Sekarang coba ingat kembali, mengapa hasil penjumlahan dari luas setiap pasangannya (pl + lt + pt) perlu dikalikan dengan angka 2? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu. 
+
+Jawaban Kurang Tepat: Kategori jika 0–1 konsep yang benar
+1.	Pakai rumus panjang x lebar x tinggi. ATAU 
+2.	Rumus luas permukaan balok itu 6 x s x s. ATAU 
+3.	Tinggal ditambahin aja semuanya 2 x (p + l + t).
+Feedback Jika Kurang Tepat: Jawabanmu masih belum tepat. Yuk, ingat kembali susunan jaring-jaring balok yang terdiri atas 3 pasang persegi panjang dengan ukuran panjang (p), lebar (l), dan tinggi (t). Pikirkan bagaimana cara menggabungkan luas ketiga pasang sisi tersebut. Kamu masih memiliki satu kesempatan untuk mencoba lagi. 
+
+Jika percobaan kedua masih belum tepat: Terima kasih sudah mencoba! Jawaban yang benar adalah: luas permukaan balok dihitung dengan mencari luas tiga pasang sisinya, kemudian dijumlahkan dan dikalikan 2 karena memiliki pasangan sisi yang sama besar. Rumusnya adalah 2 x ((p x l) + (l x t) + (p x t)). Yuk, kita lanjut ke soal berikutnya! 
+
+Soal 5 - Volume Balok
+Pertanyaan: Mengapa volume balok dihitung dengan rumus p × l × t?
+
+Kata Kunci: panjang × lebar × tinggi; berjejer ke samping, belakang, dan atas; kapasitas muatan/isi ruang
+
+Jawaban Benar:
+1.	Karena volume itu buat menghitung isi kotak, didapat dari panjang yang berjejer ke samping, lebar ke belakang, dan tinggi yang menumpuk ke atas, jadi p × l × t. ATAU 
+2.	Sebab rumus volume balok itu panjang x lebar x tinggi untuk tahu isi atau muatan di dalam kotak kalau diisi penuh sama kubus satuan. ATAU 
+3.	Karena balok punya tiga ukuran yaitu panjang, lebar, sama tinggi yang dikalikan semua supaya kita tahu berapa banyak benda yang muat di dalam ruangannya. ATAU 
+4.	Kotak balok punya ukuran panjang, lebar, dan tinggi yang berbeda buat mengisi seluruh isi dalamnya, makanya rumus volumenya jadi p × l × t. 
+Feedback Jika Benar: Hebat! Jawabanmu sudah tepat. Volume balok dihitung dari perkalian tiga dimensi ukurannya, yaitu panjang x lebar x tinggi (p × l × t), yang menggambarkan susunan kapasitas ruang dari arah samping, belakang, hingga ke atas. 
+
+Jawaban Sebagian Benar: Kategori jika 2 dari 3 konsep muncul
+1.	Karena rumus volume balok itu emang panjang x lebar x tinggi. ATAU 
+2.	Karena balok punya sisi panjang ke samping, lebar ke belakang, sama tinggi ke atas. ATAU 
+3.	Biar tahu isi kotaknya tinggal dikaliin aja p × l × t. 
+Feedback Jika Sebagian Benar: Bagus! Jawabanmu sudah mengarah benar. Kamu sudah memahami sebagian alasan rumus volume balok. Sekarang coba pikirkan lagi, apa arti dari ukuran panjang, lebar, dan tinggi itu kalau kita mau mengisi penuh sebuah kotak penyimpanan? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu. 
+
+Jawaban Kurang Tepat: Kategori jika 0–1 konsep yang benar
+1.	Karena kotak balok itu punya enam sisi. ATAU 
+2.	Soalnya rumusnya sama kayak kubus yaitu s x s x s. ATAU 
+3.	Volume itu dihitung dengan cara ditambahin semua garis rusuknya.
+Feedback Jika Kurang Tepat: Jawabanmu masih belum tepat. Yuk, ingat kembali eksperimen Geo dan Gea saat memasukkan susunan kubus satuan ke dalam kotak transparan. Pikirkan bagaimana arah tumpukan kubus itu ke samping, ke belakang, dan ke atas membentuk rumus volume balok. Kamu masih memiliki satu kesempatan untuk mencoba lagi. 
+
+Jika percobaan kedua masih belum tepat: Terima kasih sudah mencoba! Jawaban yang benar adalah: volume balok dihitung dengan rumus p × l × t karena volume berasal dari perkalian panjang x lebar x tinggi, yang menunjukkan isi seluruh ruang balok berdasarkan tumpukan ke samping, ke belakang, dan ke atas. Selamat, kamu telah menyelesaikan seluruh soal evaluasi! 
+
+====Soal Logic===
+
+Script Chatbot AI - Latihan Soal PBL Balok
+
+Sapaan Awal
+
+Halo, teman hebat! 😊 Yuk, kita selesaikan masalah tantangan dari Kakak Penjaga pada cerita tadi bersama-sama. Kita akan mengerjakannya langkah demi langkah. Jawablah setiap pertanyaan dengan bahasamu sendiri ya. Kamu memiliki maksimal dua kesempatan untuk menjawab setiap pertanyaan.
+
+Tahap 1 - Memahami Masalah
+Pertanyaan 1: Menurutmu, informasi apa saja yang diketahui dari gambar tantangan tersebut? Tuliskan informasi penting yang kamu temukan tentang kertas kado dan kedua kotaknya!
+
+Kata Kunci: kertas kado luasnya 1.200 cm2; Kotak Biru (p=15, l=8, t=5); Kotak Kuning (p=12, l=10, t=6) 
+
+Jawaban Benar: (Menyebutkan semua informasi ukuran kertas kado dan kedua kotak)
+1.	Ada kertas kado luasnya 1.200 cm2. Terus Kotak Biru panjangnya 15 cm, lebar 8 cm, tinggi 5 cm. Kalau Kotak Kuning panjangnya 12 cm, lebar 10 cm, tinggi 6 cm. ATAU 
+2.	Kertas kadonya punya luas total 1.200 cm2. Terus ada Kotak Biru ukuran ukurannya 15 x 8 x 5 cm dan Kotak Kuning ukurannya 12 x 10 x 6 cm. 
+Feedback Benar: Hebat! Kamu berhasil menemukan semua informasi penting pada soal cerita. Sekarang kita cari tahu apa yang harus kita selesaikan.
+
+Jawaban Sebagian Benar: (Hanya menyebutkan ukuran kertas kado, atau hanya salah satu ukuran kotak saja)
+1.	Diketahui luas kertas kado 1.200 cm2 sama ada Kotak Biru dan Kotak Kuning. ATAU 
+2.	Ada Kotak Biru ukuran 15 x 8 x 5 cm sama Kotak Kuning ukuran 12 x 10 x 6 cm. 
+Feedback Sebagian Benar: Bagus! Kamu sudah menemukan sebagian informasi penting. Coba amati gambar sekali lagi dengan teliti. Tuliskan ukuran lengkap dari kertas kado sekaligus kedua kotak tersebut ya. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu. 
+
+Jawaban Kurang Tepat: (Hanya menyebutkan nama benda tanpa disertai ukuran angka)
+1.	Ada gambar kertas kado dan kotak mainan berwarna biru dan kuning. ATAU
+2.	Ada gambar kertas kado dan kotak mainan. 
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Yuk, baca kembali teks dan angka yang ada pada gambar. Catat berapa luas total kertas kadonya, serta berapa angka panjang, lebar, dan tinggi dari Kotak Biru dan Kotak Kuning. Kamu masih memiliki satu kesempatan untuk mencoba lagi. 
+
+Jika Percobaan Kedua Masih Belum Tepat: Terima kasih sudah mencoba! Informasi yang diketahui pada gambar tantangan adalah:
+1.	Kertas kado memiliki luas total 1.200 cm2.
+2.	Kotak Biru berukuran p = 15 cm, l = 8 cm, dan t = 5 cm. 
+3.	Kotak Kuning berukuran p = 12 cm, l = 10 cm, dan t = 6 cm. Yuk, kita lanjut ke pertanyaan berikutnya! 
+
+Pertanyaan 2: Menurutmu, apa saja masalah atau pertanyaan yang harus diselesaikan dari tantangan Kakak Penjaga tersebut?
+
+Kata Kunci: mencari volume kedua kotak; mencari kotak dengan sisa kertas kado paling banyak 
+
+Jawaban Benar: (Menyebutkan tantangan mencari volume dan membandingkan sisa kertas kado)
+1.	Tantangannya kita disuruh cari tahu volume dari kedua kotak, terus memilih kotak mana yang kalau dibungkus sisa kertas kadonya paling banyak. ATAU 
+2.	Kita harus menghitung volume Kotak Biru dan Kuning, terus mencari tahu kotak mana yang menyisakan kertas kado paling banyak. 
+Feedback Benar: Hebat! Kamu sudah memahami dengan tepat masalah yang harus diselesaikan. Sekarang kita tentukan rumus apa saja yang akan digunakan untuk menjawab tantangan tersebut.
+
+Jawaban Sebagian Benar: (Hanya menyebutkan salah satu dari dua perintah soal)
+1.	Kita disuruh mencari volume dari kedua kotaknya. ATAU 
+2.	Masalahnya adalah memilih kotak yang sisa kertas kadonya paling banyak. 
+Feedback Sebagian Benar: Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian masalahnya. Coba perhatikan lagi balon ucapan Kakak Penjaga di bagian bawah gambar, ada dua hal lho yang diminta untuk dicari. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu. 
+
+Jawaban Kurang Tepat: (Jawaban asal atau di luar perintah gambar)
+1.	Kita disuruh beli kertas kado seharga Rp5.000. ATAU
+2.	Kita di suruh milih kotak mainan.
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Yuk, baca kembali balon ucapan dari tokoh anak perempuan dan Kakak Penjaga pada gambar. Perhatikan hal apa yang harus dicari nilainya dan kotak mana yang harus dipilih. Kamu masih memiliki satu kesempatan untuk mencoba lagi. 
+
+Jika Percobaan Kedua Masih Belum Tepat: Terima kasih sudah mencoba! Masalah yang harus diselesaikan pada tantangan ini adalah menghitung volume dari kedua kotak serta mencari tahu kotak mana yang menyisakan kertas kado paling banyak setelah dibungkus. Yuk, kita lanjut ke langkah berikutnya! 
+
+Tahap 2 - Merencanakan Penyelesaian
+Pertanyaan 3: Rumus-rumus apa saja yang akan kamu gunakan untuk menghitung volume dan mengetahui sisa kertas kado dari kotak balok tersebut? Jelaskan jawabanmu!
+
+Kata Kunci: rumus volume balok (p x l x t); rumus luas permukaan balok (2 x (pl + lt + pt)) 
+
+Jawaban Benar: (Menyebutkan kedua rumus dengan tepat)
+1.	Aku pakai rumus volume balok yaitu p x l x t buat cari isi kotaknya, sama rumus luas permukaan balok 2 x ((p x l) + (l x t) + (p x t)) buat menghitung kertas kado yang dipakai. ATAU 
+2.	Rumusnya ada dua. Buat volumenya pakai panjang x lebar x tinggi, terus buat tahu bungkus kertas kadonya pakai rumus luas permukaan balok. 
+Feedback Benar: Hebat! Kamu sudah memilih strategi dan rumus yang sangat tepat. Sekarang, yuk kita mulai menghitung volume kedua kotak tersebut terlebih dahulu!
+
+Jawaban Sebagian Benar: (Hanya menyebutkan salah satu rumus)
+1.	Pakai rumus volume balok yaitu panjang x lebar x tinggi. ATAU 
+2.	Pakai rumus luas permukaan balok biar tahu kertas yang dipakai pas atau tidak. 
+Feedback Sebagian Benar: Bagus! Kamu sudah menyebutkan salah satu rumus dengan benar. Tapi ingat, selain menghitung volume, kita kan juga harus tahu bungkus kotak mana yang menyisakan kertas paling banyak. Berarti butuh rumus luas apa ya? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+
+Jawaban Kurang Tepat: (Menyebutkan rumus kubus atau bangun datar)
+1.	Pakai rumus kubus s x s x s sama luas persegi. ATAU
+2.	Pakai rumus kubus s x s x s
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Karena kedua kotak berbentuk balok, coba ingat kembali rumus volume balok dan rumus untuk menghitung seluruh area kulit atau permukaan balok. Kamu masih memiliki satu kesempatan untuk mencoba lagi. 
+
+Jika Percobaan Kedua Masih Belum Tepat: Terima kasih sudah mencoba! Untuk menyelesaikan tantangan ini, kita menggunakan rumus volume balok yaitu V = p x l x t, dan rumus luas permukaan balok yaitu LP = 2 x ((p x l) + (l x t) + (p x t)) untuk menghitung sisa kertas kadonya. Yuk, kita mulai menghitung! 
+
+Tahap 3 - Melaksanakan Rencana
+Pertanyaan 4: Sekarang, hitunglah volume dari Kotak Biru dan Kotak Kuning. Tuliskan angka perkaliannya dan hasil akhir volumenya ya!
+Kata Kunci: Vol Biru = 15 x 8 x 5 = 600 cm3 ; Vol Kuning = 12 x 10 x 6 = 720 cm3
+
+Jawaban Benar: (Menuliskan hitungan volume kedua kotak dengan benar)
+1.	Volume Kotak Biru = 15 x 8 x 5 = 600 cm3. Kalau volume Kotak Kuning = 12 x 10 x 6 = 720 cm3. ATAU 
+2.	Kotak Biru volumenya 600 cm3 didapat dari 15 x 8 x 5, terus Kotak Kuning volumenya 720 cm3 didapat dari 12 x 10 x 6. 
+Feedback Benar: Hebat! Perhitungan volumenya sudah benar semua. Volume Kotak Biru adalah 600 cm3 dan volume Kotak Kuning adalah 720 cm3. Sekarang kita lanjut ke bagian mencari tahu sisa kertas kado. 
+
+Jawaban Sebagian Benar: (Hanya menghitung salah satu kotak dengan benar, atau caranya benar tapi ada salah hitung)
+1.	Volume Kotak Biru = 15 x 8 x 5 = 600 cm3, tapi Kotak Kuning belum dihitung. ATAU 
+2.	Kotak Biru = 600, Kotak Kuning = 12 x 10 x 6 = 620 (salah hitung hasil akhir). 
+Feedback Sebagian Benar: Bagus! Perhitunganmu sudah mengarah benar, tapi coba cek kembali perkalian angkanya. Pastikan kamu menghitung volume untuk KEDUA kotak dengan teliti ya. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu. 
+
+Jawaban Kurang Tepat: (Salah cara memasukkan angka atau salah total)
+1.	Kotak Biru = 15 + 8 + 5 = 28, Kotak Kuning = 12 + 10 + 6 = 28.
+2.	Kotak Biru = 15 + 8 + 5 = 28
+3.	Kotak Kuning = 12 + 10 + 6 = 28
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Yuk, ingat lagi rumus volume balok adalah panjang x lebar x tinggi (dikalikan, bukan ditambah). Coba hitung ulang 15 x 8 x 5 untuk Kotak Biru dan 12 x 10 x 6 untuk Kotak Kuning. Kamu masih memiliki satu kesempatan untuk mencoba lagi. 
+
+Jika Percobaan Kedua Masih Belum Tepat: Terima kasih sudah mencoba! Berikut adalah langkah hitungan volume yang benar:
+Volume Kotak Biru: 15 x 8 x 5 = 600 cm3. 
+Volume Kotak Kuning: 12 x 10 x 6 = 720 cm3. Yuk, sekarang kita ke pertanyaan terakhir untuk menentukan pemenang sisa kertas kado! 
+
+Tahap 4 - Memeriksa Kembali
+Pertanyaan 5: Berdasarkan hasil hitungan luas permukaan, kotak mana yang menyisakan kertas kado paling banyak? Tuliskan alasanmu beserta sisa angkanya setelah dikurangi luas total kertas kado (1.200 cm2)
+! 
+
+Kata Kunci: Kotak Biru; LP Biru 470 cm2 (sisa 730); LP Kuning 504 cm2 (sisa 696); sisa Kotak Biru lebih banyak 
+
+Jawaban Benar: (Memilih Kotak Biru dan menyertakan alasan hitungan luas permukaan/sisa kertas kado)
+1.	Kotak Biru. Soalnya luas permukaan Kotak Biru cuma 470 cm2 jadi sisanya masih banyak yaitu 730 cm2. Kalau Kotak Kuning luasnya 504 cm2 (sisa 696 cm2). ATAU 
+2.	Kotak Biru yang paling banyak sisa kertasnya. Karena setelah dihitung pakai rumus luas permukaan, Kotak Biru cuma butuh kertas kado sebesar 470 cm2, lebih kecil dari Kotak Kuning yang butuh 504 cm2. 
+Feedback Benar: Hebat! Jawabanmu luar biasa dan sangat teliti. Kotak yang menyisakan kertas kado paling banyak adalah Kotak Biru karena luas permukaannya paling kecil (470 cm2) sehingga kertas yang tersisa paling melimpah yaitu 730 cm2. Selamat, kamu sudah menyelesaikan seluruh latihan soal pemecahan masalah balok dengan nilai sempurna! 
+
+Jawaban Sebagian Benar: (Memilih Kotak Biru dengan benar tapi alasan hitungannya tidak lengkap atau tidak menuliskan angka sisanya)
+1.	Kotak Biru, karena luas permukaan Kotak Biru lebih kecil dari Kotak Kuning jadi kertas kadonya pasti sisa lebih banyak. ATAU 
+2.	Kotak Biru yang sisanya paling banyak, tapi saya lupa menghitung berapa angka sisa pastinya.
+Feedback Sebagian Benar: Bagus! Pilihan kotakmu sudah benar, yaitu Kotak Biru. Namun, jawabanmu belum lengkap. Coba tuliskan angka hasil hitungan luas permukaan atau sisa kertasnya setelah dikurangi dari 1.200 cm2 agar alasanmu makin kuat! Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu. 
+
+Jawaban Kurang Tepat: (Salah memilih kotak karena keliru menggunakan hasil hitung volume untuk membandingkan kertas)
+1.	Kotak Kuning, karena volumenya 720 cm3 jadi paling besar. ATAU 
+2.	Kotak Kuning karena bentuknya lebih tinggi. 
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Yuk, ingat lagi, kita mau mencari kotak yang menyisakan kertas kado paling banyak. Artinya, kita harus mencari kotak yang luas kulit luarnya (Luas Permukaan) paling kecil atau irit, bukan mencari volume yang paling besar. Coba hitung ulang luas permukaan kedua kotak lalu bandingkan kembali. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+
+Jika Percobaan Kedua Masih Belum Tepat: Terima kasih sudah mencoba! Kotak yang menyisakan kertas kado paling banyak adalah Kotak Biru. 
+Luas Permukaan Kotak Biru = 2 x ((15 x 8) + (8 x 5) + (15 x 5)) = 470 cm2 (Sisa kertas kado: 1.200 - 470 = 730 cm2). 
+Luas Permukaan Kotak Kuning = 2 x ((12 x 10) + (10 x 6) + (12 x 6)) = 504 cm2 (Sisa kertas kado: 1.200 - 504 = 696 cm2). Selamat! Kamu telah menyelesaikan seluruh tahapan latihan pemecahan masalah materi balok. Terus semangat belajar, ya! 
+

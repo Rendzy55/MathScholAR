@@ -1,0 +1,222 @@
+Script Lengkap Evaluasi Chatbot AI - Flipbook Kubus
+Logic Global Chatbot
+1.	Jawaban tidak perlu sama persis dengan jawaban yang tersedia di sini. Penilaian apakah itu benar, sebagian benar ataupun kurang tepat berdasarkan KATA KUNCI.
+2.	Kategori Benar (≥80% Kata kunci muncul): berikan penguatan dan lanjut ke soal berikutnya.
+3.	Kategori Sebagian Benar (50–79% Kata kunci muncul): berikan pertanyaan pemantik dan kesempatan kedua.
+4.	Kategori Kurang Tepat (<50% Kata kunci muncul): berikan petunjuk mengarah ke materi dan kesempatan kedua.
+5.	Jika memungkinkan berikan peserta didik maksimal 2 percobaan.
+
+Soal 1 - Karakteristik Kubus
+Pertanyaan: Apa yang dimaksud dengan kubus?
+Kata Kunci: bangun ruang, 6 sisi, persegi, sama besar
+Jawaban Benar: 
+1.	Kubus merupakan bangun ruang yang mempunyai enam sisi berbentuk persegi dan semua sisinya sama besar. ATAU
+2.	Kubus adalah bangun ruang yang terdiri atas enam sisi persegi yang ukurannya sama. ATAU
+3.	Bangun ruang yang memiliki enam sisi berbentuk persegi dengan ukuran sama disebut kubus.
+Feedback Jika Benar: Hebat! Jawabanmu sudah tepat. Kubus merupakan bangun ruang yang memiliki 6 sisi berbentuk persegi dengan ukuran yang sama.
+Jawaban Sebagian Benar: Kategori jika 2 dari 3 konsep muncul
+1.	Kubus adalah bangun ruang yang memiliki enam sisi. ATAU
+2.	Kubus memiliki enam sisi berbentuk persegi. ATAU
+3.	Kubus adalah bangun ruang yang semua sisinya sama besar.
+Feedback Jika Sebagian Benar: Jawabanmu sudah mengarah benar. Kamu sudah mengetahui bahwa kubus memiliki 6 sisi. Coba ingat kembali, bentuk dari setiap sisi kubus seperti apa?
+Jawaban Kurang Tepat: Kategori jika 0–1 konsep yang benar
+1.	Kubus adalah bangun yang kotak. ATAU
+2.	Kubus adalah bangun datar. ATAU
+3.	Kubus mempunyai empat sisi.
+Feedback Jika Kurang Tepat: Jawabanmu masih belum tepat. Yuk, ingat kembali materi tentang kubus. Apakah kubus termasuk bangun datar atau bangun ruang? Setelah itu, coba pikirkan berapa jumlah sisi dan bagaimana bentuk setiap sisinya. Kamu masih punya satu kesempatan lagi.
+Jika percobaan kedua masih belum tepat : 
+Soal 2 - Karakteristik Kubus
+Pertanyaan: Berapa jumlah sisi, rusuk, dan titik sudut yang dimiliki kubus?
+Kata Kunci: 6 sisi, 12 rusuk, 8 titik sudut
+Jawaban Benar: 
+1.	Kubus mempunyai enam sisi, dua belas rusuk, dan delapan titik sudut. ATAU
+2.	Jumlah sisi kubus ada 6, rusuknya 12, dan titik sudutnya 8. ATAU
+3.	Kubus terdiri atas 6 sisi, 12 rusuk, serta 8 titik sudut.
+
+Feedback Jika Benar: Bagus sekali! Kubus memiliki 6 sisi, 12 rusuk, dan 8 titik sudut.
+Jawaban Sebagian Benar: Kategori jika 2 dari 3 kata kunci muncul
+1.	Kubus memiliki 6 sisi dan 12 rusuk. ATAU
+2.	Kubus memiliki 6 sisi dan 8 titik sudut. ATAU
+3.	Kubus memiliki 12 rusuk dan 8 titik sudut.
+Feedback Jika Sebagian Benar: Bagus! Sebagian jawabanmu sudah benar. Kamu sudah menyebutkan beberapa bagian kubus dengan tepat. Sekarang coba ingat kembali, masih ada satu bagian lagi yang belum kamu sebutkan. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+Jawaban Kurang Tepat: Kategori jika 0–1 kata kunci yang benar
+1.	Kubus memiliki 4 sisi. ATAU
+2.	Kubus memiliki 12 rusuk. ATAU
+3.	Kubus memiliki 6 sisi dan 10 titik sudut.
+Feedback Jika Kurang Tepat: Coba amati kembali gambar kubus pada materi. Hitung kembali jumlah sisi, rusuk, dan titik sudutnya.
+Jika percobaan kedua masih belum tepat : Terima kasih sudah mencoba! Jawaban yang benar adalah: kubus memiliki 6 sisi, 12 rusuk, dan 8 titik sudut. Yuk, kita lanjut ke soal berikutnya!
+Soal 3 - Jaring-jaring Kubus
+Pertanyaan: Mengapa jaring-jaring kubus dapat membantu kita mengetahui luas permukaan kubus?
+Kata Kunci: semua sisi kubus terlihat/dibuka; luas seluruh permukaan dapat dihitung
+Jawaban Benar: 
+1.	Karena semua sisi kubus terlihat sehingga kita dapat menghitung luas seluruh permukaannya. ATAU
+2.	Jaring-jaring membuka semua sisi kubus sehingga seluruh permukaan bisa dihitung luasnya. ATAU
+3.	Dengan jaring-jaring, semua sisi kubus terlihat sehingga lebih mudah menghitung luas permukaan kubus. ATAU
+4.	Semua sisi kubus menjadi terlihat ketika dibuka menjadi jaring-jaring sehingga luas setiap sisi dapat dihitung lalu dijumlahkan.
+Feedback Jika Benar: Bagus! Karena semua sisi kubus terlihat pada jaring-jaring, kita dapat menghitung luas seluruh permukaannya.
+Jawaban Sebagian Benar: Kategori jika hanya satu konsep muncul
+1.	Karena semua sisi kubus terlihat. ATAU
+2.	Agar kita bisa menghitung luas permukaannya. ATAU
+3.	Supaya lebih mudah menghitung luas kubus.
+Feedback Jika Sebagian Benar: Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui salah satu manfaat jaring-jaring kubus. Sekarang coba pikirkan lagi, apa yang terjadi pada semua sisi kubus ketika dibentuk menjadi jaring-jaring sehingga luas permukaannya dapat dihitung?
+Jawaban Kurang Tepat: Kategori jika tidak ada konsep yang benar
+1.	Karena bentuknya kotak. ATAU
+2.	Agar kubus bisa dibuat. ATAU
+3.	Karena jaring-jaring itu terdiri dari garis. ATAU
+4.	Supaya kubus menjadi lebih besar.
+Feedback Jika Kurang Tepat: Jawabanmu masih belum tepat. Yuk, perhatikan kembali materi tentang jaring-jaring kubus. Coba amati apa yang terjadi ketika kubus dibuka menjadi jaring-jaring, lalu pikirkan bagaimana hal itu membantu menghitung luas permukaannya. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+Jika percobaan kedua masih belum tepat : Terima kasih sudah mencoba! Jawaban yang benar adalah: jaring-jaring kubus membantu kita mengetahui luas permukaan karena semua sisi kubus terlihat sehingga luas seluruh permukaannya dapat dihitung. Yuk, kita lanjut ke soal berikutnya!
+Soal 4 - Luas Permukaan Kubus
+Pertanyaan: Bagaimana cara menghitung luas permukaan kubus?
+Kata Kunci: s×s; 6 sisi; 6×s×s
+Jawaban Benar: 
+1.	Luas permukaan kubus dihitung dengan mencari luas satu sisi (s × s), kemudian dikalikan 6 karena kubus memiliki 6 sisi yang sama besar. Jadi, rumus luas permukaan kubus adalah 6 × s × s. ATAU
+2.	Luas permukaan kubus diperoleh dengan menghitung luas satu sisi, kemudian dikalikan enam karena kubus memiliki enam sisi. ATAU
+3.	Rumus luas permukaan kubus adalah 6 × s × s karena terdapat enam sisi yang luasnya sama. ATAU
+4.	Hitung dulu s × s, lalu hasilnya dikalikan 6 karena kubus memiliki enam sisi.
+Feedback Jika Benar: Hebat! Jawabanmu sudah tepat. Luas permukaan kubus diperoleh dengan menghitung luas satu sisi (s × s), kemudian dikalikan 6 karena kubus memiliki enam sisi yang sama besar.
+Jawaban Sebagian Benar: Kategori jika 2 dari 3 konsep muncul
+1.	Rumusnya 6 × s × s. ATAU
+2.	Luas satu sisi dihitung dengan s × s kemudian dikalikan enam. ATAU
+3.	Karena kubus memiliki enam sisi maka dikalikan enam.
+Feedback Jika Sebagian Benar: Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian cara menghitung luas permukaan kubus. Sekarang coba ingat kembali, mengapa hasil luas satu sisi perlu dikalikan 6? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+Jawaban Kurang Tepat: Kategori jika 0–1 konsep yang benar
+1.	Rumusnya s × s. ATAU
+2.	Luas kubus adalah panjang × lebar. ATAU
+3.	6 + s + s.
+Feedback Jika Kurang Tepat: Jawabanmu masih belum tepat. Yuk, ingat kembali bagaimana cara menghitung luas satu sisi kubus, kemudian pikirkan mengapa hasilnya perlu dikalikan dengan jumlah seluruh sisi kubus. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+Jika percobaan kedua masih belum tepat : Terima kasih sudah mencoba! Jawaban yang benar adalah: luas permukaan kubus dihitung dengan mencari luas satu sisi (s × s), kemudian dikalikan 6 karena kubus memiliki enam sisi yang sama besar. Rumusnya adalah 6 × s × s. Yuk, kita lanjut ke soal berikutnya!
+Soal 5 - Volume Kubus
+Pertanyaan: Mengapa volume kubus dihitung dengan rumus s × s × s?
+Kata Kunci: panjang × lebar × tinggi; panjang, lebar dan tinggi sama panjang; s × s × s.
+Jawaban Benar: 
+1.	Volume kubus dihitung dengan rumus s × s × s karena volume diperoleh dari panjang × lebar × tinggi, sedangkan pada kubus panjang, lebar, dan tingginya sama panjang sehingga semuanya dapat diganti dengan s. ATAU
+2.	Volume kubus dihitung dengan s × s × s karena panjang, lebar, dan tinggi kubus sama panjang. ATAU
+3.	Rumus volume berasal dari panjang × lebar × tinggi, tetapi karena semua ukurannya sama maka menjadi s × s × s. ATAU
+4.	Kubus memiliki panjang, lebar, dan tinggi yang sama sehingga rumus volumenya menjadi s × s × s.
+Feedback Jika Benar: Hebat! Jawabanmu sudah tepat. Volume kubus dihitung dari panjang × lebar × tinggi. Karena pada kubus ketiga ukurannya sama panjang, rumusnya menjadi s × s × s.
+Jawaban Sebagian Benar: Kategori jika 2 dari 3 konsep muncul
+1.	Karena panjang, lebar, dan tingginya sama. ATAU
+2.	Karena rumus volume adalah panjang × lebar × tinggi. ATAU
+3.	Karena rumusnya menjadi s × s × s.
+Feedback Jika Sebagian Benar: Bagus! Jawabanmu sudah mengarah benar. Kamu sudah memahami sebagian alasan rumus volume kubus. Sekarang coba pikirkan lagi, mengapa panjang, lebar, dan tinggi pada kubus dapat ditulis dengan huruf s? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+Jawaban Kurang Tepat: Kategori jika 0–1 konsep yang benar
+1.	Karena kubus memiliki enam sisi. ATAU
+2.	Karena bentuknya persegi. ATAU
+3.	Volume dihitung dengan dijumlahkan. ATAU
+4.	Karena s adalah sisi kubus.
+Feedback Jika Kurang Tepat: Jawabanmu masih belum tepat. Yuk, ingat kembali bagaimana cara menghitung volume suatu bangun ruang. Setelah itu, pikirkan apa yang membuat rumus tersebut menjadi s × s × s pada kubus. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+Jika percobaan kedua masih belum tepat : Terima kasih sudah mencoba! Jawaban yang benar adalah: volume kubus dihitung dengan rumus s × s × s karena volume berasal dari panjang × lebar × tinggi, sedangkan pada kubus panjang, lebar, dan tingginya sama panjang sehingga semuanya dapat ditulis sebagai s. Selamat, kamu telah menyelesaikan seluruh soal evaluasi!
+
+
+=====SOAL logic =====
+
+Script Chatbot AI - Latihan Soal PBL Kubus (Draft Awal)
+Sapaan Awal
+Halo, teman hebat! 😊 Yuk, kita selesaikan masalah pada cerita tadi bersama-sama. Kita akan mengerjakannya langkah demi langkah. Jawablah setiap pertanyaan dengan bahasamu sendiri ya. Kamu memiliki maksimal dua kesempatan untuk menjawab setiap pertanyaan.
+
+Tahap 1 - Memahami Masalah
+Pertanyaan 1: Menurutmu, informasi apa saja yang diketahui dari cerita pada soal? Tuliskan semua informasi penting yang kamu temukan.
+Kata Kunci: kotak berbentuk kubus; rusuk 20 cm; perkiraan volume 6.000 cm³
+Jawaban Benar: Menyebutkan ketiga informasi penting.
+1.	Diketahui kotak berbentuk kubus, panjang rusuknya 20 cm, dan kakak penjaga memperkirakan volumenya 6.000 cm³. ATAU
+2.	Informasi yang diketahui adalah kotak berbentuk kubus dengan panjang rusuk 20 cm serta perkiraan volume kotaknya 6.000 cm³. ATAU
+3.	Kotaknya berbentuk kubus, rusuknya 20 cm, dan volume yang diperkirakan kakak penjaga adalah 6.000 cm³.
+Feedback Benar: Hebat! Kamu berhasil menemukan informasi penting pada soal. Sekarang kita cari tahu apa yang harus diselesaikan.
+Jawaban Sebagian Benar: Menyebutkan 2 dari 3 informasi penting.
+1.	Diketahui kotak berbentuk kubus dan panjang rusuknya 20 cm. ATAU
+2.	Diketahui rusuk kubus 20 cm dan volumenya diperkirakan 6.000 cm³. ATAU
+3.	Kotaknya berbentuk kubus dan volumenya diperkirakan 6.000 cm³.
+Feedback Sebagian: Bagus! Kamu sudah menemukan sebagian informasi penting pada soal. Coba baca kembali cerita dengan teliti. Masih ada satu informasi penting yang belum kamu tuliskan. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+Jawaban Kurang Tepat: Hanya menyebutkan 0–1 informasi atau keliru.
+1.	Diketahui ada sebuah kotak. ATAU
+2.	Diketahui volume kubus. ATAU
+3.	Diketahui rusuknya panjang.
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Yuk, baca kembali cerita pada soal. Perhatikan bentuk kotaknya, panjang rusuknya, dan perkiraan volume yang disebutkan oleh kakak penjaga. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+Jika Percobaan Kedua Masih Belum Tepat : Terima kasih sudah mencoba! Informasi yang diketahui pada soal adalah:
+•	Kotak berbentuk kubus. 
+•	Panjang rusuk kotak 20 cm. 
+•	Kakak penjaga memperkirakan volume kotak sebesar 6.000 cm³. 
+Yuk, kita lanjut ke pertanyaan berikutnya!
+
+Tahap 1 - Memahami Masalah
+Pertanyaan 2: Menurutmu, apa masalah yang harus diselesaikan pada soal tersebut?
+Kata Kunci: menentukan volume kubus; memeriksa apakah perkiraan 6.000 cm³ benar
+Jawaban Benar: menyebutkan bahwa harus menghitung volume dan memeriksa kebenaran perkiraan.
+1.	Masalah yang harus diselesaikan adalah menghitung volume kotak berbentuk kubus dan memeriksa apakah perkiraan volume 6.000 cm³ sudah benar. ATAU
+2.	Kita harus mencari volume kubus terlebih dahulu, kemudian membandingkannya dengan perkiraan kakak penjaga. ATAU
+3.	Yang harus dicari adalah volume kubus dan apakah perkiraan volume 6.000 cm³ sesuai dengan hasil perhitungan. ATAU
+4.	Kita perlu menghitung volume kotak, lalu membuktikan apakah perkiraan kakak penjaga benar atau salah.
+Feedback Benar: Hebat! Kamu sudah memahami dengan tepat masalah yang harus diselesaikan. Sekarang kita tentukan langkah atau rumus yang akan digunakan untuk menyelesaikan masalah tersebut.
+Jawaban Sebagian Benar: hanya satu dari dua konsep utama yang muncul.
+1.	Yang harus dicari adalah volume kubus. ATAU
+2.	Kita harus membuktikan apakah perkiraan kakak penjaga benar. ATAU
+3.	Kita harus mengetahui jawaban dari soal cerita.
+Feedback Sebagian: Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian masalah yang harus diselesaikan. Coba pikirkan lagi, setelah menghitung volume kubus, apa yang perlu dilakukan terhadap perkiraan yang disampaikan kakak penjaga? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+Jawaban Kurang Tepat: kategori ini jika tidak ada konsep utama yang muncul atau jawaban tidak sesuai dengan isi soal.
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Yuk, baca kembali bagian akhir cerita pada soal. Perhatikan apa yang ingin dibuktikan berdasarkan hasil perhitungan volume kubus. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+Jika Percobaan Kedua Masih Belum Tepat : Terima kasih sudah mencoba! Masalah yang harus diselesaikan pada soal adalah menghitung volume kotak berbentuk kubus, kemudian memeriksa apakah perkiraan volume 6.000 cm³ yang disampaikan kakak penjaga sudah benar atau belum. Yuk, kita lanjut ke langkah berikutnya!
+
+Tahap 2 - Merencanakan Penyelesaian
+Pertanyaan 3: Langkah atau rumus apa yang akan kamu gunakan untuk menyelesaikan masalah tersebut? Jelaskan alasanmu.
+Kata Kunci: rumus volume kubus; V = s × s × s atau V = s³
+Jawaban Benar: Menggunakan rumus volume kubus 
+1.	Aku akan menggunakan rumus volume kubus, yaitu V = s × s × s, karena yang dicari adalah volume kubus. ATAU
+2.	Rumus yang digunakan adalah s × s × s, karena volume kubus dihitung dari panjang × lebar × tinggi dan semua ukurannya sama. ATAU
+3.	Langkah pertama adalah menggunakan rumus volume kubus, kemudian memasukkan panjang rusuk yang sudah diketahui ke dalam rumus.
+Feedback Benar: Hebat! Kamu sudah memilih strategi yang tepat untuk menyelesaikan masalah. Sekarang, yuk gunakan rumus tersebut untuk menghitung volume kubus pada soal.
+Jawaban Kurang Tepat: Rumus tidak sesuai.
+1.	Menggunakan rumus luas permukaan kubus. ATAU
+2.	Menggunakan rumus keliling persegi. ATAU
+3.	Menggunakan rumus luas persegi. 
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Coba ingat kembali, apa yang ingin dicari pada soal ini? Apakah luas, keliling, atau volume? Setelah itu, pilih rumus yang sesuai. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+Jika Percobaan Kedua Masih Belum Tepat : Terima kasih sudah mencoba! Untuk menyelesaikan soal ini, kita menggunakan rumus volume kubus, yaitu V = s × s × s atau V = s³. Yuk, kita lanjut menghitung volumenya!
+Tahap 3 - Melaksanakan Rencana
+Pertanyaan 4: Sekarang, hitunglah volume kotak berbentuk kubus menggunakan panjang rusuk yang telah diketahui. Tuliskan langkah-langkah perhitunganmu hingga memperoleh hasil akhirnya!
+Kata Kunci: V = s × s × s atau V = s³; mengganti nilai s = 20 cm; 20 × 20 × 20; 8.000 cm³
+Jawaban Benar: Menuliskan proses hingga hasil 8.000 cm³.
+1.	V = s × s × s
+V = 20 × 20 × 20
+V = 8.000 cm³ ATAU
+2.	Volume kubus = 20 × 20 × 20 = 8.000 cm³. ATAU
+3.	V = s³
+V = 20³
+V = 8.000 cm³
+Feedback Benar: Hebat! Perhitunganmu sudah benar. Kamu berhasil menerapkan rumus volume kubus dengan tepat dan memperoleh hasil volume sebesar 8.000 cm³. Sekarang kita akan memeriksa kembali apakah hasil tersebut sesuai dengan perkiraan kakak penjaga.
+Jawaban Sebagian Benar: Hasil benar tetapi proses tidak lengkap, atau proses benar tetapi salah hitung kecil.
+1.	20 × 20 × 20 = 8.000 ATAU
+2.	V = s × s × s 
+V = 20 × 20 × 20 ATAU
+3.	Volume kubus = 8.000 cm³.
+Feedback Sebagian: Bagus! Cara yang kamu gunakan sudah mengarah benar. Coba periksa kembali langkah perhitunganmu. Pastikan semua proses sudah dituliskan dengan lengkap dan hasil akhirnya sesuai. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+Jawaban Kurang Tepat: Proses dan hasil tidak sesuai.
+1.	V = 20 + 20 + 20 = 60 cm³ ATAU
+2.	V = 20 × 20 = 400 cm³ ATAU
+3.	Volume = 120 cm³
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Yuk, ingat kembali rumus volume kubus yang sudah kamu pilih pada langkah sebelumnya. Setelah itu, masukkan panjang rusuk 20 cm ke dalam rumus dan hitung kembali dengan teliti. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+Jika Percobaan Kedua Masih Belum Tepat : Terima kasih sudah mencoba! Berikut langkah perhitungan yang benar.
+V = s × s × s
+V = 20 × 20 × 20
+V = 8.000 cm³
+Jadi, volume kotak berbentuk kubus tersebut adalah 8.000 cm³. Yuk, kita lanjut ke pertanyaan terakhir!
+
+Tahap 4 - Memeriksa Kembali
+Pertanyaan 5: Berdasarkan hasil perhitungan yang telah kamu peroleh, apakah kamu setuju dengan perkiraan volume kotak sebesar 6.000 cm³ yang disampaikan oleh kakak penjaga? Jelaskan alasanmu menggunakan hasil perhitunganmu.
+Kata Kunci: tidak setuju; volume sebenarnya 8.000 cm³; hasil berbeda dengan perkiraan 6.000 cm³; selisih 2.000 cm³; alasan berdasarkan hasil perhitungan
+Jawaban Benar: Jawaban dikategorikan benar jika memberikan keputusan (setuju/tidak setuju), menggunakan hasil perhitungan sebagai bukti, dan menjelaskan alasan dengan benar.
+1.	Aku tidak setuju, karena hasil perhitungan volume kubus adalah 8.000 cm³, sedangkan kakak penjaga memperkirakan 6.000 cm³. ATAU
+2.	Menurut aku, perkiraan kakak penjaga kurang tepat karena volume sebenarnya adalah 8.000 cm³, sehingga berbeda dengan perkiraan 6.000 cm³.
+Feedback Benar: Hebat! Kamu berhasil memeriksa kembali hasil perhitunganmu dan memberikan alasan yang tepat. Kamu telah menunjukkan bahwa perkiraan kakak penjaga tidak sesuai karena volume sebenarnya adalah 8.000 cm³. Selamat, kamu sudah menyelesaikan latihan pemecahan masalah dengan sangat baik!
+Jawaban Sebagian Benar: Kategori ini jika siswa sudah memberikan keputusan, tetapi alasannya belum lengkap atau belum menggunakan hasil perhitungan sebagai bukti.
+1.	Aku tidak setuju. ATAU
+2.	Perkiraan kakak penjaga salah. ATAU
+3.	Aku tidak setuju karena hasilnya berbeda. ATAU
+4.	Volume yang benar 8.000 cm³.
+Feedback Sebagian: Bagus! Jawabanmu sudah mengarah benar. Kamu sudah menentukan apakah perkiraan kakak penjaga benar atau tidak. Sekarang coba jelaskan alasanmu menggunakan hasil perhitungan yang telah kamu peroleh. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+Jawaban Kurang Tepat: 
+1.	Aku setuju karena hasilnya 6.000 cm³. ATAU
+2.	Aku setuju karena kakak penjaga pasti benar. ATAU
+3.	Volume kubus adalah 6.000 cm³.
+
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Yuk, lihat kembali hasil perhitungan volume yang sudah kamu peroleh. Bandingkan hasil tersebut dengan perkiraan 6.000 cm³ yang disampaikan kakak penjaga. Apakah keduanya sama? Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+Jika Percobaan Kedua Masih Belum Tepat : Terima kasih sudah mencoba! Hasil perhitungan menunjukkan bahwa volume kubus adalah 8.000 cm³. Oleh karena itu, perkiraan volume sebesar 6.000 cm³ yang disampaikan oleh kakak penjaga belum tepat karena berbeda sebesar 2.000 cm³. Selamat! Kamu telah menyelesaikan seluruh tahapan pemecahan masalah. Terus semangat belajar!

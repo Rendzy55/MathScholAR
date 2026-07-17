@@ -99,15 +99,9 @@ class SplashActivity : AppCompatActivity() {
         }, 2000)
 
         // Step 4: Button entry
+        // Step 4: Button entry / Update Check
         handler.postDelayed({
-            btnInitialize.animate()
-                .alpha(1f)
-                .scaleX(1.1f).scaleY(1.1f)
-                .setDuration(500)
-                .withEndAction {
-                    btnInitialize.animate().scaleX(1f).scaleY(1f).setDuration(200).start()
-                }
-                .start()
+            checkUpdate()
         }, 3500)
     }
 
@@ -154,6 +148,82 @@ class SplashActivity : AppCompatActivity() {
         startActivity(intent)
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         finish()
+    }
+
+    private fun checkUpdate() {
+        val viewModel = androidx.lifecycle.ViewModelProvider(this)[SplashViewModel::class.java]
+        
+        viewModel.updateState.observe(this) { state ->
+            when (state) {
+                is SplashViewModel.UpdateState.Checking -> {
+                    tvSystemStatus.text = "Memeriksa pembaruan..."
+                }
+                is SplashViewModel.UpdateState.NoUpdate -> {
+                    tvSystemStatus.text = "Sistem Siap"
+                    btnInitialize.animate()
+                        .alpha(1f)
+                        .scaleX(1.1f).scaleY(1.1f)
+                        .setDuration(500)
+                        .withEndAction {
+                            btnInitialize.animate().scaleX(1f).scaleY(1f).setDuration(200).start()
+                        }
+                        .start()
+                }
+                is SplashViewModel.UpdateState.UpdateAvailable -> {
+                    tvSystemStatus.text = "Pembaruan Tersedia"
+                    showUpdateDialog(viewModel, state.version)
+                }
+                is SplashViewModel.UpdateState.Downloading -> {
+                    tvSystemStatus.text = "Mengunduh pembaruan..."
+                }
+                is SplashViewModel.UpdateState.DownloadReady -> {
+                    tvSystemStatus.text = "Menginstal pembaruan..."
+                    installApk(state.file)
+                }
+                is SplashViewModel.UpdateState.Error -> {
+                    tvSystemStatus.text = "Sistem Siap (Offline)"
+                    // Fallback to start
+                    btnInitialize.animate().alpha(1f).start()
+                }
+            }
+        }
+
+        viewModel.downloadProgress.observe(this) { progress ->
+            pbSplash.progress = progress
+            tvSystemStatus.text = "Mengunduh pembaruan... $progress%"
+        }
+
+        viewModel.checkForUpdate()
+    }
+
+    private fun showUpdateDialog(viewModel: SplashViewModel, version: com.explorebyte.ar.data.remote.AppVersionResponse) {
+        val builder = androidx.appcompat.app.AlertDialog.Builder(this)
+        builder.setTitle("Pembaruan Wajib Tersedia")
+        builder.setMessage("Versi terbaru (${version.version_name ?: version.version_code}) telah tersedia.\n\nCatatan:\n${version.message ?: "-"}")
+        builder.setCancelable(false)
+        builder.setPositiveButton("Download & Update") { _, _ ->
+            version.apk_url?.let {
+                viewModel.downloadApk(it)
+            }
+        }
+        builder.show()
+    }
+
+    private fun installApk(file: java.io.File) {
+        try {
+            val intent = Intent(Intent.ACTION_VIEW)
+            val uri = androidx.core.content.FileProvider.getUriForFile(
+                this,
+                "${applicationId}.fileprovider",
+                file
+            )
+            intent.setDataAndType(uri, "application/vnd.android.package-archive")
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_GRANT_READ_URI_PERMISSION
+            startActivity(intent)
+        } catch (e: Exception) {
+            e.printStackTrace()
+            tvSystemStatus.text = "Gagal membuka installer"
+        }
     }
 
     override fun onDestroy() {

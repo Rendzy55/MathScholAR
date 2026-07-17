@@ -4,12 +4,15 @@ on:
   push:
     branches:
       - main
-      - master # Sesuaikan jika branch utama Anda bernama master
-  workflow_dispatch: # Memungkinkan Anda memicu build secara manual dari tab Actions
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
-    name: Build Signed APK & Send to Telegram
+    name: Build Signed APK & Release
     runs-on: ubuntu-latest
 
     steps:
@@ -20,48 +23,84 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
-          java-version: '17' # Gunakan Java 17 untuk Android modern
+          java-version: '17'
+
+      - name: Extract Version
+        id: extract_version
+        run: |
+          VERSION_CODE=$(grep -oP 'versionCode\s*=\s*\K\d+' app/build.gradle.kts)
+          VERSION_NAME=$(grep -oP 'versionName\s*=\s*"\K[^"]+' app/build.gradle.kts)
+          echo "VERSION_CODE=$VERSION_CODE" >> $GITHUB_ENV
+          echo "VERSION_NAME=$VERSION_NAME" >> $GITHUB_ENV
+          echo "TAG_NAME=v$VERSION_NAME-$VERSION_CODE" >> $GITHUB_ENV
 
       - name: Decode Keystore
         env:
           ENCODED_STRING: ${{ secrets.KEYSTORE_BASE64 }}
         run: |
-          # Mengubah Base64 kembali menjadi file keystore.jks dan menyimpannya di folder app/
           echo "$ENCODED_STRING" | tr -d '\n\r ' | base64 -d > app/keystore.jks
 
-      - name: Buat file local.properties (Untuk API Key AI)
+      - name: Create local.properties
         env:
           DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GROQ_KEY: ${{ secrets.GROQ_API_KEY }}
+          SUPA_URL: ${{ secrets.SUPABASE_URL }}
+          SUPA_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: |
           echo "DEEPSEEK_API_KEY=$DEEPSEEK_KEY" >> local.properties
           echo "GROQ_API_KEY=$GROQ_KEY" >> local.properties
+          echo "SUPABASE_URL=$SUPA_URL" >> local.properties
+          echo "SUPABASE_ANON_KEY=$SUPA_KEY" >> local.properties
 
-      - name: Berikan akses eksekusi untuk gradlew
+      - name: Make gradlew executable
         run: chmod +x gradlew
 
       - name: Build Release APK
         env:
-          # Variabel-variabel ini akan dibaca oleh app/build.gradle.kts
           KEYSTORE_PATH: keystore.jks
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: ./gradlew assembleRelease
 
-      - name: Upload APK ke GitHub Artifacts
-        uses: actions/upload-artifact@v4
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: app-release
-          path: app/build/outputs/apk/release/app-release.apk
+          tag_name: ${{ env.TAG_NAME }}
+          name: Release ${{ env.TAG_NAME }}
+          body: ${{ github.event.head_commit.message }}
+          files: app/build/outputs/apk/release/app-release.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Kirim Notifikasi ke Telegram
+      - name: Update Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          COMMIT_MSG: ${{ github.event.head_commit.message }}
+        run: |
+          APK_URL="https://github.com/${{ github.repository }}/releases/download/${{ env.TAG_NAME }}/app-release.apk"
+          
+          PAYLOAD=$(jq -n \
+            --arg vc "$VERSION_CODE" \
+            --arg vn "$VERSION_NAME" \
+            --arg msg "$COMMIT_MSG" \
+            --arg url "$APK_URL" \
+            '{version_code: ($vc|tonumber), version_name: $vn, message: $msg, apk_url: $url}')
+          
+          curl -X POST "${SUPABASE_URL}/rest/v1/app_versions" \
+            -H "apikey: ${SUPABASE_ANON_KEY}" \
+            -H "Authorization: Bearer ${SUPABASE_ANON_KEY}" \
+            -H "Content-Type: application/json" \
+            -H "Prefer: return=minimal" \
+            -d "$PAYLOAD"
+
+      - name: Send Notification to Telegram
         env:
           TELE_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELE_TO: ${{ secrets.TELEGRAM_TO }}
         run: |
-          # Mengirim pesan teks karena limit Bot Telegram 50MB (sedangkan APK >100MB)
-          MESSAGE="🎉 *Build Release Sukses!*%0A%0AUkuran APK Anda melebihi 50MB sehingga tidak bisa dikirim langsung oleh Bot.%0ASilakan unduh APK di bagian paling bawah (Artifacts) pada halaman berikut:%0Ahttps://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          MESSAGE="🎉 *Rilis Baru Tersedia!*%0A%0AVersi: ${{ env.VERSION_NAME }} (${{ env.VERSION_CODE }})%0APesan: ${{ github.event.head_commit.message }}%0A%0AAPK sudah diunggah dan database Supabase telah diperbarui."
           
           curl -s -X POST "https://api.telegram.org/bot$TELE_TOKEN/sendMessage" \
                -d chat_id="$TELE_TO" \

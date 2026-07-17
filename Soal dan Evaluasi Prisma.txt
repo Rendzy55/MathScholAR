@@ -1,0 +1,223 @@
+Script Lengkap Evaluasi Chatbot AI - Flipbook Prisma
+Logic Global Chatbot
+1.	Jawaban tidak perlu sama persis dengan jawaban yang tersedia di sini. Penilaian apakah itu benar, sebagian benar ataupun kurang tepat berdasarkan KATA KUNCI.
+2.	Kategori Benar (≥80% Kata kunci muncul): berikan penguatan dan lanjut ke soal berikutnya.
+3.	Kategori Sebagian Benar (50–79% Kata kunci muncul): berikan pertanyaan pemantik dan kesempatan kedua.
+4.	Kategori Kurang Tepat (<50% Kata kunci muncul): berikan petunjuk mengarah ke materi dan kesempatan kedua.
+5.	Jika memungkinkan berikan peserta didik maksimal 2 percobaan.
+
+Soal 1 - Karakteristik Prisma
+Pertanyaan: Sebutkan karakteristik prisma segitiga berdasarkan jumlah sisi, rusuk, dan titik sudutnya!
+Kata Kunci: 5 sisi; 9 rusuk; 6 titik sudut
+Jawaban Benar: 
+1.	Prisma segitiga memiliki 5 sisi, 9 rusuk, dan 6 titik sudut. ATAU
+2.	Karakteristik prisma segitiga adalah mempunyai 5 sisi, 9 rusuk, dan 6 titik sudut. ATAU
+3.	Prisma segitiga memiliki 5 sisi, 9 rusuk, dan 6 titik sudut.
+Feedback Jika Benar: Prisma segitiga memiliki 5 sisi, 9 rusuk, dan 6 titik sudut. Kamu sudah berhasil menyebutkan semua karakteristiknya dengan benar. Ayo lanjut ke pertanyaan berikutnya!.
+Jawaban Sebagian Benar: Menyebutkan dua dari tiga kata kunci
+1.	Prisma segitiga memiliki 5 sisi dan 9 rusuk. ATAU
+2.	Prisma segitiga mempunyai 5 sisi dan 6 titik sudut. ATAU
+3.	Prisma segitiga memiliki 9 rusuk dan 6 titik sudut.
+Feedback Jika Sebagian Benar: Jawabanmu sudah cukup baik, tetapi masih ada satu karakteristik yang belum disebutkan. Coba ingat kembali materi pada flipbook. Prisma segitiga memiliki jumlah sisi, rusuk, dan titik sudut tertentu. Yuk, lengkapi jawabanmu sekali lagi!
+Jawaban Kurang Tepat: Hanya menyebutkan satu atau tidak ada kata kunci yang sesuai.
+1.	Prisma segitiga memiliki 5 sisi. ATAU
+2.	Prisma segitiga memiliki banyak sisi dan rusuk.
+Feedback Jika Kurang Tepat: Jawabanmu belum tepat. Petunjuknya, coba perhatikan kembali bagian materi yang menjelaskan jumlah sisi, jumlah rusuk, dan jumlah titik sudut pada prisma segitiga. Ketiga informasi tersebut perlu disebutkan agar jawabanmu lengkap.
+Jika percobaan kedua masih belum tepat : Terima kasih sudah mencoba! Jawaban yang benar adalah prisma segitiga memiliki 5 sisi, 9 rusuk, dan 6 titik sudut. Yuk, lanjut ke pertanyaan berikutnya!
+Soal 2 - Karakteristik Prisma
+Pertanyaan: Apa bentuk sisi-sisi yang dimiliki prisma segitiga?
+Kata Kunci: 2 segitiga; 3 persegi panjang
+Jawaban Benar: Menyebutkan minimal dua kata kunci utama, yaitu 2 segitiga dan 3 persegi panjang.
+1.	Prisma segitiga memiliki 2 sisi berbentuk segitiga dan 3 sisi berbentuk persegi panjang. ATAU
+2.	Prisma segitiga mempunyai 5 sisi, yaitu 2 sisi segitiga dan 3 sisi persegi panjang..
+
+Feedback Jika Benar: Hebat! Jawabanmu sudah benar. Prisma segitiga memiliki 2 sisi berbentuk segitiga dan 3 sisi berbentuk persegi panjang. Kamu sudah berhasil menjelaskan bentuk sisi-sisinya dengan tepat. Yuk, lanjut ke pertanyaan berikutnya
+Jawaban Sebagian Benar: Menyebutkan salah satu kata kunci utama atau menyebutkan bentuk sisi tetapi belum lengkap
+1.	Prisma segitiga memiliki 3 sisi persegi panjang. ATAU
+2.	Prisma segitiga memiliki sisi segitiga dan persegi panjang.
+Feedback Jika Sebagian Benar: Jawabanmu sudah cukup baik, tetapi belum lengkap. Coba ingat kembali materi pada flipbook. Prisma segitiga memiliki dua jenis bentuk sisi. Lengkapi kembali jawabanmu dengan menyebutkan jumlah masing-masing bentuk sisi. Silakan coba sekali lagi!
+Jawaban Kurang Tepat: Tidak menyebutkan bentuk sisi yang benar atau jawaban tidak sesuai dengan materi
+1.	Prisma segitiga memiliki sisi berbentuk persegi. ATAU
+2.	Prisma segitiga memiliki banyak sisi.
+Feedback Jika Kurang Tepat: Jawabanmu belum tepat. Petunjuknya, coba perhatikan kembali materi tentang bentuk sisi-sisi prisma segitiga. Ingat, prisma segitiga memiliki dua jenis bentuk sisi dengan jumlah yang berbeda. Silakan coba sekali lagi!
+Jika percobaan kedua masih belum tepat : Terima kasih sudah berusaha menjawab. Jawaban yang benar adalah prisma segitiga memiliki 2 sisi berbentuk segitiga dan 3 sisi berbentuk persegi panjang. Yuk, kita lanjut ke soal berikutnya!
+Soal 3 - Jaring-Jaring Prisma Segitiga
+Pertanyaan: Mengapa dua segitiga pada jaring-jaring prisma segitiga harus memiliki bentuk dan ukuran yang sama?
+Kata Kunci: bentuk sama; ukuran sama; alas dan tutup
+Jawaban Benar: Menyebutkan minimal dua kata kunci utama, yaitu bentuk sama dan ukuran sama, atau menjelaskan bahwa kedua segitiga merupakan alas dan tutup prisma
+1.	Karena kedua segitiga pada prisma segitiga harus memiliki bentuk dan ukuran yang sama. ATAU
+2.	Dua segitiga harus sama karena menjadi alas dan tutup prisma segitiga sehingga bentuk dan ukurannya sama.
+Feedback Jika Benar: Hebat! Jawabanmu sudah tepat. Kedua segitiga pada jaring-jaring prisma segitiga harus memiliki bentuk dan ukuran yang sama karena menjadi alas dan tutup prisma. Kamu sudah memahami konsep ini dengan baik. Yuk, lanjut ke pertanyaan berikutnya!
+Jawaban Sebagian Benar: Menyebutkan satu hingga dua kata kunci, tetapi penjelasannya belum lengkap
+1.	Karena bentuknya sama. ATAU
+2.	Karena menjadi alas prisma.
+Feedback Jika Sebagian Benar: Jawabanmu sudah mengarah benar, tetapi belum lengkap. Coba ingat kembali materi pada flipbook. Selain memiliki bentuk yang sama, masih ada satu hal lagi yang harus dimiliki oleh kedua segitiga tersebut. Yuk, lengkapi jawabanmu!
+Jawaban Kurang Tepat: Tidak menyebutkan alasan yang sesuai dengan materi atau jawaban tidak berkaitan dengan jaring-jaring prisma segitiga
+1.	Karena semua bangun ruang memiliki segitiga yang sama. ATAU
+2.	Karena agar mudah digambar.
+Feedback Jika Kurang Tepat: Jawabanmu belum tepat. Petunjuknya, coba perhatikan kembali bagian materi tentang jaring-jaring prisma segitiga. Perhatikan mengapa kedua segitiga pada jaring-jaring harus memiliki bentuk dan ukuran tertentu. Silakan coba sekali lagi! 
+Jika percobaan kedua masih belum tepat : Terima kasih sudah mencoba! Jawaban yang benar adalah dua segitiga pada jaring-jaring prisma segitiga harus memiliki bentuk dan ukuran yang sama karena menjadi alas dan tutup prisma segitiga. Yuk, lanjut ke pertanyaan berikutnya! 
+Soal 4 - Luas Permukaan Prisma
+Pertanyaan: Bagaimana cara menghitung luas permukaan prisma segitiga? Jelaskan dengan bahasamu sendiri!
+Kata Kunci: jumlah luas; 3 persegi panjang; 2 segitiga
+Jawaban Benar: Jawaban dikategorikan benar apabila peserta didik menjelaskan bahwa luas permukaan prisma segitiga diperoleh dengan menjumlahkan luas seluruh sisi, yaitu 3 sisi berbentuk persegi panjang dan 2 sisi berbentuk segitiga
+1.	Luas permukaan prisma segitiga dihitung dengan menjumlahkan luas seluruh sisinya, yaitu 3 persegi panjang dan 2 segitiga. ATAU
+2.	Cara menghitung luas permukaan prisma segitiga adalah menjumlahkan luas tiga sisi persegi panjang dan dua sisi segitiga. 
+Feedback Jika Benar: Hebat! Jawabanmu sudah tepat. Kamu sudah memahami bahwa luas permukaan prisma segitiga diperoleh dengan menjumlahkan luas seluruh sisi, yaitu 3 sisi berbentuk persegi panjang dan 2 sisi berbentuk segitiga. Yuk, lanjut ke pertanyaan berikutnya!
+Jawaban Sebagian Benar: Jawaban dikategorikan sebagian benar apabila peserta didik menyebutkan dua dari tiga kata kunci, tetapi penjelasannya belum lengkap.
+1.	Luas permukaan dihitung dengan menjumlahkan 3 persegi panjang. ATAU
+2.	Luas permukaan dihitung dari 2 segitiga dan persegi panjang.
+Feedback Jika Sebagian Benar: Jawabanmu sudah mengarah benar, tetapi masih belum lengkap. Coba ingat kembali materi pada flipbook. Selain menyebutkan cara menghitungnya, coba tuliskan juga bangun datar apa saja yang menyusun luas permukaan prisma segitiga. Silakan coba sekali lagi! 
+Jawaban Kurang Tepat: Jawaban dikategorikan kurang tepat apabila peserta didik hanya menyebutkan satu kata kunci atau memberikan jawaban yang tidak sesuai dengan cara menghitung luas permukaan prisma segitiga.
+1.	Luas permukaan dihitung menggunakan rumus volume. ATAU
+2.	Luas permukaan dihitung dari jumlah rusuk.
+Feedback Jika Kurang Tepat: Jawabanmu masih belum tepat. Petunjuknya, coba baca kembali bagian materi tentang luas permukaan prisma segitiga. Ingat, luas permukaan diperoleh dari jumlah luas seluruh sisi yang menyusun prisma segitiga. Silakan coba sekali lagi!
+Jika percobaan kedua masih belum tepat : Terima kasih sudah mencoba! Jawaban yang benar adalah luas permukaan prisma segitiga dihitung dengan menjumlahkan luas seluruh sisi, yaitu 3 sisi berbentuk persegi panjang dan 2 sisi berbentuk segitiga. Yuk, lanjut ke pertanyaan berikutnya!
+Soal 5 - Volume Prisma Segitiga
+Pertanyaan: Bagaimana cara menentukan volume prisma segitiga? 
+Kata Kunci: luas alas (s x s); tinggi prisma; dikalikan.
+Jawaban Benar: Jawaban dikategorikan benar apabila peserta didik menjelaskan bahwa volume prisma segitiga diperoleh dengan mengalikan luas alas dengan tinggi prisma.
+1.	Volume prisma segitiga dihitung dengan mengalikan luas alas dengan tinggi prisma. ATAU
+2.	Cara menentukan volume prisma segitiga adalah luas alas dikalikan tinggi prisma.
+Feedback Jika Benar: Hebat! Jawabanmu sudah tepat. Kamu sudah memahami bahwa volume prisma segitiga diperoleh dengan mengalikan luas alas dengan tinggi prisma. Selamat, kamu telah menyelesaikan seluruh soal evaluasi dengan baik!
+Jawaban Sebagian Benar: Jawaban dikategorikan sebagian benar apabila peserta didik menyebutkan dua dari tiga kata kunci, tetapi penjelasannya belum lengkap.
+1.	Volume dihitung dari luas alas. ATAU
+2.	Volume adalah luas alas dan tinggi prisma.
+Feedback Jika Sebagian Benar: Jawabanmu sudah mengarah benar, tetapi masih belum lengkap. Coba ingat kembali rumus volume prisma segitiga pada flipbook. Volume diperoleh dari dua besaran yang dihubungkan dengan suatu operasi hitung. Yuk, lengkapi jawabanmu! Silakan coba sekali lagi.
+Jawaban Kurang Tepat: Jawaban dikategorikan kurang tepat apabila peserta didik hanya menyebutkan satu kata kunci atau memberikan jawaban yang tidak sesuai dengan cara menentukan volume prisma segitiga.
+1.	Volume prisma segitiga adalah panjang × lebar. ATAU
+2.	Volume prisma segitiga dihitung menggunakan jumlah rusuk. ATAU
+3.	Volume prisma segitiga diperoleh dari luas permukaan.
+Feedback Jika Kurang Tepat: Jawabanmu masih belum tepat. Petunjuknya, coba perhatikan kembali materi tentang volume prisma segitiga. Ingat bahwa volume ditentukan menggunakan luas alas dan tinggi prisma, bukan dengan menjumlahkan luas sisi atau menghitung jumlah rusuk. Silakan coba sekali lagi!
+Jika percobaan kedua masih belum tepat : Terima kasih sudah mencoba!  Jawaban yang benar adalah volume prisma segitiga diperoleh dengan mengalikan luas alas dengan tinggi prisma. Selamat! 🎉 Kamu telah menyelesaikan seluruh soal evaluasi. Terus semangat belajar dan sampai jumpa pada kegiatan berikutnya! 
+
+===Soal Logic===
+
+Script Chatbot AI - Latihan Soal PBL Prisma Segitiga
+
+Sapaan Awal
+
+Halo, teman hebat! 😊 Yuk, kita selesaikan masalah tantangan dari Kakak Penjaga tentang tenda pramuka ini bersama-sama. Kita akan mengerjakannya langkah demi langkah. Jawablah setiap pertanyaan dengan bahasamu sendiri ya. Kamu memiliki maksimal dua kesempatan untuk menjawab setiap pertanyaan.
+
+Tahap 1 - Memahami Masalah
+Pertanyaan 1: Menurutmu, informasi apa saja yang diketahui dari gambar tantangan tenda tersebut? Tuliskan informasi penting yang kamu temukan tentang ukuran tenda dan paket terpalnya!
+
+Kata Kunci: alas tenda 120 cm, tinggi 80 cm, kedalaman 200 cm; sisi miring 100 cm; Paket Terpal A (150 x 200 cm); Paket Terpal B (130 x 250 cm)
+
+Jawaban Benar: (Menyebutkan ukuran tenda dan pilihan paket terpal)
+	Tenda bentuk prisma segitiga punya alas segitiga 120 cm, tinggi 80 cm, sisi miring 100 cm, dan kedalaman tenda 200 cm. Terus ada Paket Terpal A ukuran 150 x 200 cm dan Paket Terpal B ukuran 130 x 250 cm. ATAU
+	Ukuran sketsa tendanya: alas 120 cm, tinggi 80 cm, sisi miring 100 cm, dan kedalaman/panjang tenda 200 cm. Pilihan kain terpalnya ada Paket A (150 x 200 cm) sama Paket B (130 x 250 cm).
+Feedback Benar: Hebat! Kamu berhasil menemukan semua informasi ukuran pada gambar sketsa tenda dan pilihan terpalnya. Sekarang kita cari tahu apa yang harus kita selesaikan.
+
+Jawaban Sebagian Benar: (Hanya menyebutkan ukuran tenda saja, atau hanya ukuran terpal saja)
+	Tenda ukuran alasnya 120 cm, tingginya 80 cm, sisi miring 100 cm, dan kedalaman/panjang tenda 200 cm. ATAU
+	Ada Paket Terpal A ukuran 150 x 200 cm sama Paket Terpal B ukuran 130 x 250 cm.
+Feedback Sebagian Benar: Bagus! Kamu sudah menemukan sebagian informasi penting pada gambar. Coba amati gambar sekali lagi dengan teliti. Tuliskan ukuran lengkap sketsa tenda sekaligus pilihan Paket Terpal A dan B ya. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+
+Jawaban Kurang Tepat: (Hanya menyebutkan nama benda tanpa ukuran angka yang jelas)
+	Ada gambar tenda segitiga sama kain terpal warna biru dan merah.
+	Gambar tenda, anak anak, dan 2 kain 
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Yuk, baca kembali teks dan angka yang menunjuk pada gambar tenda dan kain terpal. Catat semua angka ukuran alas, tinggi, kedalaman, sisi miring tenda, serta ukuran kedua paket terpalnya. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+
+Jika Percobaan Kedua Masih Belum Tepat: Terima kasih sudah mencoba! Informasi yang diketahui pada gambar tantangan adalah:
+Ukuran tenda: Alas segitiga = 120 cm, Tinggi segitiga = 80 cm, Sisi miring = 100 cm, dan Kedalaman (panjang prisma) = 200 cm.
+Pilihan terpal: Paket A berukuran 150 cm x 200 cm dan Paket B berukuran 130 cm x 250 cm.
+Yuk, kita lanjut ke pertanyaan berikutnya!
+
+Pertanyaan 2: Menurutmu, apa saja masalah atau pertanyaan yang harus diselesaikan dari tantangan Kakak tersebut?
+
+Kata Kunci: menghitung volume ruang di dalam tenda; memilih paket terpal yang paling hemat/sisa sedikit untuk alas tidur
+
+Jawaban Benar: (Menyebutkan perintah mencari volume tenda dan memilih terpal paling hemat)
+	Kita disuruh menghitung volume ruang di dalam tenda, terus memilih paket terpal mana (Paket A atau Paket B) yang cocok menutup alas tidur tenda tapi sisanya paling dikit atau paling hemat. ATAU
+	Tantangannya kita harus mencari volume prisma segitiga tenda itu, sama menentukan pilihan Paket Terpal A atau B yang pas buat alas dalam tenda dan paling hemat.
+Feedback Benar: Hebat! Kamu sudah memahami dengan tepat kedua masalah yang harus diselesaikan. Sekarang kita tentukan rumus dan langkah apa yang akan digunakan untuk menjawab tantangan tersebut.
+
+Jawaban Sebagian Benar: (Hanya menyebutkan salah satu dari dua perintah soal)
+	Kita harus menghitung berapa volume ruang yang ada di dalam tenda pramuka itu. ATAU
+	Masalahnya kita disuruh memilih terpal Paket A atau Paket B yang paling hemat buat menutup alas dalam tenda.
+Feedback Sebagian Benar: Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian masalahnya. Coba perhatikan lagi tulisan di dalam lingkaran awan pada gambar, ada dua pertanyaan lho yang diajukan oleh Kakak. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+
+Jawaban Kurang Tepat: (Jawaban asal atau di luar perintah gambar)
+	Kita disuruh mendirikan tenda di toko perlengkapan berkemah.
+	Menghitung ukuran terpal
+	Memilih terpal
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Yuk, baca kembali kalimat tanya yang ada di dalam lingkaran awan putih pada gambar. Perhatikan hal apa yang harus dihitung volumenya dan terpal mana yang harus dipilih untuk alas tidur. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+
+Jika Percobaan Kedua Masih Belum Tepat: Terima kasih sudah mencoba! Masalah yang harus diselesaikan pada tantangan ini adalah menghitung volume ruang (kapasitas) di dalam tenda prisma segitiga, serta menentukan paket terpal yang paling tepat dan paling hemat (sisa kain paling sedikit) untuk menutup alas bagian dalam tenda. Yuk, kita lanjut ke langkah berikutnya!
+
+Tahap 2 - Merencanakan Penyelesaian
+Pertanyaan 3: Langkah atau rumus apa saja yang akan kamu gunakan untuk menghitung volume ruang tenda dan mencari terpal alas yang paling hemat? Jelaskan alasanmu!
+
+Kata Kunci: rumus volume prisma segitiga (luas alas × tinggi prisma x 1/2 x a x t x kedalaman); rumus luas alas dalam tenda (persegi panjang / alas tenda x kedalaman)
+
+Jawaban Benar: (Menyebutkan konsep rumus volume prisma dan luas persegi panjang alas tenda)
+	Buat volume tenda pakai rumus volume prisma segitiga yaitu luas alas segitiga dikali kedalaman tenda (1/2 x a x t x kedalaman). Terus buat tahu terpal alasnya, kita hitung luas lantai dalam tenda pakai rumus persegi panjang (alas x kedalaman) lalu dibandingkan dengan luas kain terpalnya. ATAU
+	Aku pakai rumus volume prisma segitiga buat cari isi dalam tenda. Terus buat lantai tendanya kan bentuknya persegi panjang, jadi pakai rumus luas persegi panjang buat tahu kain terpal mana yang pas dan sisanya dikit.
+Feedback Benar: Hebat! Kamu sudah memilih strategi dan rumus yang sangat tepat. Lantai tenda bagian dalam berbentuk persegi panjang, jadi kita perlu tahu luasnya untuk dicocokkan dengan luas kain terpal. Yuk, kita mulai menghitung volumenya dulu!
+
+Jawaban Sebagian Benar: (Hanya menyebutkan salah satu rumus dengan benar)
+	Pakai rumus volume prisma segitiga yaitu luas alas dikali tinggi prisma buat cari volume tendanya. ATAU
+	Menghitung luas lantai dalam tenda dulu pakai rumus persegi panjang, terus dihitung luas kain terpal A dan terpal B.
+Feedback Sebagian Benar: Bagus! Kamu sudah menyebutkan salah satu langkah rumus dengan benar. Tapi ingat, tantangan kita ada dua, yaitu menghitung volume tenda DAN mencari terpal alas tidur yang pas. Jadi rumus apa lagi satu yang belum kamu sebutkan? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+
+Jawaban Kurang Tepat: (Menyebutkan rumus kubus, balok, atau luas permukaan total prisma)
+	Pakai rumus luas permukaan total prisma segitiga. ATAU
+	rumus volume kubus s x s x s. ATAU
+	Rumus volume balok p x l x t.
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Ingat, tenda ini berbentuk prisma segitiga, dan kain terpalnya hanya digunakan untuk alas tidur (lantai dalam) saja, bukan membungkus seluruh tenda. Coba pikirkan rumus volume prisma segitiga dan rumus luas lantai tenda yang berbentuk persegi panjang. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+
+Jika Percobaan Kedua Masih Belum Tepat: Terima kasih sudah mencoba! Untuk menyelesaikan tantangan ini, kita menggunakan rumus volume prisma segitiga yaitu V = (1/2 x alas segitiga x tinggi segitiga) x kedalaman tenda. Sedangkan untuk mencari terpal alas paling hemat, kita cari luas lantai tenda dengan rumus persegi panjang yaitu luas lantai = alas tenda x kedalaman tenda, lalu kita bandingkan dengan luas Paket Terpal A dan B. Yuk, kita mulai menghitung!
+
+Tahap 3 - Melaksanakan Rencana
+Pertanyaan 4: Sekarang, hitunglah volume ruang di dalam tenda tersebut! Tuliskan angka perkaliannya dan hasil akhir volumenya ya!
+
+Kata Kunci: 1/2 x 120 x 80 x 200; Luas alas = 4.800; Volume = 960.000 cm3
+
+Jawaban Benar: (Menuliskan langkah hitungan volume prisma segitiga dengan benar)
+	Luas alasnya = 1/2 x 120 x 80 = 4.800 cm2. Terus volumenya = 4.800 x 200 = 960.000 cm3. ATAU
+	Volume tenda 1/2 x 120 x 80 x 200 = 60 x 80 x 200 = 4.800 x 200 = 960.000 cm3.
+Feedback Benar: Hebat! Perhitungan volume ruang di dalam tendamu sudah sangat benar. Luas alas segitiganya adalah 4.800 cm2 dan setelah dikali kedalaman 200 cm, volume totalnya adalah 960.000 cm3. Sekarang kita lanjut ke bagian menentukan kain terpal alas tenda.
+
+Jawaban Sebagian Benar: (Caranya benar tapi ada salah hitung angka, atau hanya menghitung luas alas segitiganya saja)
+	Volume tenda = 120 x 80 x 200 = 1.920.000 (lupa membagi setengah untuk segitiga). ATAU
+	Luas alas segitiga tendanya dapat 4.800 cm2, tapi belum dikali kedalaman tenda. ATAU
+	Caranya 1/2 x 120 x 80 x 200 tapi hasil akhirnya 96.000 (kurang angka nol).
+Feedback Sebagian Benar: Bagus! Caramu sudah mengarah benar. Namun, coba teliti lagi hitungan perkalian angkanya atau pastikan rumus luas segitiganya sudah dibagi 2 (1/2) dengan benar ya. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+
+Jawaban Kurang Tepat: (Salah rumus perkalian angka, seperti mengalikan dengan sisi miring 100 cm)
+	Volume = 120 x 100 x 200 = 2.400.000 cm3. ATAU
+	Volume = 120 x 100 = 12.000 cm3
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Untuk mencari volume prisma, gunakan tinggi segitiga yang tegak lurus (80 cm), bukan sisi miring tenda (100 cm). Rumusnya adalah 1/2 x alas x tinggi x kedalaman. Coba hitung ulang dengan teliti ya. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+
+Jika Percobaan Kedua Masih Belum Tepat: Terima kasih sudah mencoba! Berikut adalah langkah hitungan volume tenda yang benar:
+Luas Alas Segitiga 1/2 x 120 cm x 80 cm = 4.800 cm2.
+Volume Tenda = 4.800 cm2 x 200 cm (kedalaman) = 960.000 cm3.
+Yuk, sekarang kita ke pertanyaan terakhir untuk menentukan paket terpal pilihan kita!
+
+Tahap 4 - Memeriksa Kembali
+Pertanyaan 5: Berdasarkan ukuran alas dalam tenda, terpal paket mana yang sebaiknya dipilih agar menutupi seluruh alas dengan tepat dan sisa kainnya paling sedikit (paling hemat)? Jelaskan alasan dan hitunganmu!
+
+Kata Kunci: Luas lantai tenda = 120 x 200 = 24.000 cm2; Paket Terpal A (150 x 200) pas menutup lantai; Paket B (130 x 250) tidak muat/lebar kurang; Paket A paling tepat/hemat
+
+Jawaban Benar: (Memilih Paket Terpal A dengan alasan ukuran lebar/panjang lantai dalam tenda)
+	Pilih Paket Terpal A. Soalnya lantai dalam tenda ukurannya 120 x 200 cm (luasnya 24.000 cm2). Terpal Paket A ukurannya 150 x 200 cm, jadi panjangnya pas 200 cm dan lebarnya sisa dikit (150 cm - 120 cm = sisa 30 cm). Kalau Paket B lebarnya cuma 130 cm jadi tidak bakal muat nutup lantai tenda yang panjangnya butuh 200 cm. ATAU
+	Sebaiknya pilih Paket Terpal A karena ukurannya 150 x 200 cm sangat pas untuk menutup lantai dalam tenda yang berukuran 120 x 200 cm. Paket B tidak bisa dipilih karena ukurannya 130 x 250 cm, nanti ada lantai tenda yang tidak tertutup terpal karena panjangnya kurang cocok.
+Feedback Benar: Hebat! Jawabanmu luar biasa cerdas dan sangat teliti. Kita sebaiknya memilih Paket Terpal A. Lantai dalam tenda memerlukan ukuran minimal 120 cm x 200 cm. Paket Terpal A (150 cm x 200 cm) sangat pas menutup seluruh lantai dengan sisa lebar hanya 30 cm saja. Paket B tidak dipilih karena dimensinya tidak cocok menutup ukuran kedalaman tenda. Selamat, kamu sudah menyelesaikan seluruh latihan soal prisma segitiga dengan sukses!
+
+Jawaban Sebagian Benar: (Memilih Paket Terpal A dengan benar tetapi alasan atau hitungan sisanya tertukar/kurang lengkap)
+	Pilih Paket Terpal A karena luasnya 30.000 cm2 dan lantai tenda luasnya 24.000 cm2, jadi sisa kainnya lebih dikit daripada Paket B yang luasnya 32.500 cm2. ATAU
+	Pilih Paket A karena kalau Paket B nanti kainnya kepanjangan sampai 250 cm tapi lebarnya kurang.
+Feedback Sebagian Benar: Bagus! Pilihan paketmu sudah benar, yaitu Paket Terpal A. Namun, alasanmu perlu diperjelas berdasarkan kecocokan panjang dan lebar sisinya dengan lantai tenda (120 x 200 cm). Coba periksa lagi apakah Paket B benar-benar muat dipasang di lantai tenda? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.
+
+Jawaban Kurang Tepat: (Salah memilih paket terpal karena hanya melihat luas total terpal tanpa mencocokkan bentuk sisinya)
+	Pilih Paket Terpal B karena harganya sama Rp5.000 tapi ukurannya lebih panjang. ATAU
+	Pilih Paket B karena kalau dihitung luasnya paling besar jadi kainnya sisa banyak.
+Feedback Kurang Tepat: Jawabanmu masih belum tepat. Yuk, ingat lagi, kain terpal ini dipasang di lantai dalam tenda yang berukuran lebar 120 cm dan kedalaman/panjang 200 cm. Jadi kita tidak boleh hanya melihat luas totalnya saja, tapi panjang dan lebarnya harus muat menutup lantai tersebut tanpa kurang. Coba amati lagi ukuran Paket A dan Paket B dengan teliti ya. Kamu masih memiliki satu kesempatan untuk mencoba lagi.
+
+Jika Percobaan Kedua Masih Belum Tepat: Terima kasih sudah mencoba! Pilihan terpal yang paling tepat dan hemat adalah Paket Terpal A:
+Lantai dalam tenda berbentuk persegi panjang dengan ukuran 120 cm x 200 cm.
+Paket Terpal A berukuran 150 cm x 200 cm, artinya panjangnya sangat pas (200 cm) dan lebarnya hanya bersisa sedikit yaitu 30 cm (kain sisa = 30 cm x 200 cm = 6.000 cm2).
+Paket Terpal B (130 cm x 250 cm) tidak bisa menutup lantai dengan pas karena jika dipasang mengikuti kedalaman tenda, ukurannya akan tidak cocok dan tidak rapi.
+Selamat! Kamu telah menyelesaikan seluruh tahapan latihan pemecahan masalah materi prisma segitiga. Terus semangat belajar, ya!
+
