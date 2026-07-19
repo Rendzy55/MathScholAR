@@ -399,11 +399,4 @@ class ChatbotViewModel(application: Application) : AndroidViewModel(application)
     }
 
     // ─── Legacy Compatibility ────────────────────────────────────────────
-
-    /**
-     * @deprecated Gunakan startSession() untuk alur lengkap.
-     */
-    fun startEvaluation() {
-        startSession()
-    }
 }

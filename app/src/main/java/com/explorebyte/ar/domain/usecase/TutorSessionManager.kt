@@ -208,9 +208,8 @@ class TutorSessionManager {
     fun getPhaseLabel(): String {
         return when (currentPhase) {
             SessionPhase.IDLE -> "Menunggu"
-            SessionPhase.QUIZ -> "📝 Quiz"
-            SessionPhase.PERTANYAAN_ANAK -> "📊 Evaluasi"
-            SessionPhase.EVALUASI -> "📝 Latihan Soal"
+            SessionPhase.PERTANYAAN_ANAK -> "📝 Soal"
+            SessionPhase.EVALUASI -> "📊 Evaluasi"
             SessionPhase.SELESAI -> "✅ Selesai"
         }
     }
