@@ -1,21 +1,5 @@
 {
   "kubus": {
-    "quiz": {
-      "id": 1,
-      "pertanyaan": "Apa yang dimaksud dengan kubus?",
-      "kata_kunci": [
-        "bangun ruang",
-        "6 sisi",
-        "persegi",
-        "sama besar"
-      ],
-      "feedback": {
-        "benar": "Hebat! Jawabanmu sudah tepat. Kubus merupakan bangun ruang yang memiliki 6 sisi berbentuk persegi dengan ukuran yang sama.",
-        "sebagian": "Jawabanmu sudah mengarah benar. Kamu sudah mengetahui bahwa kubus memiliki 6 sisi. Coba ingat kembali, bentuk dari setiap sisi kubus seperti apa?",
-        "salah": "Coba perhatikan kembali materi tentang kubus. Apakah kubus termasuk bangun datar atau bangun ruang?"
-      },
-      "jawaban_benar": "Kubus merupakan bangun ruang yang memiliki 6 sisi berbentuk persegi dengan ukuran yang sama."
-    },
     "pertanyaan_anak": [
       {
         "id": 1,
@@ -29,9 +13,9 @@
         "feedback": {
           "benar": "Hebat! Jawabanmu sudah tepat. Kubus merupakan bangun ruang yang memiliki 6 sisi berbentuk persegi dengan ukuran yang sama.",
           "sebagian": "Jawabanmu sudah mengarah benar. Kamu sudah mengetahui bahwa kubus memiliki 6 sisi. Coba ingat kembali, bentuk dari setiap sisi kubus seperti apa?",
-          "salah": "Coba perhatikan kembali materi tentang kubus. Apakah kubus termasuk bangun datar atau bangun ruang?"
+          "salah": "Jawabanmu masih belum tepat. Yuk, ingat kembali materi tentang kubus. Apakah kubus termasuk bangun datar atau bangun ruang? Setelah itu, coba pikirkan berapa jumlah sisi dan bagaimana bentuk setiap sisinya. Kamu masih punya satu kesempatan lagi."
         },
-        "jawaban_benar": "Kubus adalah bangun ruang yang memiliki 6 sisi berbentuk persegi dan ukurannya sama."
+        "jawaban_benar": "Soal 2 - Karakteristik Kubus"
       },
       {
         "id": 2,
@@ -43,10 +27,55 @@
         ],
         "feedback": {
           "benar": "Bagus sekali! Kubus memiliki 6 sisi, 12 rusuk, dan 8 titik sudut.",
-          "sebagian": "Sebagian jawabanmu sudah benar. Kamu sudah menyebut sebagian ciri kubus. Coba ingat kembali jumlah yang belum disebutkan.",
+          "sebagian": "Bagus! Sebagian jawabanmu sudah benar. Kamu sudah menyebutkan beberapa bagian kubus dengan tepat. Sekarang coba ingat kembali, masih ada satu bagian lagi yang belum kamu sebutkan. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Coba amati kembali gambar kubus pada materi. Hitung kembali jumlah sisi, rusuk, dan titik sudutnya."
         },
-        "jawaban_benar": "Kubus memiliki 6 sisi, 12 rusuk, dan 8 titik sudut."
+        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah: kubus memiliki 6 sisi, 12 rusuk, dan 8 titik sudut. Yuk, kita lanjut ke soal berikutnya!\nSoal 3 - Jaring-jaring Kubus"
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Mengapa jaring-jaring kubus dapat membantu kita mengetahui luas permukaan kubus?",
+        "kata_kunci": [
+          "semua sisi kubus terlihat/dibuka",
+          "luas seluruh permukaan dapat dihitung"
+        ],
+        "feedback": {
+          "benar": "Bagus! Karena semua sisi kubus terlihat pada jaring-jaring, kita dapat menghitung luas seluruh permukaannya.",
+          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui salah satu manfaat jaring-jaring kubus. Sekarang coba pikirkan lagi, apa yang terjadi pada semua sisi kubus ketika dibentuk menjadi jaring-jaring sehingga luas permukaannya dapat dihitung?",
+          "salah": "Jawabanmu masih belum tepat. Yuk, perhatikan kembali materi tentang jaring-jaring kubus. Coba amati apa yang terjadi ketika kubus dibuka menjadi jaring-jaring, lalu pikirkan bagaimana hal itu membantu menghitung luas permukaannya. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah: jaring-jaring kubus membantu kita mengetahui luas permukaan karena semua sisi kubus terlihat sehingga luas seluruh permukaannya dapat dihitung. Yuk, kita lanjut ke soal berikutnya!\nSoal 4 - Luas Permukaan Kubus"
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Bagaimana cara menghitung luas permukaan kubus?",
+        "kata_kunci": [
+          "s×s",
+          "6 sisi",
+          "6×s×s"
+        ],
+        "feedback": {
+          "benar": "Hebat! Jawabanmu sudah tepat. Luas permukaan kubus diperoleh dengan menghitung luas satu sisi (s × s), kemudian dikalikan 6 karena kubus memiliki enam sisi yang sama besar.",
+          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian cara menghitung luas permukaan kubus. Sekarang coba ingat kembali, mengapa hasil luas satu sisi perlu dikalikan 6? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Yuk, ingat kembali bagaimana cara menghitung luas satu sisi kubus, kemudian pikirkan mengapa hasilnya perlu dikalikan dengan jumlah seluruh sisi kubus. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah: luas permukaan kubus dihitung dengan mencari luas satu sisi (s × s), kemudian dikalikan 6 karena kubus memiliki enam sisi yang sama besar. Rumusnya adalah 6 × s × s. Yuk, kita lanjut ke soal berikutnya!\nSoal 5 - Volume Kubus"
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Mengapa volume kubus dihitung dengan rumus s × s × s?",
+        "kata_kunci": [
+          "panjang × lebar × tinggi",
+          "panjang",
+          "lebar dan tinggi sama panjang",
+          "s × s × s."
+        ],
+        "feedback": {
+          "benar": "Hebat! Jawabanmu sudah tepat. Volume kubus dihitung dari panjang × lebar × tinggi. Karena pada kubus ketiga ukurannya sama panjang, rumusnya menjadi s × s × s.",
+          "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah memahami sebagian alasan rumus volume kubus. Sekarang coba pikirkan lagi, mengapa panjang, lebar, dan tinggi pada kubus dapat ditulis dengan huruf s? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "salah": "Jawabanmu masih belum tepat. Yuk, ingat kembali bagaimana cara menghitung volume suatu bangun ruang. Setelah itu, pikirkan apa yang membuat rumus tersebut menjadi s × s × s pada kubus. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
+        },
+        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah: volume kubus dihitung dengan rumus s × s × s karena volume berasal dari panjang × lebar × tinggi, sedangkan pada kubus panjang, lebar, dan tingginya sama panjang sehingga semuanya dapat ditulis sebagai s. Selamat, kamu telah menyelesaikan seluruh soal evaluasi!\n\n\n=====SOAL logic =====\n\nScript Chatbot AI - Latihan Soal PBL Kubus (Draft Awal)\nSapaan Awal\nHalo, teman hebat! 😊 Yuk, kita selesaikan masalah pada cerita tadi bersama-sama. Kita akan mengerjakannya langkah demi langkah. Jawablah setiap pertanyaan dengan bahasamu sendiri ya. Kamu memiliki maksimal dua kesempatan untuk menjawab setiap pertanyaan."
       }
     ],
     "evaluasi": [
@@ -54,76 +83,70 @@
         "id": 1,
         "pertanyaan": "Menurutmu, informasi apa saja yang diketahui dari cerita pada soal? Tuliskan semua informasi penting yang kamu temukan.",
         "kata_kunci": [
-          "kotak",
-          "kubus",
-          "rusuk",
-          "20",
-          "volume",
-          "6.000"
+          "kotak berbentuk kubus",
+          "rusuk 20 cm",
+          "perkiraan volume 6.000 cm³"
         ],
         "feedback": {
           "benar": "Hebat! Kamu berhasil menemukan informasi penting pada soal. Sekarang kita cari tahu apa yang harus diselesaikan.",
           "sebagian": "Bagus! Kamu sudah menemukan sebagian informasi penting pada soal. Coba baca kembali cerita dengan teliti. Masih ada satu informasi penting yang belum kamu tuliskan. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Yuk, baca kembali cerita pada soal. Perhatikan bentuk kotaknya, panjang rusuknya, dan perkiraan volume yang disebutkan oleh kakak penjaga. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Terima kasih sudah mencoba! Informasi yang diketahui pada soal adalah:\n• Kotak berbentuk kubus.\n• Panjang rusuk kotak 20 cm.\n• Kakak penjaga memperkirakan volume kotak sebesar 6.000 cm³.\nYuk, kita lanjut ke pertanyaan berikutnya!"
+        "jawaban_benar": "Terima kasih sudah mencoba! Informasi yang diketahui pada soal adalah:\n•\tKotak berbentuk kubus. \n•\tPanjang rusuk kotak 20 cm. \n•\tKakak penjaga memperkirakan volume kotak sebesar 6.000 cm³. \nYuk, kita lanjut ke pertanyaan berikutnya!\n\nTahap 1 - Memahami Masalah"
       },
       {
         "id": 2,
         "pertanyaan": "Menurutmu, apa masalah yang harus diselesaikan pada soal tersebut?",
         "kata_kunci": [
-          "menentukan",
-          "menghitung",
-          "volume",
-          "memeriksa",
-          "perkiraan",
-          "6.000",
-          "benar"
+          "menentukan volume kubus",
+          "memeriksa apakah perkiraan 6.000 cm³ benar"
         ],
         "feedback": {
           "benar": "Hebat! Kamu sudah memahami dengan tepat masalah yang harus diselesaikan. Sekarang kita tentukan langkah atau rumus yang akan digunakan untuk menyelesaikan masalah tersebut.",
           "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian masalah yang harus diselesaikan. Coba pikirkan lagi, setelah menghitung volume kubus, apa yang perlu dilakukan terhadap perkiraan yang disampaikan kakak penjaga? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Yuk, baca kembali bagian akhir cerita pada soal. Perhatikan apa yang ingin dibuktikan berdasarkan hasil perhitungan volume kubus. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Terima kasih sudah mencoba! Masalah yang harus diselesaikan pada soal adalah menghitung volume kotak berbentuk kubus, kemudian memeriksa apakah perkiraan volume 6.000 cm³ yang disampaikan kakak penjaga sudah benar atau belum. Yuk, kita lanjut ke langkah berikutnya!"
+        "jawaban_benar": "Terima kasih sudah mencoba! Masalah yang harus diselesaikan pada soal adalah menghitung volume kotak berbentuk kubus, kemudian memeriksa apakah perkiraan volume 6.000 cm³ yang disampaikan kakak penjaga sudah benar atau belum. Yuk, kita lanjut ke langkah berikutnya!\n\nTahap 2 - Merencanakan Penyelesaian"
       },
       {
         "id": 3,
         "pertanyaan": "Langkah atau rumus apa yang akan kamu gunakan untuk menyelesaikan masalah tersebut? Jelaskan alasanmu.",
         "kata_kunci": [
-          "volume kubus",
-          "s x s x s",
-          "s³"
+          "rumus volume kubus",
+          "V = s × s × s atau V = s³"
         ],
         "feedback": {
-          "benar": "Hebat! Kamu sudah memilih strategi yang tepat untuk menyelesaikan masalah. Sekarang, yuk gunakan rumus tersebut untuk menghitung volume kubus pada soal.",
-          "sebagian": "Jawabanmu sudah mengarah benar. Coba ingat kembali, apa yang ingin dicari pada soal ini? Apakah luas, keliling, atau volume? Setelah itu, pilih rumus yang sesuai. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
+          "benar": "",
+          "sebagian": "",
           "salah": "Jawabanmu masih belum tepat. Coba ingat kembali, apa yang ingin dicari pada soal ini? Apakah luas, keliling, atau volume? Setelah itu, pilih rumus yang sesuai. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Terima kasih sudah mencoba! Untuk menyelesaikan soal ini, kita menggunakan rumus volume kubus, yaitu V = s × s × s atau V = s³. Yuk, kita lanjut menghitung volumenya!"
+        "jawaban_benar": "Terima kasih sudah mencoba! Untuk menyelesaikan soal ini, kita menggunakan rumus volume kubus, yaitu V = s × s × s atau V = s³. Yuk, kita lanjut menghitung volumenya!\nTahap 3 - Melaksanakan Rencana"
       },
       {
         "id": 4,
         "pertanyaan": "Sekarang, hitunglah volume kotak berbentuk kubus menggunakan panjang rusuk yang telah diketahui. Tuliskan langkah-langkah perhitunganmu hingga memperoleh hasil akhirnya!",
         "kata_kunci": [
-          "20 x 20 x 20",
-          "8.000"
+          "V = s × s × s atau V = s³",
+          "mengganti nilai s = 20 cm",
+          "20 × 20 × 20",
+          "8.000 cm³"
         ],
         "feedback": {
           "benar": "Hebat! Perhitunganmu sudah benar. Kamu berhasil menerapkan rumus volume kubus dengan tepat dan memperoleh hasil volume sebesar 8.000 cm³. Sekarang kita akan memeriksa kembali apakah hasil tersebut sesuai dengan perkiraan kakak penjaga.",
           "sebagian": "Bagus! Cara yang kamu gunakan sudah mengarah benar. Coba periksa kembali langkah perhitunganmu. Pastikan semua proses sudah dituliskan dengan lengkap dan hasil akhirnya sesuai. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Yuk, ingat kembali rumus volume kubus yang sudah kamu pilih pada langkah sebelumnya. Setelah itu, masukkan panjang rusuk 20 cm ke dalam rumus dan hitung kembali dengan teliti. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Terima kasih sudah mencoba! Berikut langkah perhitungan yang benar.\nV = s × s × s\nV = 20 × 20 × 20\nV = 8.000 cm³\nJadi, volume kotak berbentuk kubus tersebut adalah 8.000 cm³. Yuk, kita lanjut ke pertanyaan terakhir!"
+        "jawaban_benar": "Terima kasih sudah mencoba! Berikut langkah perhitungan yang benar.\nV = s × s × s\nV = 20 × 20 × 20\nV = 8.000 cm³\nJadi, volume kotak berbentuk kubus tersebut adalah 8.000 cm³. Yuk, kita lanjut ke pertanyaan terakhir!\n\nTahap 4 - Memeriksa Kembali"
       },
       {
         "id": 5,
         "pertanyaan": "Berdasarkan hasil perhitungan yang telah kamu peroleh, apakah kamu setuju dengan perkiraan volume kotak sebesar 6.000 cm³ yang disampaikan oleh kakak penjaga? Jelaskan alasanmu menggunakan hasil perhitunganmu.",
         "kata_kunci": [
           "tidak setuju",
-          "8.000",
-          "berbeda",
-          "2.000"
+          "volume sebenarnya 8.000 cm³",
+          "hasil berbeda dengan perkiraan 6.000 cm³",
+          "selisih 2.000 cm³",
+          "alasan berdasarkan hasil perhitungan"
         ],
         "feedback": {
           "benar": "Hebat! Kamu berhasil memeriksa kembali hasil perhitunganmu dan memberikan alasan yang tepat. Kamu telah menunjukkan bahwa perkiraan kakak penjaga tidak sesuai karena volume sebenarnya adalah 8.000 cm³. Selamat, kamu sudah menyelesaikan latihan pemecahan masalah dengan sangat baik!",
@@ -135,21 +158,6 @@
     ]
   },
   "balok": {
-    "quiz": {
-      "id": 1,
-      "pertanyaan": "Apa perbedaan utama antara kubus dan balok?",
-      "kata_kunci": [
-        "sisi",
-        "persegi panjang",
-        "tidak semua sama"
-      ],
-      "feedback": {
-        "benar": "Tepat sekali! Perbedaan utamanya terletak pada bentuk sisinya; balok memiliki sisi berbentuk persegi panjang dan tidak semua sisinya sama besar seperti kubus.",
-        "sebagian": "Benar, sisi balok berbeda dengan kubus. Coba jelaskan lebih detail, bentuk apa yang dimiliki sisi-sisi balok?",
-        "salah": "Coba perhatikan kembali gambar balok. Apakah semua sisinya memiliki ukuran yang sama persis seperti kubus?"
-      },
-      "jawaban_benar": "Perbedaan utama antara kubus dan balok adalah kubus memiliki semua sisi berbentuk persegi yang sama besar, sedangkan balok memiliki sisi berbentuk persegi panjang yang ukurannya tidak semuanya sama."
-    },
     "pertanyaan_anak": [
       {
         "id": 1,
@@ -165,7 +173,7 @@
           "sebagian": "Jawabanmu sudah mengarah benar. Kamu sudah mengetahui bahwa balok memiliki 6 sisi persegi panjang. Coba ingat kembali, bagaimana hubungan ukuran antara setiap sisi yang saling berhadapan pada balok?",
           "salah": "Jawabanmu masih belum tepat. Yuk, ingat kembali materi tentang balok pada cerita Geo dan Gea saat membandingkan kotak mainan baru di rak lemari. Apakah balok termasuk bangun datar atau bangun ruang? Setelah itu, coba pikirkan berapa jumlah sisi dan bagaimana ukuran sisi-sisi yang saling berhadapan. Kamu masih punya satu kesempatan lagi."
         },
-        "jawaban_benar": "Balok merupakan bangun ruang yang mempunyai enam sisi berbentuk persegi panjang dan pasangan sisi yang saling berhadapan sama besar."
+        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah: balok merupakan bangun ruang yang memiliki enam sisi, di mana ukuran sisi yang sama besar hanya pada pasangan sisi yang saling berhadapan. Yuk, kita lanjut ke soal berikutnya! \n\nSoal 2 - Karakteristik Balok (Unsur Bangun Ruang)"
       },
       {
         "id": 2,
@@ -180,13 +188,13 @@
           "sebagian": "Bagus! Sebagian jawabanmu sudah benar. Kamu sudah menyebutkan beberapa bagian balok dengan tepat. Sekarang coba ingat kembali, masih ada satu bagian lagi yang belum kamu sebutkan. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Coba amati kembali gambar balok atau kotak penyimpanan pada materi. Hitung kembali jumlah sisi datar, rusuk penegak/mendatar, dan titik sudut di setiap pojoknya. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Balok memiliki 6 sisi, 12 rusuk, dan 8 titik sudut."
+        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah: balok memiliki 6 sisi, 12 rusuk, dan 8 titik sudut. Yuk, kita lanjut ke soal berikutnya! \n\nSoal 3 - Jaring-jaring Balok"
       },
       {
         "id": 3,
         "pertanyaan": "Mengapa jaring-jaring balok dapat membantu kita mengetahui luas permukaan balok?",
         "kata_kunci": [
-          "semua sisi balok terlihat",
+          "semua sisi balok terlihat/dibuka",
           "luas seluruh permukaan dapat dihitung"
         ],
         "feedback": {
@@ -194,41 +202,41 @@
           "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui salah satu manfaat jaring-jaring balok. Sekarang coba pikirkan lagi, apa yang terjadi pada semua sisi balok ketika dibentuk atau dibongkar menjadi jaring-jaring sehingga luas permukaannya dapat dihitung?",
           "salah": "Jawabanmu masih belum tepat. Yuk, perhatikan kembali penjelasan Kakak Penjaga Playground tentang \"membongkar kardus kotak mainan\" menjadi jaring-jaring balok. Coba amati apa yang terjadi ketika kotak balok dibuka, lalu pikirkan bagaimana hal itu membantu kita menghitung luas permukaannya. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Karena semua sisi balok terlihat saat dibuka menjadi jaring-jaring sehingga luas seluruh permukaannya dapat dihitung."
+        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah: jaring-jaring balok membantu kita mengetahui luas permukaan karena semua sisi balok terlihat saat dibuka sehingga luas seluruh permukaannya dapat dihitung. Yuk, kita lanjut ke soal berikutnya! \n\nSoal 4 - Luas Permukaan Balok"
       },
       {
         "id": 4,
         "pertanyaan": "Bagaimana cara menghitung luas permukaan balok?",
         "kata_kunci": [
-          "p, l, t",
+          "p",
+          "l",
+          "t",
           "3 pasang sisi",
-          "2 x ((p x l) + (l x t) + (p x t))",
-          "2 x (pl + lt + pt)"
+          "2 × ((p × l) + (l × t) + (p × t))"
         ],
         "feedback": {
           "benar": "Hebat! Jawabanmu sudah tepat. Luas permukaan balok diperoleh dengan menjumlahkan seluruh luas dari 6 persegi panjang penyusunnya. Karena ada 3 pasang sisi yang sama besar, maka rumus lengkapnya adalah 2 x ((p x l) + (l x t) + (p x t))",
           "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian cara menghitung luas permukaan balok. Sekarang coba ingat kembali, mengapa hasil penjumlahan dari luas setiap pasangannya (pl + lt + pt) perlu dikalikan dengan angka 2? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Yuk, ingat kembali susunan jaring-jaring balok yang terdiri atas 3 pasang persegi panjang dengan ukuran panjang (p), lebar (l), dan tinggi (t). Pikirkan bagaimana cara menggabungkan luas ketiga pasang sisi tersebut. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Luas permukaan balok dihitung dengan mencari luas tiga pasang sisinya, kemudian dijumlahkan dan dikalikan 2 karena memiliki pasangan sisi yang sama besar."
+        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah: luas permukaan balok dihitung dengan mencari luas tiga pasang sisinya, kemudian dijumlahkan dan dikalikan 2 karena memiliki pasangan sisi yang sama besar. Rumusnya adalah 2 x ((p x l) + (l x t) + (p x t)). Yuk, kita lanjut ke soal berikutnya! \n\nSoal 5 - Volume Balok"
       },
       {
         "id": 5,
         "pertanyaan": "Mengapa volume balok dihitung dengan rumus p × l × t?",
         "kata_kunci": [
-          "panjang x lebar x tinggi",
+          "panjang × lebar × tinggi",
           "berjejer ke samping",
           "belakang",
-          "atas",
-          "kapasitas muatan",
-          "isi ruang"
+          "dan atas",
+          "kapasitas muatan/isi ruang"
         ],
         "feedback": {
           "benar": "Hebat! Jawabanmu sudah tepat. Volume balok dihitung dari perkalian tiga dimensi ukurannya, yaitu panjang x lebar x tinggi (p × l × t), yang menggambarkan susunan kapasitas ruang dari arah samping, belakang, hingga ke atas.",
           "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah memahami sebagian alasan rumus volume balok. Sekarang coba pikirkan lagi, apa arti dari ukuran panjang, lebar, dan tinggi itu kalau kita mau mengisi penuh sebuah kotak penyimpanan? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Yuk, ingat kembali eksperimen Geo dan Gea saat memasukkan susunan kubus satuan ke dalam kotak transparan. Pikirkan bagaimana arah tumpukan kubus itu ke samping, ke belakang, dan ke atas membentuk rumus volume balok. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Volume balok dihitung dengan rumus p × l × t karena volume berasal dari perkalian panjang x lebar x tinggi, yang menunjukkan isi seluruh ruang balok."
+        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah: volume balok dihitung dengan rumus p × l × t karena volume berasal dari perkalian panjang x lebar x tinggi, yang menunjukkan isi seluruh ruang balok berdasarkan tumpukan ke samping, ke belakang, dan ke atas. Selamat, kamu telah menyelesaikan seluruh soal evaluasi! \n\n====Soal Logic===\n\nScript Chatbot AI - Latihan Soal PBL Balok\n\nSapaan Awal\n\nHalo, teman hebat! 😊 Yuk, kita selesaikan masalah tantangan dari Kakak Penjaga pada cerita tadi bersama-sama. Kita akan mengerjakannya langkah demi langkah. Jawablah setiap pertanyaan dengan bahasamu sendiri ya. Kamu memiliki maksimal dua kesempatan untuk menjawab setiap pertanyaan."
       }
     ],
     "evaluasi": [
@@ -236,110 +244,82 @@
         "id": 1,
         "pertanyaan": "Menurutmu, informasi apa saja yang diketahui dari gambar tantangan tersebut? Tuliskan informasi penting yang kamu temukan tentang kertas kado dan kedua kotaknya!",
         "kata_kunci": [
-          "kertas kado",
-          "1.200",
-          "Kotak Biru",
-          "15",
-          "8",
-          "5",
-          "Kotak Kuning",
-          "12",
-          "10",
-          "6"
+          "kertas kado luasnya 1.200 cm2",
+          "Kotak Biru (p=15",
+          "l=8",
+          "t=5)",
+          "Kotak Kuning (p=12",
+          "l=10",
+          "t=6)"
         ],
         "feedback": {
           "benar": "Hebat! Kamu berhasil menemukan semua informasi penting pada soal cerita. Sekarang kita cari tahu apa yang harus kita selesaikan.",
           "sebagian": "Bagus! Kamu sudah menemukan sebagian informasi penting. Coba amati gambar sekali lagi dengan teliti. Tuliskan ukuran lengkap dari kertas kado sekaligus kedua kotak tersebut ya. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Yuk, baca kembali teks dan angka yang ada pada gambar. Catat berapa luas total kertas kadonya, serta berapa angka panjang, lebar, dan tinggi dari Kotak Biru dan Kotak Kuning. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Informasi yang diketahui: Kertas kado luas 1.200 cm2, Kotak Biru berukuran p = 15 cm, l = 8 cm, t = 5 cm, Kotak Kuning berukuran p = 12 cm, l = 10 cm, t = 6 cm."
+        "jawaban_benar": "Terima kasih sudah mencoba! Informasi yang diketahui pada gambar tantangan adalah:\n1.\tKertas kado memiliki luas total 1.200 cm2.\n2.\tKotak Biru berukuran p = 15 cm, l = 8 cm, dan t = 5 cm. \n3.\tKotak Kuning berukuran p = 12 cm, l = 10 cm, dan t = 6 cm. Yuk, kita lanjut ke pertanyaan berikutnya!"
       },
       {
         "id": 2,
         "pertanyaan": "Menurutmu, apa saja masalah atau pertanyaan yang harus diselesaikan dari tantangan Kakak Penjaga tersebut?",
         "kata_kunci": [
-          "volume",
-          "kedua kotak",
-          "sisa kertas",
-          "paling banyak"
+          "mencari volume kedua kotak",
+          "mencari kotak dengan sisa kertas kado paling banyak"
         ],
         "feedback": {
           "benar": "Hebat! Kamu sudah memahami dengan tepat masalah yang harus diselesaikan. Sekarang kita tentukan rumus apa saja yang akan digunakan untuk menjawab tantangan tersebut.",
           "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian masalahnya. Coba perhatikan lagi balon ucapan Kakak Penjaga di bagian bawah gambar, ada dua hal lho yang diminta untuk dicari. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Yuk, baca kembali balon ucapan dari tokoh anak perempuan dan Kakak Penjaga pada gambar. Perhatikan hal apa yang harus dicari nilainya dan kotak mana yang harus dipilih. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Masalah yang harus diselesaikan adalah menghitung volume dari kedua kotak serta mencari tahu kotak mana yang menyisakan kertas kado paling banyak setelah dibungkus."
+        "jawaban_benar": "Terima kasih sudah mencoba! Masalah yang harus diselesaikan pada tantangan ini adalah menghitung volume dari kedua kotak serta mencari tahu kotak mana yang menyisakan kertas kado paling banyak setelah dibungkus. Yuk, kita lanjut ke langkah berikutnya! \n\nTahap 2 - Merencanakan Penyelesaian"
       },
       {
         "id": 3,
         "pertanyaan": "Rumus-rumus apa saja yang akan kamu gunakan untuk menghitung volume dan mengetahui sisa kertas kado dari kotak balok tersebut? Jelaskan jawabanmu!",
         "kata_kunci": [
-          "volume",
-          "p x l x t",
-          "luas permukaan",
-          "2 x"
+          "rumus volume balok (p x l x t)",
+          "rumus luas permukaan balok (2 x (pl + lt + pt))"
         ],
         "feedback": {
           "benar": "Hebat! Kamu sudah memilih strategi dan rumus yang sangat tepat. Sekarang, yuk kita mulai menghitung volume kedua kotak tersebut terlebih dahulu!",
           "sebagian": "Bagus! Kamu sudah menyebutkan salah satu rumus dengan benar. Tapi ingat, selain menghitung volume, kita kan juga harus tahu bungkus kotak mana yang menyisakan kertas paling banyak. Berarti butuh rumus luas apa ya? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Karena kedua kotak berbentuk balok, coba ingat kembali rumus volume balok dan rumus untuk menghitung seluruh area kulit atau permukaan balok. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Kita menggunakan rumus volume balok V = p x l x t, dan rumus luas permukaan balok LP = 2 x ((p x l) + (l x t) + (p x t)) untuk menghitung sisa kertas kadonya."
+        "jawaban_benar": "Terima kasih sudah mencoba! Untuk menyelesaikan tantangan ini, kita menggunakan rumus volume balok yaitu V = p x l x t, dan rumus luas permukaan balok yaitu LP = 2 x ((p x l) + (l x t) + (p x t)) untuk menghitung sisa kertas kadonya. Yuk, kita mulai menghitung! \n\nTahap 3 - Melaksanakan Rencana"
       },
       {
         "id": 4,
         "pertanyaan": "Sekarang, hitunglah volume dari Kotak Biru dan Kotak Kuning. Tuliskan angka perkaliannya dan hasil akhir volumenya ya!",
         "kata_kunci": [
-          "Biru",
-          "15 x 8 x 5",
-          "600",
-          "Kuning",
-          "12 x 10 x 6",
-          "720"
+          "Vol Biru = 15 x 8 x 5 = 600 cm3",
+          "Vol Kuning = 12 x 10 x 6 = 720 cm3"
         ],
         "feedback": {
           "benar": "Hebat! Perhitungan volumenya sudah benar semua. Volume Kotak Biru adalah 600 cm3 dan volume Kotak Kuning adalah 720 cm3. Sekarang kita lanjut ke bagian mencari tahu sisa kertas kado.",
           "sebagian": "Bagus! Perhitunganmu sudah mengarah benar, tapi coba cek kembali perkalian angkanya. Pastikan kamu menghitung volume untuk KEDUA kotak dengan teliti ya. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Yuk, ingat lagi rumus volume balok adalah panjang x lebar x tinggi (dikalikan, bukan ditambah). Coba hitung ulang 15 x 8 x 5 untuk Kotak Biru dan 12 x 10 x 6 untuk Kotak Kuning. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Volume Kotak Biru = 15 x 8 x 5 = 600 cm3. Volume Kotak Kuning = 12 x 10 x 6 = 720 cm3."
+        "jawaban_benar": "Terima kasih sudah mencoba! Berikut adalah langkah hitungan volume yang benar:\nVolume Kotak Biru: 15 x 8 x 5 = 600 cm3. \nVolume Kotak Kuning: 12 x 10 x 6 = 720 cm3. Yuk, sekarang kita ke pertanyaan terakhir untuk menentukan pemenang sisa kertas kado! \n\nTahap 4 - Memeriksa Kembali"
       },
       {
         "id": 5,
-        "pertanyaan": "Berdasarkan hasil hitungan luas permukaan, kotak mana yang menyisakan kertas kado paling banyak? Tuliskan alasanmu beserta sisa angkanya setelah dikurangi luas total kertas kado (1.200 cm2)!",
+        "pertanyaan": "Berdasarkan hasil hitungan luas permukaan, kotak mana yang menyisakan kertas kado paling banyak? Tuliskan alasanmu beserta sisa angkanya setelah dikurangi luas total kertas kado (1.200 cm2)\n!",
         "kata_kunci": [
           "Kotak Biru",
-          "LP Biru 470",
-          "sisa 730",
-          "LP Kuning 504",
-          "sisa 696"
+          "LP Biru 470 cm2 (sisa 730)",
+          "LP Kuning 504 cm2 (sisa 696)",
+          "sisa Kotak Biru lebih banyak"
         ],
         "feedback": {
           "benar": "Hebat! Jawabanmu luar biasa dan sangat teliti. Kotak yang menyisakan kertas kado paling banyak adalah Kotak Biru karena luas permukaannya paling kecil (470 cm2) sehingga kertas yang tersisa paling melimpah yaitu 730 cm2. Selamat, kamu sudah menyelesaikan seluruh latihan soal pemecahan masalah balok dengan nilai sempurna!",
           "sebagian": "Bagus! Pilihan kotakmu sudah benar, yaitu Kotak Biru. Namun, jawabanmu belum lengkap. Coba tuliskan angka hasil hitungan luas permukaan atau sisa kertasnya setelah dikurangi dari 1.200 cm2 agar alasanmu makin kuat! Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Yuk, ingat lagi, kita mau mencari kotak yang menyisakan kertas kado paling banyak. Artinya, kita harus mencari kotak yang luas kulit luarnya (Luas Permukaan) paling kecil atau irit, bukan mencari volume yang paling besar. Coba hitung ulang luas permukaan kedua kotak lalu bandingkan kembali. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Kotak Biru. Luas Permukaan Kotak Biru = 470 cm2 (Sisa kertas kado 730 cm2). Luas Permukaan Kotak Kuning = 504 cm2 (Sisa kertas kado 696 cm2)."
+        "jawaban_benar": "Terima kasih sudah mencoba! Kotak yang menyisakan kertas kado paling banyak adalah Kotak Biru. \nLuas Permukaan Kotak Biru = 2 x ((15 x 8) + (8 x 5) + (15 x 5)) = 470 cm2 (Sisa kertas kado: 1.200 - 470 = 730 cm2). \nLuas Permukaan Kotak Kuning = 2 x ((12 x 10) + (10 x 6) + (12 x 6)) = 504 cm2 (Sisa kertas kado: 1.200 - 504 = 696 cm2). Selamat! Kamu telah menyelesaikan seluruh tahapan latihan pemecahan masalah materi balok. Terus semangat belajar, ya!"
       }
     ]
   },
   "prisma": {
-    "quiz": {
-      "id": 1,
-      "pertanyaan": "Apa ciri khas utama dari bangun ruang prisma segitiga?",
-      "kata_kunci": [
-        "alas",
-        "atap",
-        "segitiga",
-        "sejajar"
-      ],
-      "feedback": {
-        "benar": "Hebat! Ciri khas prisma segitiga adalah memiliki alas dan atap berbentuk segitiga yang sejajar dan kongruen.",
-        "sebagian": "Jawabanmu sudah benar mengenai bentuk segitiganya. Dimana letak kedua segitiga tersebut pada prisma?",
-        "salah": "Coba amati kembali model prisma. Bentuk apa yang ada di bagian bawah (alas) dan bagian atasnya?"
-      },
-      "jawaban_benar": "Ciri khas utama prisma segitiga adalah memiliki dua sisi (alas dan atap) yang berbentuk segitiga identik dan sejajar satu sama lain."
-    },
     "pertanyaan_anak": [
       {
         "id": 1,
@@ -354,7 +334,7 @@
           "sebagian": "Jawabanmu sudah cukup baik, tetapi masih ada satu karakteristik yang belum disebutkan. Coba ingat kembali materi pada flipbook. Prisma segitiga memiliki jumlah sisi, rusuk, dan titik sudut tertentu. Yuk, lengkapi jawabanmu sekali lagi!",
           "salah": "Jawabanmu belum tepat. Petunjuknya, coba perhatikan kembali bagian materi yang menjelaskan jumlah sisi, jumlah rusuk, dan jumlah titik sudut pada prisma segitiga. Ketiga informasi tersebut perlu disebutkan agar jawabanmu lengkap."
         },
-        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah prisma segitiga memiliki 5 sisi, 9 rusuk, dan 6 titik sudut. Yuk, lanjut ke pertanyaan berikutnya!"
+        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah prisma segitiga memiliki 5 sisi, 9 rusuk, dan 6 titik sudut. Yuk, lanjut ke pertanyaan berikutnya!\nSoal 2 - Karakteristik Prisma"
       },
       {
         "id": 2,
@@ -368,7 +348,7 @@
           "sebagian": "Jawabanmu sudah cukup baik, tetapi belum lengkap. Coba ingat kembali materi pada flipbook. Prisma segitiga memiliki dua jenis bentuk sisi. Lengkapi kembali jawabanmu dengan menyebutkan jumlah masing-masing bentuk sisi. Silakan coba sekali lagi!",
           "salah": "Jawabanmu belum tepat. Petunjuknya, coba perhatikan kembali materi tentang bentuk sisi-sisi prisma segitiga. Ingat, prisma segitiga memiliki dua jenis bentuk sisi dengan jumlah yang berbeda. Silakan coba sekali lagi!"
         },
-        "jawaban_benar": "Terima kasih sudah berusaha menjawab. Jawaban yang benar adalah prisma segitiga memiliki 2 sisi berbentuk segitiga dan 3 sisi berbentuk persegi panjang. Yuk, kita lanjut ke soal berikutnya!"
+        "jawaban_benar": "Terima kasih sudah berusaha menjawab. Jawaban yang benar adalah prisma segitiga memiliki 2 sisi berbentuk segitiga dan 3 sisi berbentuk persegi panjang. Yuk, kita lanjut ke soal berikutnya!\nSoal 3 - Jaring-Jaring Prisma Segitiga"
       },
       {
         "id": 3,
@@ -383,7 +363,7 @@
           "sebagian": "Jawabanmu sudah mengarah benar, tetapi belum lengkap. Coba ingat kembali materi pada flipbook. Selain memiliki bentuk yang sama, masih ada satu hal lagi yang harus dimiliki oleh kedua segitiga tersebut. Yuk, lengkapi jawabanmu!",
           "salah": "Jawabanmu belum tepat. Petunjuknya, coba perhatikan kembali bagian materi tentang jaring-jaring prisma segitiga. Perhatikan mengapa kedua segitiga pada jaring-jaring harus memiliki bentuk dan ukuran tertentu. Silakan coba sekali lagi!"
         },
-        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah dua segitiga pada jaring-jaring prisma segitiga harus memiliki bentuk dan ukuran yang sama karena menjadi alas dan tutup prisma segitiga. Yuk, lanjut ke pertanyaan berikutnya!"
+        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah dua segitiga pada jaring-jaring prisma segitiga harus memiliki bentuk dan ukuran yang sama karena menjadi alas dan tutup prisma segitiga. Yuk, lanjut ke pertanyaan berikutnya! \nSoal 4 - Luas Permukaan Prisma"
       },
       {
         "id": 4,
@@ -398,22 +378,22 @@
           "sebagian": "Jawabanmu sudah mengarah benar, tetapi masih belum lengkap. Coba ingat kembali materi pada flipbook. Selain menyebutkan cara menghitungnya, coba tuliskan juga bangun datar apa saja yang menyusun luas permukaan prisma segitiga. Silakan coba sekali lagi!",
           "salah": "Jawabanmu masih belum tepat. Petunjuknya, coba baca kembali bagian materi tentang luas permukaan prisma segitiga. Ingat, luas permukaan diperoleh dari jumlah luas seluruh sisi yang menyusun prisma segitiga. Silakan coba sekali lagi!"
         },
-        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah luas permukaan prisma segitiga dihitung dengan menjumlahkan luas seluruh sisi, yaitu 3 sisi berbentuk persegi panjang dan 2 sisi berbentuk segitiga. Yuk, lanjut ke pertanyaan berikutnya!"
+        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah luas permukaan prisma segitiga dihitung dengan menjumlahkan luas seluruh sisi, yaitu 3 sisi berbentuk persegi panjang dan 2 sisi berbentuk segitiga. Yuk, lanjut ke pertanyaan berikutnya!\nSoal 5 - Volume Prisma Segitiga"
       },
       {
         "id": 5,
         "pertanyaan": "Bagaimana cara menentukan volume prisma segitiga?",
         "kata_kunci": [
-          "luas alas",
+          "luas alas (s x s)",
           "tinggi prisma",
-          "dikalikan"
+          "dikalikan."
         ],
         "feedback": {
           "benar": "Hebat! Jawabanmu sudah tepat. Kamu sudah memahami bahwa volume prisma segitiga diperoleh dengan mengalikan luas alas dengan tinggi prisma. Selamat, kamu telah menyelesaikan seluruh soal evaluasi dengan baik!",
           "sebagian": "Jawabanmu sudah mengarah benar, tetapi masih belum lengkap. Coba ingat kembali rumus volume prisma segitiga pada flipbook. Volume diperoleh dari dua besaran yang dihubungkan dengan suatu operasi hitung. Yuk, lengkapi jawabanmu! Silakan coba sekali lagi.",
           "salah": "Jawabanmu masih belum tepat. Petunjuknya, coba perhatikan kembali materi tentang volume prisma segitiga. Ingat bahwa volume ditentukan menggunakan luas alas dan tinggi prisma, bukan dengan menjumlahkan luas sisi atau menghitung jumlah rusuk. Silakan coba sekali lagi!"
         },
-        "jawaban_benar": "Terima kasih sudah mencoba! Jawaban yang benar adalah volume prisma segitiga diperoleh dengan mengalikan luas alas dengan tinggi prisma. Selamat! 🎉 Kamu telah menyelesaikan seluruh soal evaluasi. Terus semangat belajar dan sampai jumpa pada kegiatan berikutnya!"
+        "jawaban_benar": "Terima kasih sudah mencoba!  Jawaban yang benar adalah volume prisma segitiga diperoleh dengan mengalikan luas alas dengan tinggi prisma. Selamat! 🎉 Kamu telah menyelesaikan seluruh soal evaluasi. Terus semangat belajar dan sampai jumpa pada kegiatan berikutnya! \n\n===Soal Logic===\n\nScript Chatbot AI - Latihan Soal PBL Prisma Segitiga\n\nSapaan Awal\n\nHalo, teman hebat! 😊 Yuk, kita selesaikan masalah tantangan dari Kakak Penjaga tentang tenda pramuka ini bersama-sama. Kita akan mengerjakannya langkah demi langkah. Jawablah setiap pertanyaan dengan bahasamu sendiri ya. Kamu memiliki maksimal dua kesempatan untuk menjawab setiap pertanyaan."
       }
     ],
     "evaluasi": [
@@ -421,12 +401,12 @@
         "id": 1,
         "pertanyaan": "Menurutmu, informasi apa saja yang diketahui dari gambar tantangan tenda tersebut? Tuliskan informasi penting yang kamu temukan tentang ukuran tenda dan paket terpalnya!",
         "kata_kunci": [
-          "alas tenda",
-          "tinggi",
-          "kedalaman",
-          "sisi miring",
-          "Paket Terpal A",
-          "Paket Terpal B"
+          "alas tenda 120 cm",
+          "tinggi 80 cm",
+          "kedalaman 200 cm",
+          "sisi miring 100 cm",
+          "Paket Terpal A (150 x 200 cm)",
+          "Paket Terpal B (130 x 250 cm)"
         ],
         "feedback": {
           "benar": "Hebat! Kamu berhasil menemukan semua informasi ukuran pada gambar sketsa tenda dan pilihan terpalnya. Sekarang kita cari tahu apa yang harus kita selesaikan.",
@@ -439,57 +419,53 @@
         "id": 2,
         "pertanyaan": "Menurutmu, apa saja masalah atau pertanyaan yang harus diselesaikan dari tantangan Kakak tersebut?",
         "kata_kunci": [
-          "menghitung volume",
-          "memilih paket terpal",
-          "hemat"
+          "menghitung volume ruang di dalam tenda",
+          "memilih paket terpal yang paling hemat/sisa sedikit untuk alas tidur"
         ],
         "feedback": {
           "benar": "Hebat! Kamu sudah memahami dengan tepat kedua masalah yang harus diselesaikan. Sekarang kita tentukan rumus dan langkah apa yang akan digunakan untuk menjawab tantangan tersebut.",
           "sebagian": "Bagus! Jawabanmu sudah mengarah benar. Kamu sudah mengetahui sebagian masalahnya. Coba perhatikan lagi tulisan di dalam lingkaran awan pada gambar, ada dua pertanyaan lho yang diajukan oleh Kakak. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Yuk, baca kembali kalimat tanya yang ada di dalam lingkaran awan putih pada gambar. Perhatikan hal apa yang harus dihitung volumenya dan terpal mana yang harus dipilih untuk alas tidur. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Terima kasih sudah mencoba! Masalah yang harus diselesaikan pada tantangan ini adalah menghitung volume ruang (kapasitas) di dalam tenda prisma segitiga, serta menentukan paket terpal yang paling tepat dan paling hemat (sisa kain paling sedikit) untuk menutup alas bagian dalam tenda. Yuk, kita lanjut ke langkah berikutnya!"
+        "jawaban_benar": "Terima kasih sudah mencoba! Masalah yang harus diselesaikan pada tantangan ini adalah menghitung volume ruang (kapasitas) di dalam tenda prisma segitiga, serta menentukan paket terpal yang paling tepat dan paling hemat (sisa kain paling sedikit) untuk menutup alas bagian dalam tenda. Yuk, kita lanjut ke langkah berikutnya!\n\nTahap 2 - Merencanakan Penyelesaian"
       },
       {
         "id": 3,
         "pertanyaan": "Langkah atau rumus apa saja yang akan kamu gunakan untuk menghitung volume ruang tenda dan mencari terpal alas yang paling hemat? Jelaskan alasanmu!",
         "kata_kunci": [
-          "volume prisma",
-          "luas alas",
-          "luas lantai",
-          "persegi panjang"
+          "rumus volume prisma segitiga (luas alas × tinggi prisma x 1/2 x a x t x kedalaman)",
+          "rumus luas alas dalam tenda (persegi panjang / alas tenda x kedalaman)"
         ],
         "feedback": {
           "benar": "Hebat! Kamu sudah memilih strategi dan rumus yang sangat tepat. Lantai tenda bagian dalam berbentuk persegi panjang, jadi kita perlu tahu luasnya untuk dicocokkan dengan luas kain terpal. Yuk, kita mulai menghitung volumenya dulu!",
           "sebagian": "Bagus! Kamu sudah menyebutkan salah satu langkah rumus dengan benar. Tapi ingat, tantangan kita ada dua, yaitu menghitung volume tenda DAN mencari terpal alas tidur yang pas. Jadi rumus apa lagi satu yang belum kamu sebutkan? Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Ingat, tenda ini berbentuk prisma segitiga, dan kain terpalnya hanya digunakan untuk alas tidur (lantai dalam) saja, bukan membungkus seluruh tenda. Coba pikirkan rumus volume prisma segitiga dan rumus luas lantai tenda yang berbentuk persegi panjang. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Terima kasih sudah mencoba! Untuk menyelesaikan tantangan ini, kita menggunakan rumus volume prisma segitiga yaitu V = (1/2 x alas segitiga x tinggi segitiga) x kedalaman tenda. Sedangkan untuk mencari terpal alas paling hemat, kita cari luas lantai tenda dengan rumus persegi panjang yaitu luas lantai = alas tenda x kedalaman tenda, lalu kita bandingkan dengan luas Paket Terpal A dan B. Yuk, kita mulai menghitung!"
+        "jawaban_benar": "Terima kasih sudah mencoba! Untuk menyelesaikan tantangan ini, kita menggunakan rumus volume prisma segitiga yaitu V = (1/2 x alas segitiga x tinggi segitiga) x kedalaman tenda. Sedangkan untuk mencari terpal alas paling hemat, kita cari luas lantai tenda dengan rumus persegi panjang yaitu luas lantai = alas tenda x kedalaman tenda, lalu kita bandingkan dengan luas Paket Terpal A dan B. Yuk, kita mulai menghitung!\n\nTahap 3 - Melaksanakan Rencana"
       },
       {
         "id": 4,
         "pertanyaan": "Sekarang, hitunglah volume ruang di dalam tenda tersebut! Tuliskan angka perkaliannya dan hasil akhir volumenya ya!",
         "kata_kunci": [
-          "1/2 x 120 x 80",
-          "4.800",
-          "960.000"
+          "1/2 x 120 x 80 x 200",
+          "Luas alas = 4.800",
+          "Volume = 960.000 cm3"
         ],
         "feedback": {
           "benar": "Hebat! Perhitungan volume ruang di dalam tendamu sudah sangat benar. Luas alas segitiganya adalah 4.800 cm2 dan setelah dikali kedalaman 200 cm, volume totalnya adalah 960.000 cm3. Sekarang kita lanjut ke bagian menentukan kain terpal alas tenda.",
           "sebagian": "Bagus! Caramu sudah mengarah benar. Namun, coba teliti lagi hitungan perkalian angkanya atau pastikan rumus luas segitiganya sudah dibagi 2 (1/2) dengan benar ya. Kamu masih memiliki satu kesempatan untuk memperbaiki jawabanmu.",
           "salah": "Jawabanmu masih belum tepat. Untuk mencari volume prisma, gunakan tinggi segitiga yang tegak lurus (80 cm), bukan sisi miring tenda (100 cm). Rumusnya adalah 1/2 x alas x tinggi x kedalaman. Coba hitung ulang dengan teliti ya. Kamu masih memiliki satu kesempatan untuk mencoba lagi."
         },
-        "jawaban_benar": "Terima kasih sudah mencoba! Berikut adalah langkah hitungan volume tenda yang benar:\nLuas Alas Segitiga 1/2 x 120 cm x 80 cm = 4.800 cm2.\nVolume Tenda = 4.800 cm2 x 200 cm (kedalaman) = 960.000 cm3.\nYuk, sekarang kita ke pertanyaan terakhir untuk menentukan paket terpal pilihan kita!"
+        "jawaban_benar": "Terima kasih sudah mencoba! Berikut adalah langkah hitungan volume tenda yang benar:\nLuas Alas Segitiga 1/2 x 120 cm x 80 cm = 4.800 cm2.\nVolume Tenda = 4.800 cm2 x 200 cm (kedalaman) = 960.000 cm3.\nYuk, sekarang kita ke pertanyaan terakhir untuk menentukan paket terpal pilihan kita!\n\nTahap 4 - Memeriksa Kembali"
       },
       {
         "id": 5,
         "pertanyaan": "Berdasarkan ukuran alas dalam tenda, terpal paket mana yang sebaiknya dipilih agar menutupi seluruh alas dengan tepat dan sisa kainnya paling sedikit (paling hemat)? Jelaskan alasan dan hitunganmu!",
         "kata_kunci": [
-          "24.000",
-          "Paket Terpal A",
-          "150 x 200",
-          "Paket B",
-          "130 x 250"
+          "Luas lantai tenda = 120 x 200 = 24.000 cm2",
+          "Paket Terpal A (150 x 200) pas menutup lantai",
+          "Paket B (130 x 250) tidak muat/lebar kurang",
+          "Paket A paling tepat/hemat"
         ],
         "feedback": {
           "benar": "Hebat! Jawabanmu luar biasa cerdas dan sangat teliti. Kita sebaiknya memilih Paket Terpal A. Lantai dalam tenda memerlukan ukuran minimal 120 cm x 200 cm. Paket Terpal A (150 cm x 200 cm) sangat pas menutup seluruh lantai dengan sisa lebar hanya 30 cm saja. Paket B tidak dipilih karena dimensinya tidak cocok menutup ukuran kedalaman tenda. Selamat, kamu sudah menyelesaikan seluruh latihan soal prisma segitiga dengan sukses!",
