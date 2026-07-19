@@ -16,7 +16,6 @@ class TutorSessionManager {
 
     enum class SessionPhase {
         IDLE,
-        QUIZ,
         PERTANYAAN_ANAK,
         EVALUASI,
         SELESAI
@@ -67,38 +66,25 @@ class TutorSessionManager {
     }
 
     /**
-     * Memulai sesi dari fase pertama (QUIZ).
-     * @return Pertanyaan pertama dari quiz, atau null jika data kosong.
+     * Memulai sesi pada fase target.
+     * @param targetPhase Fase yang ingin dimulai (PERTANYAAN_ANAK atau EVALUASI).
+     * @return Pertanyaan pertama dari fase tersebut, atau null jika data kosong.
      */
-    fun startSession(): QuestionItem? {
+    fun startSession(targetPhase: SessionPhase): QuestionItem? {
         val data = shapeData ?: return null
 
-        // Mulai dari quiz jika ada
-        if (data.quiz != null) {
-            currentPhase = SessionPhase.QUIZ
-            currentQuestionIndex = 0
-            attempts = 0
-            return data.quiz
-        }
+        currentPhase = targetPhase
+        currentQuestionIndex = 0
+        attempts = 0
 
-        // Skip ke pertanyaan anak jika quiz kosong
-        if (data.pertanyaanAnak.isNotEmpty()) {
-            currentPhase = SessionPhase.PERTANYAAN_ANAK
-            currentQuestionIndex = 0
-            attempts = 0
-            return data.pertanyaanAnak[0]
+        return when (targetPhase) {
+            SessionPhase.PERTANYAAN_ANAK -> data.pertanyaanAnak.getOrNull(0)
+            SessionPhase.EVALUASI -> data.evaluasi.getOrNull(0)
+            else -> null
+        } ?: run {
+            currentPhase = SessionPhase.SELESAI
+            null
         }
-
-        // Skip ke evaluasi jika pertanyaan anak juga kosong
-        if (data.evaluasi.isNotEmpty()) {
-            currentPhase = SessionPhase.EVALUASI
-            currentQuestionIndex = 0
-            attempts = 0
-            return data.evaluasi[0]
-        }
-
-        currentPhase = SessionPhase.SELESAI
-        return null
     }
 
     /**
@@ -107,7 +93,6 @@ class TutorSessionManager {
     fun getCurrentQuestion(): QuestionItem? {
         val data = shapeData ?: return null
         return when (currentPhase) {
-            SessionPhase.QUIZ -> data.quiz
             SessionPhase.PERTANYAAN_ANAK -> data.pertanyaanAnak.getOrNull(currentQuestionIndex)
             SessionPhase.EVALUASI -> data.evaluasi.getOrNull(currentQuestionIndex)
             else -> null
@@ -166,7 +151,8 @@ class TutorSessionManager {
     }
 
     /**
-     * Pindah ke soal berikutnya atau fase berikutnya.
+     * Pindah ke soal berikutnya dalam fase yang sama.
+     * Jika soal dalam fase ini habis, maka sesi langsung SELESAI (tidak pindah fase).
      * @return Soal berikutnya, atau null jika sesi sudah selesai
      */
     fun advanceToNext(): QuestionItem? {
@@ -174,50 +160,18 @@ class TutorSessionManager {
         attempts = 0
 
         when (currentPhase) {
-            SessionPhase.QUIZ -> {
-                // Quiz hanya 1 soal → pindah ke pertanyaan anak
-                return transitionToPhase(SessionPhase.PERTANYAAN_ANAK, data)
-            }
             SessionPhase.PERTANYAAN_ANAK -> {
                 currentQuestionIndex++
                 if (currentQuestionIndex < data.pertanyaanAnak.size) {
                     return data.pertanyaanAnak[currentQuestionIndex]
                 }
-                // Pertanyaan anak habis → pindah ke evaluasi
-                return transitionToPhase(SessionPhase.EVALUASI, data)
+                currentPhase = SessionPhase.SELESAI
+                return null
             }
             SessionPhase.EVALUASI -> {
                 currentQuestionIndex++
                 if (currentQuestionIndex < data.evaluasi.size) {
                     return data.evaluasi[currentQuestionIndex]
-                }
-                // Evaluasi selesai
-                currentPhase = SessionPhase.SELESAI
-                return null
-            }
-            else -> {
-                currentPhase = SessionPhase.SELESAI
-                return null
-            }
-        }
-    }
-
-    private fun transitionToPhase(nextPhase: SessionPhase, data: ShapeData): QuestionItem? {
-        when (nextPhase) {
-            SessionPhase.PERTANYAAN_ANAK -> {
-                if (data.pertanyaanAnak.isNotEmpty()) {
-                    currentPhase = SessionPhase.PERTANYAAN_ANAK
-                    currentQuestionIndex = 0
-                    return data.pertanyaanAnak[0]
-                }
-                // Skip ke evaluasi jika tidak ada pertanyaan anak
-                return transitionToPhase(SessionPhase.EVALUASI, data)
-            }
-            SessionPhase.EVALUASI -> {
-                if (data.evaluasi.isNotEmpty()) {
-                    currentPhase = SessionPhase.EVALUASI
-                    currentQuestionIndex = 0
-                    return data.evaluasi[0]
                 }
                 currentPhase = SessionPhase.SELESAI
                 return null
@@ -230,20 +184,19 @@ class TutorSessionManager {
     }
 
     /**
-     * Mendapatkan teks progress untuk UI (contoh: "Evaluasi: Soal 3/5").
+     * Mendapatkan teks progress untuk UI.
      */
     fun getProgressText(): String {
         val data = shapeData ?: return ""
         return when (currentPhase) {
             SessionPhase.IDLE -> "Siap memulai"
-            SessionPhase.QUIZ -> "Quiz Utama"
             SessionPhase.PERTANYAAN_ANAK -> {
                 val total = data.pertanyaanAnak.size
-                "Evaluasi: Soal ${currentQuestionIndex + 1}/$total"
+                "Soal: ${currentQuestionIndex + 1}/$total"
             }
             SessionPhase.EVALUASI -> {
                 val total = data.evaluasi.size
-                "Latihan Soal: Soal ${currentQuestionIndex + 1}/$total"
+                "Evaluasi: Soal ${currentQuestionIndex + 1}/$total"
             }
             SessionPhase.SELESAI -> "Selesai"
         }

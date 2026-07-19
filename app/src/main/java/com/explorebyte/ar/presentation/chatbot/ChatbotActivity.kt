@@ -26,13 +26,14 @@ class ChatbotActivity : AppCompatActivity() {
         setContentView(R.layout.activity_chatbot)
 
         val shapeType = intent.getStringExtra("SHAPE_TYPE") ?: "kubus"
+        val sessionType = intent.getStringExtra("SESSION_TYPE") ?: "SOAL"
         viewModel.setShape(shapeType)
 
         setupUI()
         setupObservers()
 
-        // Mulai sesi (Quiz → Pertanyaan Anak → Evaluasi)
-        viewModel.startSession()
+        // Mulai sesi khusus (Evaluasi atau Soal)
+        viewModel.startSession(sessionType)
     }
 
     private fun setupUI() {

@@ -29,7 +29,9 @@ class PdfViewerActivity : AppCompatActivity() {
     private var lastActionType: ActionType? = null
     private var pdfFileName: String = ""
 
-    enum class ActionType { AR, AI, NONE }
+    private enum class ActionType {
+        NONE, AI_EVALUASI, AI_SOAL, AR
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -113,7 +115,8 @@ class PdfViewerActivity : AppCompatActivity() {
 
     private fun updateActionButton(currentPage: Int) {
         val targetAction = when {
-            currentPage == 24 -> ActionType.AI
+            currentPage == 24 -> ActionType.AI_EVALUASI
+            currentPage == 25 -> ActionType.AI_SOAL
             pdfFileName.contains("kubus", ignoreCase = true) && currentPage == 11 -> ActionType.AR
             pdfFileName.contains("balok", ignoreCase = true) && currentPage == 10 -> ActionType.AR
             pdfFileName.contains("prisma", ignoreCase = true) && currentPage == 10 -> ActionType.AR
@@ -125,9 +128,9 @@ class PdfViewerActivity : AppCompatActivity() {
         lastActionType = targetAction
 
         when (targetAction) {
-            ActionType.AI -> {
+            ActionType.AI_EVALUASI, ActionType.AI_SOAL -> {
                 btnAction.visibility = View.VISIBLE
-                btnAction.text = "Tanya AI Asisten"
+                btnAction.text = if (targetAction == ActionType.AI_EVALUASI) "Evaluasi AI" else "Soal AI"
                 btnAction.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_chatbot, 0, 0, 0)
                 btnAction.setOnClickListener {
                     val intent = Intent(this, ChatbotActivity::class.java)
@@ -137,7 +140,9 @@ class PdfViewerActivity : AppCompatActivity() {
                         pdfFileName.contains("prisma", ignoreCase = true) -> "PRISMA"
                         else -> "KUBUS"
                     }
+                    val sessionType = if (targetAction == ActionType.AI_EVALUASI) "EVALUASI" else "SOAL"
                     intent.putExtra("SHAPE_TYPE", shapeType)
+                    intent.putExtra("SESSION_TYPE", sessionType)
                     startActivity(intent)
                 }
             }

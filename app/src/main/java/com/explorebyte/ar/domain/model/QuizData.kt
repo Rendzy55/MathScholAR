@@ -26,11 +26,10 @@ data class FeedbackSet(
 )
 
 /**
- * Data lengkap per bangun ruang, berisi 3 tipe sesi.
+ * Data lengkap per bangun ruang, berisi 2 tipe sesi.
  */
 @Serializable
 data class ShapeData(
-    @SerialName("quiz") val quiz: QuestionItem? = null,
     @SerialName("pertanyaan_anak") val pertanyaanAnak: List<QuestionItem> = emptyList(),
     @SerialName("evaluasi") val evaluasi: List<QuestionItem> = emptyList()
 )

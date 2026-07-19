@@ -77,11 +77,18 @@ class ChatbotViewModel(application: Application) : AndroidViewModel(application)
     }
 
     /**
-     * Memulai sesi dari awal (Quiz → Pertanyaan Anak → Evaluasi).
+     * Memulai sesi sesuai dengan tipe yang dipilih (EVALUASI atau SOAL).
      */
-    fun startSession() {
+    fun startSession(sessionType: String) {
         conversationHistory.clear()
-        val firstQuestion = sessionManager.startSession()
+        
+        val phase = if (sessionType == "EVALUASI") {
+            TutorSessionManager.SessionPhase.EVALUASI
+        } else {
+            TutorSessionManager.SessionPhase.PERTANYAAN_ANAK
+        }
+        
+        val firstQuestion = sessionManager.startSession(phase)
 
         updatePhaseState()
 
