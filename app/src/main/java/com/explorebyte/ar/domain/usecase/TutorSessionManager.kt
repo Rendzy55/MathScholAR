@@ -192,11 +192,11 @@ class TutorSessionManager {
             SessionPhase.IDLE -> "Siap memulai"
             SessionPhase.PERTANYAAN_ANAK -> {
                 val total = data.pertanyaanAnak.size
-                "Soal: ${currentQuestionIndex + 1}/$total"
+                "Evaluasi: Soal ${currentQuestionIndex + 1}/$total"
             }
             SessionPhase.EVALUASI -> {
                 val total = data.evaluasi.size
-                "Evaluasi: Soal ${currentQuestionIndex + 1}/$total"
+                "Soal: ${currentQuestionIndex + 1}/$total"
             }
             SessionPhase.SELESAI -> "Selesai"
         }
@@ -208,8 +208,8 @@ class TutorSessionManager {
     fun getPhaseLabel(): String {
         return when (currentPhase) {
             SessionPhase.IDLE -> "Menunggu"
-            SessionPhase.PERTANYAAN_ANAK -> "📝 Soal"
-            SessionPhase.EVALUASI -> "📊 Evaluasi"
+            SessionPhase.PERTANYAAN_ANAK -> "📊 Evaluasi"
+            SessionPhase.EVALUASI -> "📝 Soal"
             SessionPhase.SELESAI -> "✅ Selesai"
         }
     }

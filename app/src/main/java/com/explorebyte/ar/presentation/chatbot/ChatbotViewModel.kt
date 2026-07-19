@@ -83,9 +83,9 @@ class ChatbotViewModel(application: Application) : AndroidViewModel(application)
         conversationHistory.clear()
         
         val phase = if (sessionType == "EVALUASI") {
-            TutorSessionManager.SessionPhase.EVALUASI
+            TutorSessionManager.SessionPhase.PERTANYAAN_ANAK // Evaluasi di flipbook menggunakan array pertanyaan_anak di JSON
         } else {
-            TutorSessionManager.SessionPhase.PERTANYAAN_ANAK
+            TutorSessionManager.SessionPhase.EVALUASI // Soal di flipbook menggunakan array evaluasi di JSON
         }
         
         val firstQuestion = sessionManager.startSession(phase)

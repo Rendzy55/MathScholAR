@@ -114,12 +114,20 @@ class PdfViewerActivity : AppCompatActivity() {
     }
 
     private fun updateActionButton(currentPage: Int) {
+        val isKubus = pdfFileName.contains("kubus", ignoreCase = true)
+        val isBalok = pdfFileName.contains("balok", ignoreCase = true)
+        val isPrisma = pdfFileName.contains("prisma", ignoreCase = true)
+
         val targetAction = when {
-            currentPage == 24 -> ActionType.AI_EVALUASI
-            currentPage == 25 -> ActionType.AI_SOAL
-            pdfFileName.contains("kubus", ignoreCase = true) && currentPage == 11 -> ActionType.AR
-            pdfFileName.contains("balok", ignoreCase = true) && currentPage == 10 -> ActionType.AR
-            pdfFileName.contains("prisma", ignoreCase = true) && currentPage == 10 -> ActionType.AR
+            isKubus && currentPage == 24 -> ActionType.AI_EVALUASI
+            isKubus && currentPage == 25 -> ActionType.AI_SOAL
+            isBalok && currentPage == 25 -> ActionType.AI_EVALUASI
+            isBalok && currentPage == 26 -> ActionType.AI_SOAL
+            isPrisma && currentPage == 25 -> ActionType.AI_EVALUASI
+            isPrisma && currentPage == 26 -> ActionType.AI_SOAL
+            isKubus && currentPage == 11 -> ActionType.AR
+            isBalok && currentPage == 10 -> ActionType.AR
+            isPrisma && currentPage == 10 -> ActionType.AR
             else -> ActionType.NONE
         }
 
