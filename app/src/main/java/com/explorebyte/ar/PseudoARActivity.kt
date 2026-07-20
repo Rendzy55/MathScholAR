@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import io.github.sceneview.SceneView
+import io.github.sceneview.environment.loadEnvironmentAsync
 import io.github.sceneview.math.Position
 import io.github.sceneview.node.ModelNode
 import io.sentry.Sentry
@@ -147,8 +148,9 @@ class PseudoARActivity : AppCompatActivity() {
             
             // Load 360 Environment (HDRI Skybox)
             lifecycleScope.launchWhenCreated {
-                sceneView.environment = sceneView.environmentLoader.createHDREnvironment(
-                    assetFileLocation = "skybox/sekolah.hdr"
+                sceneView.loadEnvironmentAsync(
+                    hdrFileLocation = "skybox/sekolah.hdr",
+                    lifecycle = lifecycle
                 )
             }
 
