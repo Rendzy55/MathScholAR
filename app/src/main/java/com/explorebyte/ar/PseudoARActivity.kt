@@ -10,8 +10,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.google.android.filament.utils.HDRLoader
 import io.github.sceneview.SceneView
-import io.github.sceneview.environment.HDRLoader
 import io.github.sceneview.environment.loadEnvironmentAsync
 import io.github.sceneview.math.Position
 import io.github.sceneview.node.ModelNode
