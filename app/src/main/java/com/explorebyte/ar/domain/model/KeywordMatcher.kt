@@ -104,7 +104,7 @@ object KeywordMatcher {
             "sama besar" to listOf("sama ukuran", "ukuran sama", "sama panjang", "kongruen", "sama luas"),
             "6 sisi" to listOf("enam sisi", "6 buah sisi", "enam buah sisi"),
             "12 rusuk" to listOf("dua belas rusuk", "12 buah rusuk"),
-            "8 titik sudut" to listOf("delapan titik sudut", "8 buah titik sudut"),
+            "8 titik sudut" to listOf("delapan titik sudut", "8 buah titik sudut", "8 sudut", "delapan sudut", "8 buah sudut"),
             "s x s" to listOf("sisi x sisi", "s pangkat 2", "s kuadrat", "s²"),
             "s x s x s" to listOf("sisi x sisi x sisi", "s pangkat 3", "s kubik", "s³"),
             "6 x s x s" to listOf("6s²", "6 s²", "enam x s x s", "6 x sisi x sisi"),

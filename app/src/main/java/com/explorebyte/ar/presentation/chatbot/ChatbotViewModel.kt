@@ -180,6 +180,9 @@ class ChatbotViewModel(application: Application) : AndroidViewModel(application)
         aiContent: String,
         answerResult: TutorSessionManager.AnswerResult
     ) {
+        val isAiBenarNext = aiContent.contains("BENAR_NEXT")
+        val isAiMaxAttempt = aiContent.contains("MAX_ATTEMPT")
+
         // Bersihkan tag kontrol dari respons AI
         val cleanContent = aiContent
             .replace("BENAR_NEXT", "")
@@ -190,10 +193,10 @@ class ChatbotViewModel(application: Application) : AndroidViewModel(application)
         appendAiMessage(cleanContent)
         conversationHistory.add(ChatMessage(role = "assistant", content = aiContent))
 
-        // (Jawaban benar sekarang disertakan langsung oleh AI berkat instruksi di system prompt)
-
-        // Tentukan langkah selanjutnya berdasarkan hasil lokal (bukan AI)
-        if (answerResult.shouldAdvance) {
+        // Tentukan langkah selanjutnya berdasarkan hasil lokal ATAU tag dari AI
+        val shouldAdvance = isAiBenarNext || isAiMaxAttempt || answerResult.shouldAdvance
+        
+        if (shouldAdvance) {
             advanceSession()
         }
     }

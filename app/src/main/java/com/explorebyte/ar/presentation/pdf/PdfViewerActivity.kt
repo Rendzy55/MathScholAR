@@ -121,8 +121,8 @@ class PdfViewerActivity : AppCompatActivity() {
         val targetAction = when {
             isKubus && currentPage == 24 -> ActionType.AI_EVALUASI
             isKubus && currentPage == 25 -> ActionType.AI_SOAL
-            isBalok && currentPage == 25 -> ActionType.AI_EVALUASI
-            isBalok && currentPage == 26 -> ActionType.AI_SOAL
+            isBalok && currentPage == 24 -> ActionType.AI_EVALUASI
+            isBalok && currentPage == 25 -> ActionType.AI_SOAL
             isPrisma && currentPage == 25 -> ActionType.AI_EVALUASI
             isPrisma && currentPage == 26 -> ActionType.AI_SOAL
             isKubus && currentPage == 11 -> ActionType.AR
