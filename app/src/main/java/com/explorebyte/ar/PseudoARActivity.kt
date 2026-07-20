@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import io.github.sceneview.SceneView
+import io.github.sceneview.environment.HDRLoader
 import io.github.sceneview.environment.loadEnvironmentAsync
 import io.github.sceneview.math.Position
 import io.github.sceneview.node.ModelNode
@@ -147,12 +148,14 @@ class PseudoARActivity : AppCompatActivity() {
             sceneView.setBackgroundColor(android.graphics.Color.BLACK)
             
             // Load 360 Environment (HDRI Skybox)
-            lifecycleScope.launchWhenCreated {
-                sceneView.loadEnvironmentAsync(
-                    hdrFileLocation = "skybox/sekolah.hdr",
-                    lifecycle = lifecycle
-                )
-            }
+            HDRLoader.loadEnvironmentAsync(
+                context = this@PseudoARActivity,
+                coroutineScope = lifecycleScope,
+                hdrFileLocation = "skybox/sekolah.hdr",
+                result = { environment ->
+                    sceneView.environment = environment
+                }
+            )
 
             Sentry.addBreadcrumb("PseudoAR: SceneView initialized with HDR Skybox")
             Log.d(TAG, "SceneView initialized with HDR Skybox")
