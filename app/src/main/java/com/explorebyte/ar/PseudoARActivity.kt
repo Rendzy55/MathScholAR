@@ -1,26 +1,14 @@
 package com.explorebyte.ar
 
-import android.Manifest
 import android.content.Intent
-import android.content.pm.PackageManager
-import android.net.Uri
 import android.os.Bundle
-import android.provider.Settings
 import android.util.Log
 import android.view.MotionEvent
 import android.view.View
-import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import androidx.camera.core.CameraSelector
-import androidx.camera.core.Preview
-import androidx.camera.lifecycle.ProcessCameraProvider
-import androidx.camera.view.PreviewView
-import androidx.core.content.ContextCompat
-import com.google.android.material.snackbar.Snackbar
 import io.github.sceneview.SceneView
 import io.github.sceneview.math.Position
 import io.github.sceneview.node.ModelNode
@@ -45,13 +33,10 @@ class PseudoARActivity : AppCompatActivity() {
     }
 
     // UI References
-    private lateinit var cameraPreview: PreviewView
     private lateinit var sceneView: SceneView
     private lateinit var tvInstruction: TextView
     private lateinit var btnFull: TextView
     private lateinit var btnRusuk: TextView
-    private lateinit var permissionDeniedLayout: View
-    private lateinit var btnOpenSettings: Button
 
     // Model paths configuration (identical to ARActivity)
     private val modelMap = mapOf(
@@ -72,19 +57,7 @@ class PseudoARActivity : AppCompatActivity() {
     private var scaleFactor = 1.0f
     private var currentScale = 0.5f
 
-    // Camera permission launcher
-    private val cameraPermissionLauncher = registerForActivityResult(
-        ActivityResultContracts.RequestPermission()
-    ) { isGranted ->
-        if (isGranted) {
-            Sentry.addBreadcrumb("PseudoAR: Camera permission granted")
-            permissionDeniedLayout.visibility = View.GONE
-            setupCamera()
-        } else {
-            Sentry.addBreadcrumb("PseudoAR: Camera permission denied")
-            showPermissionDeniedUI()
-        }
-    }
+
 
     // ─── Lifecycle ──────────────────────────────────────────────────────
 
@@ -101,18 +74,14 @@ class PseudoARActivity : AppCompatActivity() {
         Log.d(TAG, "PseudoARActivity started with shape: $currentShapeType")
 
         // Bind views
-        cameraPreview = findViewById(R.id.cameraPreview)
         sceneView = findViewById(R.id.sceneView)
         tvInstruction = findViewById(R.id.tvInstruction)
         btnFull = findViewById(R.id.btnFull)
         btnRusuk = findViewById(R.id.btnRusuk)
-        permissionDeniedLayout = findViewById(R.id.permissionDeniedLayout)
-        btnOpenSettings = findViewById(R.id.btnOpenSettings)
 
         setupSceneView()
         setupControls()
         setupGestures()
-        requestCameraPermission()
     }
 
     override fun onResume() {
@@ -166,100 +135,24 @@ class PseudoARActivity : AppCompatActivity() {
         System.gc()
     }
 
-    // ─── Camera Permission ──────────────────────────────────────────────
 
-    private fun requestCameraPermission() {
-        when {
-            ContextCompat.checkSelfPermission(
-                this, Manifest.permission.CAMERA
-            ) == PackageManager.PERMISSION_GRANTED -> {
-                permissionDeniedLayout.visibility = View.GONE
-                setupCamera()
-            }
-            shouldShowRequestPermissionRationale(Manifest.permission.CAMERA) -> {
-                // Show rationale, then request
-                Snackbar.make(
-                    cameraPreview,
-                    "Fitur ini membutuhkan akses kamera untuk menampilkan objek 3D",
-                    Snackbar.LENGTH_INDEFINITE
-                ).setAction("Izinkan") {
-                    cameraPermissionLauncher.launch(Manifest.permission.CAMERA)
-                }.show()
-            }
-            else -> {
-                cameraPermissionLauncher.launch(Manifest.permission.CAMERA)
-            }
-        }
-    }
-
-    private fun showPermissionDeniedUI() {
-        permissionDeniedLayout.visibility = View.VISIBLE
-        btnOpenSettings.setOnClickListener {
-            // Open app settings so user can manually enable camera permission
-            val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
-                data = Uri.fromParts("package", packageName, null)
-            }
-            startActivity(intent)
-        }
-    }
-
-    // ─── Camera Setup (CameraX) ─────────────────────────────────────────
-
-    private fun setupCamera() {
-        try {
-            val cameraProviderFuture = ProcessCameraProvider.getInstance(this)
-            cameraProviderFuture.addListener({
-                try {
-                    val cameraProvider = cameraProviderFuture.get()
-                    val preview = Preview.Builder().build().also {
-                        it.setSurfaceProvider(cameraPreview.surfaceProvider)
-                    }
-
-                    val cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
-
-                    // Unbind any previous use cases before rebinding
-                    cameraProvider.unbindAll()
-                    cameraProvider.bindToLifecycle(this, cameraSelector, preview)
-
-                    Sentry.addBreadcrumb("PseudoAR: CameraX started successfully")
-                    Log.d(TAG, "CameraX preview started")
-                } catch (e: Exception) {
-                    Log.e(TAG, "CameraX bind failed", e)
-                    Sentry.captureException(e)
-                    Toast.makeText(this, "Gagal membuka kamera", Toast.LENGTH_SHORT).show()
-                }
-            }, ContextCompat.getMainExecutor(this))
-        } catch (e: Exception) {
-            Log.e(TAG, "CameraX initialization failed", e)
-            Sentry.captureException(e)
-            Toast.makeText(this, "Gagal menginisialisasi kamera", Toast.LENGTH_SHORT).show()
-        }
-    }
 
     // ─── SceneView Setup ────────────────────────────────────────────────
 
     private fun setupSceneView() {
         try {
-            // 1. SurfaceView layer: put SceneView above camera (media overlay) but below UI window
-            // This prevents the compositor bug (tiling) caused by setZOrderOnTop(true)
-            sceneView.setBackgroundColor(android.graphics.Color.TRANSPARENT)
-            sceneView.setZOrderMediaOverlay(true)
-            sceneView.holder.setFormat(android.graphics.PixelFormat.TRANSLUCENT)
+            // Opaque mode for 3D Viewer with HDR background
+            sceneView.setBackgroundColor(android.graphics.Color.BLACK)
             
-            // HACK: Force GPU composition to bypass Mediatek/Mali SurfaceFlinger tiling bug
-            sceneView.alpha = 0.99f
+            // Load 360 Environment (HDRI Skybox)
+            sceneView.loadEnvironmentAsync(
+                hdrFileLocation = "skybox/sekolah.hdr"
+            )
 
-            // 2. Filament renderer: set blend mode to TRANSLUCENT so alpha channel is preserved
-            //    Without this, Filament clears every frame with opaque black regardless of SurfaceView format
-            sceneView.view.blendMode = com.google.android.filament.View.BlendMode.TRANSLUCENT
-
-            // 3. Remove skybox (skybox renders an opaque environment background)
-            sceneView.scene.skybox = null
-
-            Sentry.addBreadcrumb("PseudoAR: SceneView initialized with Filament transparency")
-            Log.d(TAG, "SceneView initialized with transparent Filament rendering")
+            Sentry.addBreadcrumb("PseudoAR: SceneView initialized with HDR Skybox")
+            Log.d(TAG, "SceneView initialized with HDR Skybox")
         } catch (e: Exception) {
-            Log.e(TAG, "SceneView transparency setup failed", e)
+            Log.e(TAG, "SceneView setup failed", e)
             Sentry.captureException(e)
             Toast.makeText(this, "Gagal memuat mesin 3D (Render Error)", Toast.LENGTH_LONG).show()
         }

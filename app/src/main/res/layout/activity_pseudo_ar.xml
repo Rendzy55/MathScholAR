@@ -5,18 +5,11 @@
     android:layout_height="match_parent"
     android:background="@android:color/black">
 
-    <!-- Camera Preview (CameraX) — background layer (Base SurfaceView) -->
-    <androidx.camera.view.PreviewView
-        android:id="@+id/cameraPreview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <!-- SceneView (3D renderer) — transparent overlay (MediaOverlay SurfaceView) -->
+    <!-- SceneView (3D renderer with HDRI Skybox) -->
     <io.github.sceneview.SceneView
         android:id="@+id/sceneView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/transparent" />
+        android:layout_height="match_parent" />
 
     <!-- UI Overlay Layer -->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -40,62 +33,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <!-- Permission denied overlay -->
-        <LinearLayout
-            android:id="@+id/permissionDeniedLayout"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:background="#F0000000"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="32dp"
-            android:visibility="gone"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="📷"
-                android:textSize="48sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:gravity="center"
-                android:text="Aplikasi butuh izin kamera untuk fitur ini"
-                android:textColor="@color/white"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:gravity="center"
-                android:text="Buka Pengaturan dan aktifkan izin Kamera untuk MathScholAR"
-                android:textColor="#BBBBBB"
-                android:textSize="14sp" />
-
-            <Button
-                android:id="@+id/btnOpenSettings"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:background="@drawable/bg_math_button"
-                android:paddingHorizontal="32dp"
-                android:paddingVertical="12dp"
-                android:text="Buka Pengaturan"
-                android:textColor="@color/white"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-        </LinearLayout>
 
         <!-- Top Controls -->
         <ImageButton
