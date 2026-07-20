@@ -37,6 +37,7 @@ class ARActivity : AppCompatActivity() {
     private var hasPlaneBeenDetected = false
     private var trackedPlaneCount = 0
     private var lastLightingUpdate = 0L
+    private var isObjectRendered = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -108,6 +109,9 @@ class ARActivity : AppCompatActivity() {
                 }
             } catch (e: Exception) {
                 Sentry.captureException(e)
+                runOnUiThread {
+                    Toast.makeText(this@ARActivity, "Gagal memuat ARCore", Toast.LENGTH_LONG).show()
+                }
             }
         }
     }
@@ -167,11 +171,28 @@ class ARActivity : AppCompatActivity() {
     }
 
     private fun resetAR() {
+        clearAllObjects()
+        Toast.makeText(this, "AR Reset", Toast.LENGTH_SHORT).show()
+    }
+
+    private fun clearAllObjects() {
         arSceneView.children.toList().forEach { 
             if (it is ArModelNode) arSceneView.removeChild(it)
         }
         placedMarkerModels.clear()
-        Toast.makeText(this, "AR Reset", Toast.LENGTH_SHORT).show()
+        isObjectRendered = false
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d("RenderDebug", "onResume called in ARActivity, isObjectRendered = $isObjectRendered")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("RenderDebug", "onDestroy called in ARActivity")
+        clearAllObjects()
+        Log.d("RenderDebug", "Objects cleared at ${System.currentTimeMillis()}, isObjectRendered = false")
     }
 
     private fun placeModelAt(anchor: com.google.ar.core.Anchor) {
@@ -187,6 +208,8 @@ class ARActivity : AppCompatActivity() {
             )
         }
         arSceneView.addChild(modelNode)
+        isObjectRendered = true
+        Log.d("RenderDebug", "Object created at ${System.currentTimeMillis()}, isObjectRendered = true")
     }
 
     private fun setupFrameListener() {

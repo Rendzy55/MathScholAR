@@ -64,6 +64,7 @@ class PseudoARActivity : AppCompatActivity() {
     private var currentShapeType = "KUBUS"
     private var isWireframeMode = false
     private var sceneModelNode: ModelNode? = null
+    private var isObjectRendered = false
     
     // Gesture Detectors
     private lateinit var scaleGestureDetector: android.view.ScaleGestureDetector
@@ -112,18 +113,36 @@ class PseudoARActivity : AppCompatActivity() {
         setupControls()
         setupGestures()
         requestCameraPermission()
-        
-        // Auto-load model
-        loadModel()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        if (!isObjectRendered) {
+            loadModel()
+            isObjectRendered = true
+            Log.d("RenderDebug", "Object created at ${System.currentTimeMillis()}, isObjectRendered = true")
+        } else {
+            Log.d("RenderDebug", "onResume called, isObjectRendered = true (Skipping render)")
+        }
     }
 
     override fun onDestroy() {
         super.onDestroy()
+        Log.d("RenderDebug", "onDestroy called")
+        clearAllObjects()
+        isObjectRendered = false
+        Log.d("RenderDebug", "Object cleared at ${System.currentTimeMillis()}, isObjectRendered = false")
+        
         try {
             sceneView.destroy()
         } catch (e: Exception) {
             Log.w(TAG, "Error destroying SceneView", e)
         }
+    }
+
+    private fun clearAllObjects() {
+        sceneModelNode?.let { sceneView.removeChild(it) }
+        sceneModelNode = null
     }
 
     // ─── Camera Permission ──────────────────────────────────────────────
@@ -221,6 +240,7 @@ class PseudoARActivity : AppCompatActivity() {
         } catch (e: Exception) {
             Log.e(TAG, "SceneView transparency setup failed", e)
             Sentry.captureException(e)
+            Toast.makeText(this, "Gagal memuat mesin 3D (Render Error)", Toast.LENGTH_LONG).show()
         }
     }
 
