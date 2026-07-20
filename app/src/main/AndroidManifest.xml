@@ -59,12 +59,14 @@
         <activity
             android:name=".ARActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:configChanges="orientation|screenSize|keyboardHidden" />
 
         <!-- Pseudo AR Activity (Fallback for non-ARCore devices) -->
         <activity
             android:name=".PseudoARActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:configChanges="orientation|screenSize|keyboardHidden" />
 
         <!-- PDF Viewer Activity -->
