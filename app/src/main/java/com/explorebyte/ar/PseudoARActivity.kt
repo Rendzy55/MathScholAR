@@ -121,8 +121,21 @@ class PseudoARActivity : AppCompatActivity() {
             loadModel()
             isObjectRendered = true
             Log.d("RenderDebug", "Object created at ${System.currentTimeMillis()}, isObjectRendered = true")
+            sceneView.invalidate()
         } else {
-            Log.d("RenderDebug", "onResume called, isObjectRendered = true (Skipping render)")
+            Log.d("RenderDebug", "onResume called, isObjectRendered = true. Applying FALLBACK: recreate()")
+            recreate()
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("RenderDebug", "onPause called")
+        try {
+            @Suppress("DEPRECATION")
+            sceneView.destroyDrawingCache()
+        } catch (e: Exception) {
+            Log.w(TAG, "Error in destroyDrawingCache", e)
         }
     }
 
@@ -141,8 +154,16 @@ class PseudoARActivity : AppCompatActivity() {
     }
 
     private fun clearAllObjects() {
-        sceneModelNode?.let { sceneView.removeChild(it) }
+        sceneModelNode?.let { 
+            sceneView.removeChild(it)
+            try {
+                it.destroy()
+            } catch (e: Exception) {
+                Log.w(TAG, "Error destroying node", e)
+            }
+        }
         sceneModelNode = null
+        System.gc()
     }
 
     // ─── Camera Permission ──────────────────────────────────────────────
