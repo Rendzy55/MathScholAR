@@ -60,6 +60,11 @@ class PseudoARActivity : AppCompatActivity() {
     private var scaleFactor = 1.0f
     private var currentScale = 0.5f
 
+    // Camera Orbit State
+    private var cameraYaw = 0f
+    private var cameraPitch = 0f
+    private val cameraRadius = 2.0f
+
 
 
     // ─── Lifecycle ──────────────────────────────────────────────────────
@@ -226,20 +231,35 @@ class PseudoARActivity : AppCompatActivity() {
                 distanceX: Float,
                 distanceY: Float
             ): Boolean {
-                sceneModelNode?.let { node ->
-                    // Rotate model: dragging horizontally rotates around Y, vertically around X
-                    val yaw = -distanceX * 0.5f
-                    val pitch = -distanceY * 0.5f
-                    val currentRotation = node.rotation
-                    node.rotation = io.github.sceneview.math.Rotation(
-                        x = currentRotation.x + pitch,
-                        y = currentRotation.y + yaw,
-                        z = currentRotation.z
-                    )
-                }
+                // Orbital Camera: rotate camera around the model at origin
+                cameraYaw += distanceX * 0.2f
+                cameraPitch += distanceY * 0.2f
+                
+                // Limit pitch to avoid flipping over
+                cameraPitch = cameraPitch.coerceIn(-89f, 89f)
+                
+                updateCameraOrbit()
                 return true
             }
         })
+    }
+
+    private fun updateCameraOrbit() {
+        // Convert Euler angles to radians
+        val yawRad = Math.toRadians(cameraYaw.toDouble())
+        val pitchRad = Math.toRadians(cameraPitch.toDouble())
+
+        // Spherical to Cartesian coordinates
+        // Using standard Y-up system where camera looks at origin (0,0,0)
+        val y = cameraRadius * Math.sin(pitchRad).toFloat()
+        val x = cameraRadius * Math.cos(pitchRad).toFloat() * Math.sin(yawRad).toFloat()
+        val z = cameraRadius * Math.cos(pitchRad).toFloat() * Math.cos(yawRad).toFloat()
+
+        sceneView.cameraNode.position = Position(x, y, z)
+        
+        // Rotate camera to point back to origin
+        // Pitch is negative because looking down is a negative rotation around X
+        sceneView.cameraNode.rotation = io.github.sceneview.math.Rotation(-cameraPitch, cameraYaw, 0f)
     }
 
     /**
@@ -280,10 +300,13 @@ class PseudoARActivity : AppCompatActivity() {
                 ) { 
                     Log.d(TAG, "Model loaded: $modelPath")
                 }
-                position = Position(0.0f, 0.0f, -2.0f) // Place in front of camera
+                position = Position(0.0f, 0.0f, 0.0f) // Model at absolute center
             }
 
             sceneView.addChild(sceneModelNode!!)
+            
+            // Initialize camera orbit
+            updateCameraOrbit()
         } catch (e: Exception) {
             Log.e(TAG, "Failed to load model", e)
             Sentry.captureException(e)
