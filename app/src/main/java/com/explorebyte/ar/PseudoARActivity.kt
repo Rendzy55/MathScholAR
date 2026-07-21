@@ -144,14 +144,12 @@ class PseudoARActivity : AppCompatActivity() {
 
     private fun setupSceneView() {
         try {
-            // Opaque mode for 3D Viewer with HDR background
-            sceneView.setBackgroundColor(android.graphics.Color.BLACK)
-            
             // Load 360 Environment (HDRI Skybox)
             HDRLoader.loadEnvironmentAsync(
                 context = this@PseudoARActivity,
                 coroutineScope = lifecycleScope,
                 hdrFileLocation = "skybox/sekolah.hdr",
+                createSkybox = true,
                 result = { environment ->
                     sceneView.environment = environment
                 }
