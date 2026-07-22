@@ -42,14 +42,9 @@ class MainActivity : AppCompatActivity() {
         setupHeader()
         setupHeroBanner()
         setupContent()
-        setupBottomNavigation()
     }
 
     private fun setupHeader() {
-        findViewById<ImageView>(R.id.btnChatbot).setOnClickListener {
-            startActivity(Intent(this, ChatbotActivity::class.java))
-        }
-
         findViewById<ImageView>(R.id.ivProfile).setOnClickListener {
             // TODO: Sementara untuk testing PseudoARActivity — ganti kembali ke Profile nanti
             startActivity(Intent(this, com.explorebyte.ar.PseudoARActivity::class.java))
@@ -119,11 +114,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<ImageView>(R.id.ivBalokIls).setOnClickListener { handleImageClick(overlayBalok, "Flipbook_balok.pdf", "Misteri kotak Penyimpanan") }
         findViewById<ImageView>(R.id.ivPrismaIls).setOnClickListener { handleImageClick(overlayPrisma, "Flipbook_prisma.pdf", "Atap Unik di Taman Bermain") }
 
-        // Button Click Listeners
-        findViewById<Button>(R.id.btnLihatKubus).setOnClickListener { ArCoreCheckHelper.openARFeature(this, "KUBUS") }
-        findViewById<Button>(R.id.btnLihatBalok).setOnClickListener { ArCoreCheckHelper.openARFeature(this, "BALOK") }
-        findViewById<Button>(R.id.btnLihatPrisma).setOnClickListener { ArCoreCheckHelper.openARFeature(this, "PRISMA") }
-
         // Set Click Listeners for Cards (Fallback for entire card area)
         findViewById<CardView>(R.id.cardKubus).setOnClickListener { openFlipbook("Flipbook_kubus.pdf", "Mainan Kubus di Playground") }
         findViewById<CardView>(R.id.cardBalok).setOnClickListener { openFlipbook("Flipbook_balok.pdf", "Misteri kotak Penyimpanan") }
@@ -136,27 +126,5 @@ class MainActivity : AppCompatActivity() {
             putExtra("PDF_TITLE", title)
         }
         startActivity(intent)
-    }
-
-    private fun setupBottomNavigation() {
-        val navView: BottomNavigationView = findViewById(R.id.bottomNavigation)
-        navView.selectedItemId = R.id.menu_explore
-
-        navView.setOnItemSelectedListener { item ->
-            when (item.itemId) {
-                R.id.menu_explore -> true
-                R.id.menu_library -> {
-                    // Default open kubus for library for now
-                    openFlipbook("Flipbook_kubus.pdf", "Library: Geometri")
-                    true
-                }
-                R.id.menu_ar -> {
-                    ArCoreCheckHelper.openARFeature(this)
-                    false
-                }
-                R.id.menu_profile -> true
-                else -> false
-            }
-        }
     }
 }
